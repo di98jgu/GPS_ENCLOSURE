@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="se.bth.gps_enclosure"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="10" />
+    
+    <uses-permission 
+       android:name="se.bth.gps_enslosure.permission.UPDATE_ENCLOSURE"/>
+    <uses-permission 
+       android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission 
+       android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    
+    <permission
+        android:name="se.bth.gps_enslosure.permission.UPDATE_ENCLOSURE"
+        android:protectionLevel="signature" >
+    </permission>
+    
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name=".EnclosureApp" >
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AreaActivity"
+            android:label="@string/title_area"/>
+        <activity
+            android:name=".LogActivity"
+            android:label="@string/title_debug"/>
+        <activity
+            android:name=".ServiceActivity"
+            android:label="@string/title_run"/>
+        <service 
+           android:name=".LocationService"
+           android:permission="se.bth.gps_enslosure.permission.UPDATE_ENCLOSURE" >
+           <intent-filter>
+               <action android:name="se.bth.gps_enclosure.LOCATION_SERVICE" />
+           </intent-filter>
+        </service>
+        <service 
+           android:name=".EnclosureService"
+           android:permission="se.bth.gps_enslosure.permission.UPDATE_ENCLOSURE" >
+           <intent-filter>
+               <action android:name="se.bth.gps_enclosure.ENCLOSURE_SERVICE" />
+           </intent-filter>
+        </service>
+        <receiver
+            android:name=".LocationAvailableReciver" >
+            <intent-filter>
+                <action android:name="se.bth.gps_enclosure.LOCATION_AVAILABLE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".LocationUpdateReciver" >
+            <intent-filter>
+                <action android:name="se.bth.gps_enclosure.LOCATION_UPDATE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".EnclosureReceiver" >
+            <intent-filter>
+                <action android:name="se.bth.gps_enclosure.LOCATION_CHANGED" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

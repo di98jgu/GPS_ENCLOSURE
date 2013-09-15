@@ -1,0 +1,1951 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448"
+   height="1052.3622"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="fence.svg.2013_07_23_17_46_44.0.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient4319">
+      <stop
+         id="stop4321"
+         offset="0"
+         style="stop-color:#3d5613;stop-opacity:1;" />
+      <stop
+         style="stop-color:#659020;stop-opacity:1;"
+         offset="1"
+         id="stop4323" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4311">
+      <stop
+         style="stop-color:#3d5613;stop-opacity:1;"
+         offset="0"
+         id="stop4317" />
+      <stop
+         id="stop4315"
+         offset="1"
+         style="stop-color:#659020;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4253">
+      <stop
+         style="stop-color:#eff2ed;stop-opacity:1;"
+         offset="0"
+         id="stop4255" />
+      <stop
+         style="stop-color:#78966a;stop-opacity:0;"
+         offset="1"
+         id="stop4257" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4215">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.68051118;"
+         offset="0"
+         id="stop4217" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop4219" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4162">
+      <stop
+         style="stop-color:#0000f4;stop-opacity:1;"
+         offset="0"
+         id="stop4164" />
+      <stop
+         id="stop4170"
+         offset="0.08403362"
+         style="stop-color:#2323f7;stop-opacity:1;" />
+      <stop
+         style="stop-color:#bbbbff;stop-opacity:1;"
+         offset="1"
+         id="stop4166" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4140">
+      <stop
+         id="stop4142"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:0.63578272;" />
+      <stop
+         id="stop4146"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4106">
+      <stop
+         style="stop-color:#0505ff;stop-opacity:1;"
+         offset="0"
+         id="stop4108" />
+      <stop
+         id="stop4114"
+         offset="0.78991598"
+         style="stop-color:#000087;stop-opacity:1;" />
+      <stop
+         style="stop-color:#4141ff;stop-opacity:1;"
+         offset="1"
+         id="stop4110" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3960">
+      <stop
+         id="stop3962"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:0.70588237;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.1373802;"
+         offset="0.5"
+         id="stop4086" />
+      <stop
+         id="stop3964"
+         offset="1"
+         style="stop-color:#000000;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3952">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3954" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop3956" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3944">
+      <stop
+         style="stop-color:#216121;stop-opacity:1;"
+         offset="0"
+         id="stop3946" />
+      <stop
+         style="stop-color:#40ba40;stop-opacity:1;"
+         offset="1"
+         id="stop3948" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3877">
+      <stop
+         style="stop-color:#047411;stop-opacity:1;"
+         offset="0"
+         id="stop3879" />
+      <stop
+         id="stop3881"
+         offset="1"
+         style="stop-color:#087014;stop-opacity:0.39297125;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3871">
+      <stop
+         style="stop-color:#fdd30f;stop-opacity:1;"
+         offset="0"
+         id="stop3873" />
+      <stop
+         id="stop3875"
+         offset="1"
+         style="stop-color:#eaf537;stop-opacity:0.39215687;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3865">
+      <stop
+         style="stop-color:#b50000;stop-opacity:1;"
+         offset="0"
+         id="stop3867" />
+      <stop
+         id="stop3869"
+         offset="1"
+         style="stop-color:#ff2d2d;stop-opacity:0.39297125;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3837">
+      <stop
+         id="stop3849"
+         offset="0"
+         style="stop-color:#969696;stop-opacity:0.87450981;" />
+      <stop
+         style="stop-color:#969696;stop-opacity:0;"
+         offset="1"
+         id="stop3841" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3837"
+       id="linearGradient3843"
+       x1="360"
+       y1="492.36218"
+       x2="330"
+       y2="442.36218"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3865"
+       id="linearGradient3855"
+       gradientUnits="userSpaceOnUse"
+       x1="360"
+       y1="492.36218"
+       x2="330"
+       y2="442.36218" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3871"
+       id="linearGradient3859"
+       gradientUnits="userSpaceOnUse"
+       x1="360"
+       y1="492.36218"
+       x2="330"
+       y2="442.36218" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3877"
+       id="linearGradient3863"
+       gradientUnits="userSpaceOnUse"
+       x1="360"
+       y1="492.36218"
+       x2="330"
+       y2="442.36218" />
+    <filter
+       id="filter3853"
+       inkscape:menu-tooltip="3D warped, fibered wood texture"
+       inkscape:menu="Materials"
+       inkscape:label="3D wood"
+       height="1.5"
+       y="-0.25"
+       width="1.5"
+       x="-0.25"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3855"
+         result="result8"
+         stdDeviation="11.022114537444933" />
+      <feTurbulence
+         id="feTurbulence3857"
+         baseFrequency="0.025 0.2"
+         numOctaves="3"
+         type="fractalNoise"
+         result="result7"
+         seed="22" />
+      <feComposite
+         id="feComposite3859"
+         in2="result8"
+         operator="in"
+         in="SourceGraphic"
+         result="result6" />
+      <feDisplacementMap
+         id="feDisplacementMap3861"
+         in2="result6"
+         result="result4"
+         scale="50"
+         yChannelSelector="A"
+         xChannelSelector="A"
+         in="result7" />
+      <feFlood
+         id="feFlood3863"
+         flood-color="rgb(230,211,138)"
+         flood-opacity="1"
+         in="result4"
+         result="result9" />
+      <feComposite
+         id="feComposite3865"
+         in2="result4"
+         operator="atop"
+         result="result2" />
+      <feComposite
+         id="feComposite3867"
+         in2="SourceGraphic"
+         operator="atop"
+         in="result2"
+         result="result9" />
+      <feGaussianBlur
+         id="feGaussianBlur3869"
+         result="result0"
+         in="result9"
+         stdDeviation="8" />
+      <feSpecularLighting
+         id="feSpecularLighting3871"
+         specularExponent="19"
+         specularConstant="1.29999995"
+         surfaceScale="-210.08403015"
+         lighting-color="#ffffff"
+         result="result1"
+         in="result0">
+        <feDistantLight
+           id="feDistantLight3873"
+           azimuth="235"
+           elevation="50" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite3875"
+         in2="result9"
+         operator="in"
+         result="result2"
+         in="result1" />
+      <feComposite
+         id="feComposite3877"
+         in2="result2"
+         k3="0.5"
+         k2="0.5"
+         operator="arithmetic"
+         result="result4"
+         in="result9"
+         k1="0"
+         k4="0" />
+      <feConvolveMatrix
+         id="feConvolveMatrix3879"
+         order="3 3"
+         kernelMatrix="2 0 0 0 2 0 0 0 -2 "
+         targetX="2"
+         targetY="2"
+         result="result10" />
+      <feBlend
+         id="feBlend3881"
+         in2="result10"
+         mode="multiply"
+         in="result10" />
+    </filter>
+    <filter
+       id="filter3883"
+       inkscape:menu-tooltip="Transparent plastic with deep colors"
+       inkscape:menu="Bevels"
+       inkscape:label="Deep colors plastic"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3885"
+         in="SourceGraphic"
+         result="result6"
+         stdDeviation="10" />
+      <feComposite
+         id="feComposite3887"
+         in2="SourceGraphic"
+         in="result6"
+         operator="xor" />
+      <feGaussianBlur
+         id="feGaussianBlur3889"
+         result="result2"
+         stdDeviation="10" />
+      <feComposite
+         id="feComposite3891"
+         in2="SourceGraphic"
+         operator="atop"
+         result="result91" />
+      <feComposite
+         id="feComposite3893"
+         in2="result91"
+         result="result4"
+         in="result2"
+         operator="xor" />
+      <feGaussianBlur
+         id="feGaussianBlur3895"
+         in="result4"
+         result="result3"
+         stdDeviation="5" />
+      <feSpecularLighting
+         id="feSpecularLighting3897"
+         lighting-color="#ffffff"
+         in="result3"
+         result="result5"
+         specularExponent="35"
+         specularConstant="3"
+         surfaceScale="12">
+        <feDistantLight
+           id="feDistantLight3899"
+           elevation="45"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite3901"
+         in2="result5"
+         in="SourceGraphic"
+         k3="0.7"
+         k2="0.8"
+         operator="arithmetic"
+         result="result7"
+         k1="0"
+         k4="0" />
+      <feComposite
+         id="feComposite3903"
+         in2="SourceGraphic"
+         in="result7"
+         operator="in" />
+    </filter>
+    <filter
+       id="filter3905"
+       inkscape:label="Dark glass"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Illuminated glass effect with light coming from beneath"
+       height="1.5"
+       width="1.5"
+       y="-0.25"
+       x="-0.25"
+       color-interpolation-filters="sRGB">
+      <feBlend
+         id="feBlend3907"
+         in2="SourceGraphic"
+         result="result1"
+         mode="screen" />
+      <feGaussianBlur
+         id="feGaussianBlur3909"
+         stdDeviation="2"
+         result="result6" />
+      <feComposite
+         id="feComposite3911"
+         in2="result1"
+         operator="xor"
+         in="result6"
+         result="result7" />
+      <feComposite
+         id="feComposite3913"
+         in2="result7"
+         result="result4"
+         in="result7"
+         operator="xor" />
+      <feGaussianBlur
+         id="feGaussianBlur3915"
+         result="result3"
+         stdDeviation="3"
+         in="result4" />
+      <feSpecularLighting
+         id="feSpecularLighting3917"
+         result="result5"
+         specularExponent="55"
+         specularConstant="1.5"
+         surfaceScale="6"
+         in="result3">
+        <fePointLight
+           id="fePointLight3977"
+           x="7000"
+           y="7000"
+           z="5000" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite3921"
+         in2="SourceGraphic"
+         in="result3"
+         k3="1"
+         k2="1.5"
+         operator="arithmetic"
+         result="result92" />
+      <feComposite
+         id="feComposite3923"
+         in2="result92"
+         in="result5"
+         operator="atop"
+         result="result93" />
+      <feBlend
+         id="feBlend3925"
+         in2="result93"
+         mode="multiply" />
+    </filter>
+    <filter
+       id="filter3927"
+       inkscape:label="Bloom"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Soft, cushion-like bevel with matte highlights"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3929"
+         result="result1"
+         in="SourceAlpha"
+         stdDeviation="2.2" />
+      <feSpecularLighting
+         id="feSpecularLighting3931"
+         result="result0"
+         specularExponent="18.1"
+         specularConstant="2"
+         surfaceScale="5">
+        <feDistantLight
+           id="feDistantLight3933"
+           azimuth="225"
+           elevation="24" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite3935"
+         in2="SourceAlpha"
+         result="result6"
+         operator="in" />
+      <feMorphology
+         id="feMorphology3937"
+         radius="5.7"
+         operator="dilate" />
+      <feGaussianBlur
+         id="feGaussianBlur3939"
+         result="result11"
+         stdDeviation="5.7" />
+      <feDiffuseLighting
+         id="feDiffuseLighting3941"
+         surfaceScale="5"
+         result="result3"
+         diffuseConstant="2"
+         in="result1">
+        <feDistantLight
+           id="feDistantLight3943"
+           elevation="25"
+           azimuth="225" />
+      </feDiffuseLighting>
+      <feBlend
+         id="feBlend3945"
+         in2="SourceGraphic"
+         result="result7"
+         mode="multiply"
+         in="result3" />
+      <feComposite
+         id="feComposite3947"
+         in2="SourceAlpha"
+         in="result7"
+         operator="in"
+         result="result91" />
+      <feBlend
+         id="feBlend3949"
+         in2="result91"
+         result="result9"
+         mode="lighten"
+         in="result6" />
+      <feComposite
+         id="feComposite3951"
+         in2="result9"
+         in="result11" />
+    </filter>
+    <filter
+       id="filter3953"
+       inkscape:label="Combined lighting"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Basic specular bevel to use for building textures"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3955"
+         stdDeviation="6"
+         in="SourceGraphic"
+         result="result0" />
+      <feDiffuseLighting
+         id="feDiffuseLighting3957"
+         lighting-color="rgb(255,255,255)"
+         diffuseConstant="1"
+         surfaceScale="4"
+         result="result5">
+        <feDistantLight
+           id="feDistantLight3959"
+           elevation="45"
+           azimuth="235" />
+      </feDiffuseLighting>
+      <feComposite
+         id="feComposite3961"
+         in2="SourceGraphic"
+         k1="1.4"
+         in="result5"
+         result="fbSourceGraphic"
+         operator="arithmetic" />
+      <feGaussianBlur
+         id="feGaussianBlur3963"
+         result="result0"
+         in="fbSourceGraphic"
+         stdDeviation="6" />
+      <feSpecularLighting
+         id="feSpecularLighting3965"
+         specularExponent="25"
+         specularConstant="1"
+         surfaceScale="4"
+         lighting-color="rgb(255,255,255)"
+         result="result1"
+         in="result0">
+        <feDistantLight
+           id="feDistantLight3967"
+           azimuth="235"
+           elevation="45" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite3969"
+         in2="result1"
+         k3="1"
+         k2="1"
+         operator="arithmetic"
+         result="result4"
+         in="fbSourceGraphic" />
+      <feComposite
+         id="feComposite3971"
+         in2="SourceGraphic"
+         operator="in"
+         result="result2"
+         in="result4" />
+    </filter>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask4090">
+      <g
+         id="g4092">
+        <rect
+           style="opacity:0.92000002;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect4094"
+           width="284.86301"
+           height="259.60919"
+           x="232.33508"
+           y="105.86955" />
+        <path
+           sodipodi:type="arc"
+           style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path4096"
+           sodipodi:cx="140"
+           sodipodi:cy="502.36218"
+           sodipodi:rx="20"
+           sodipodi:ry="30"
+           d="m 160,502.36218 a 20,30 0 1 1 -40,0 20,30 0 1 1 40,0 z"
+           transform="matrix(0.86366715,0,0,0.68726922,229.72238,-173.948)" />
+        <path
+           transform="matrix(0.96945243,0,0,0.7714486,161.46976,-131.90911)"
+           d="m 160,502.36218 a 20,30 0 1 1 -40,0 20,30 0 1 1 40,0 z"
+           sodipodi:ry="30"
+           sodipodi:rx="20"
+           sodipodi:cy="502.36218"
+           sodipodi:cx="140"
+           id="path4098"
+           style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           sodipodi:type="arc" />
+        <path
+           sodipodi:type="arc"
+           style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path4100"
+           sodipodi:cx="140"
+           sodipodi:cy="502.36218"
+           sodipodi:rx="20"
+           sodipodi:ry="30"
+           d="m 160,502.36218 a 20,30 0 1 1 -40,0 20,30 0 1 1 40,0 z"
+           transform="matrix(0.92646506,0,0,0.73724109,287.80593,-46.05871)" />
+        <path
+           transform="matrix(0.8929256,0,0,0.7041051,315.08448,-169.81941)"
+           d="m 160,502.36218 a 20,30 0 1 1 -40,0 20,30 0 1 1 40,0 z"
+           sodipodi:ry="30"
+           sodipodi:rx="20"
+           sodipodi:cy="502.36218"
+           sodipodi:cx="140"
+           id="path4102"
+           style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           sodipodi:type="arc" />
+      </g>
+    </mask>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask4199">
+      <g
+         id="g4201"
+         transform="matrix(0.70000006,0,0,0.70000006,101.60469,64.33895)">
+        <rect
+           y="104.50504"
+           x="192.14285"
+           height="215"
+           width="248.57143"
+           id="rect4203"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+        <path
+           transform="matrix(1.4285713,0,0,1.4285713,-145.14955,-91.912778)"
+           d="m 345,239.86218 c 0,9.66499 -7.83502,17.5 -17.5,17.5 -9.66498,0 -17.5,-7.83501 -17.5,-17.5 0,-9.66498 7.83502,-17.5 17.5,-17.5 9.66498,0 17.5,7.83502 17.5,17.5 z"
+           sodipodi:ry="17.5"
+           sodipodi:rx="17.5"
+           sodipodi:cy="239.86218"
+           sodipodi:cx="327.5"
+           id="path4205"
+           style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline"
+           sodipodi:type="arc" />
+        <rect
+           transform="matrix(0.95843912,-0.28529714,0.62337685,0.78192154,0,0)"
+           y="350.78781"
+           x="76.825546"
+           height="16.564604"
+           width="54.247726"
+           id="rect4207"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+      </g>
+    </mask>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask3944">
+      <g
+         id="g3946"
+         transform="matrix(0.70000006,0,0,0.70000006,101.60469,64.33895)">
+        <rect
+           y="83.625885"
+           x="148.49243"
+           height="316.17773"
+           width="351.53308"
+           id="rect3948"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:15;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+           d="M 268.44983,268.14827 372.49554,235.82338 315.42192,164.60764 z"
+           id="path3951"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccc" />
+      </g>
+    </mask>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3944"
+       id="linearGradient3950"
+       x1="286.32812"
+       y1="266.81531"
+       x2="286.71875"
+       y2="181.26843"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.0979029,0,0,2.0979019,-235.30277,-320.47271)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3960"
+       id="linearGradient3958"
+       x1="281.44485"
+       y1="181.34103"
+       x2="282.42188"
+       y2="220.24728"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       id="filter4082">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3"
+         id="feGaussianBlur4084" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4100">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.1523529"
+         id="feGaussianBlur4102" />
+    </filter>
+    <filter
+       id="filter4159"
+       inkscape:label="Emboss"
+       inkscape:menu-tooltip="Emboss effect : Colors of the original images are preserved or modified by Blend"
+       inkscape:menu="Bumps"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4161"
+         result="result2"
+         type="luminanceToAlpha" />
+      <feDiffuseLighting
+         id="feDiffuseLighting4163"
+         diffuseConstant="0.6"
+         result="result1"
+         surfaceScale="-10">
+        <fePointLight
+           id="fePointLight4177"
+           x="2005"
+           y="1500"
+           z="1000" />
+      </feDiffuseLighting>
+      <feComposite
+         id="feComposite4167"
+         in2="SourceGraphic"
+         result="result3"
+         k3="0.5"
+         k1="1.5"
+         in="result1"
+         operator="arithmetic" />
+      <feComposite
+         id="feComposite4169"
+         in2="result3"
+         result="result5"
+         operator="in"
+         in="result3" />
+      <feBlend
+         id="feBlend4171"
+         in2="result1"
+         result="result6"
+         mode="normal"
+         in="result5" />
+      <feComposite
+         id="feComposite4173"
+         in2="result6"
+         result="result7"
+         operator="arithmetic"
+         k2="1" />
+      <feComposite
+         id="feComposite4175"
+         in2="SourceGraphic"
+         in="result7"
+         operator="in" />
+    </filter>
+    <filter
+       id="filter4209"
+       inkscape:label="Button"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Soft bevel, slightly depressed middle"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4211"
+         stdDeviation="2.3"
+         in="SourceAlpha"
+         result="result0" />
+      <feMorphology
+         id="feMorphology4213"
+         in="SourceAlpha"
+         radius="24.173553719008265"
+         result="result1" />
+      <feGaussianBlur
+         id="feGaussianBlur4215"
+         stdDeviation="8.9"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix4217"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"
+         result="result91" />
+      <feComposite
+         id="feComposite4219"
+         in2="result91"
+         in="result0"
+         operator="out"
+         result="result2" />
+      <feGaussianBlur
+         id="feGaussianBlur4221"
+         stdDeviation="1.7"
+         result="result4" />
+      <feDiffuseLighting
+         id="feDiffuseLighting4223"
+         surfaceScale="10"
+         result="result92">
+        <feDistantLight
+           id="feDistantLight4225"
+           azimuth="225"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feBlend
+         id="feBlend4227"
+         in2="SourceGraphic"
+         mode="multiply"
+         result="result93" />
+      <feComposite
+         id="feComposite4229"
+         in2="SourceAlpha"
+         operator="in"
+         result="result3" />
+      <feSpecularLighting
+         id="feSpecularLighting4231"
+         in="result4"
+         surfaceScale="5"
+         specularExponent="17.9"
+         result="result94">
+        <feDistantLight
+           id="feDistantLight4233"
+           azimuth="225"
+           elevation="45" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite4235"
+         in2="result3"
+         operator="atop" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4253"
+       id="linearGradient4259"
+       x1="325.06247"
+       y1="312.1409"
+       x2="326.03125"
+       y2="381.67212"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       id="filter4281">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.4264074"
+         id="feGaussianBlur4283" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4319"
+       id="linearGradient4309"
+       x1="322.65625"
+       y1="537.36218"
+       x2="321.40625"
+       y2="310.79971"
+       gradientUnits="userSpaceOnUse" />
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask4371">
+      <g
+         id="g4373">
+        <rect
+           y="295.33096"
+           x="187.5"
+           height="260.15625"
+           width="278.90625"
+           id="rect4375"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:21.34908867;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+           d="M 248.48704,500.2652 397.13795,454.43308 315.59646,353.45923 z"
+           id="path4377"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccc"
+           inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/logo_white_normal.png"
+           inkscape:export-xdpi="18"
+           inkscape:export-ydpi="18" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4379"
+           d="m 360.40186,476.33051 c 0,19.60611 -15.89389,35.5 -35.5,35.5 -19.6061,0 -35.5,-15.89389 -35.5,-35.5 0,-19.6061 15.8939,-35.5 35.5,-35.5 19.60611,0 35.5,15.8939 35.5,35.5 z"
+           style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline" />
+      </g>
+    </mask>
+    <filter
+       inkscape:collect="always"
+       id="filter4481">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.4631891"
+         id="feGaussianBlur4483" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4595">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.0735294"
+         id="feGaussianBlur4597" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4603"
+       x="-1.2166008"
+       width="3.4332016"
+       y="-1.1838462"
+       height="3.3676923" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#dcdcdc"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.64"
+     inkscape:cx="288.2076"
+     inkscape:cy="481.95285"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer10"
+     showgrid="false"
+     inkscape:snap-grids="false"
+     inkscape:snap-center="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:window-width="962"
+     inkscape:window-height="745"
+     inkscape:window-x="31"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:snap-nodes="true"
+     inkscape:snap-to-guides="false"
+     inkscape:snap-global="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:none">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:9.99950981;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2991"
+       width="230.00049"
+       height="230.00049"
+       x="254.4028"
+       y="131.1924"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_normal.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <rect
+       style="fill:none;stroke:#646464;stroke-width:0.35942662;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.07827984, 1.07827984;stroke-dashoffset:0"
+       id="rect2989"
+       width="28.754129"
+       height="143.77065"
+       x="317.68484"
+       y="155.03966"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_normal.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:25.15986252;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 288.9307,255.6791 57.50826,-86.26239 100.63945,14.37707 -28.75413,143.77064 z"
+       id="path3761"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       mask="url(#mask4090)"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_normal.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:21.02691078;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3784"
+       sodipodi:cx="140"
+       sodipodi:cy="502.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="30"
+       d="m 160,502.36218 a 20,30 0 1 1 -40,0 20,30 0 1 1 40,0 z"
+       transform="matrix(1.0059439,0,0,0.67062928,299.13023,-152.57892)"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_normal.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       transform="matrix(1.0059439,0,0,0.67062928,275.89339,-13.157847)"
+       d="m 160,502.36218 a 20,30 0 1 1 -40,0 20,30 0 1 1 40,0 z"
+       sodipodi:ry="30"
+       sodipodi:rx="20"
+       sodipodi:cy="502.36218"
+       sodipodi:cx="140"
+       id="path3790"
+       style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:21.02691078;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="arc"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_normal.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       transform="matrix(1.0059439,0,0,0.67062928,209.08746,-165.64964)"
+       d="m 160,502.36218 a 20,30 0 1 1 -40,0 20,30 0 1 1 40,0 z"
+       sodipodi:ry="30"
+       sodipodi:rx="20"
+       sodipodi:cy="502.36218"
+       sodipodi:cx="140"
+       id="path3985"
+       style="fill:#eddb08;fill-opacity:0;fill-rule:evenodd;stroke:#000000;stroke-width:21.02691078;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="arc"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_normal.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       transform="matrix(1.0059439,0,0,0.67062928,156.80456,-81.416074)"
+       d="m 160,502.36218 a 20,30 0 1 1 -40,0 20,30 0 1 1 40,0 z"
+       sodipodi:ry="30"
+       sodipodi:rx="20"
+       sodipodi:cy="502.36218"
+       sodipodi:cx="140"
+       id="path3794"
+       style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:21.02691078;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="arc"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_normal.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <rect
+       style="fill:#607f39;fill-opacity:0.50196078;stroke:#607f39;stroke-width:10;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3988"
+       width="230.00049"
+       height="230.00049"
+       x="256.4231"
+       y="391.81177"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_selected.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18"
+       ry="20"
+       rx="20" />
+    <rect
+       style="fill:none;stroke:#646464;stroke-width:0.35942662;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.07827984, 1.07827984;stroke-dashoffset:0"
+       id="rect3992"
+       width="28.754129"
+       height="143.77065"
+       x="319.70514"
+       y="415.659"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_selected.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:25.15986252;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 290.95101,516.29846 57.50826,-86.26239 100.63945,14.37707 -28.75413,143.77064 z"
+       id="path3994"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_selected.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       transform="matrix(1.0059439,0,0,0.67062928,301.15054,108.04044)"
+       d="m 160,502.36218 a 20,30 0 1 1 -40,0 20,30 0 1 1 40,0 z"
+       sodipodi:ry="30"
+       sodipodi:rx="20"
+       sodipodi:cy="502.36218"
+       sodipodi:cx="140"
+       id="path4032"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:21.02636528;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="arc"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_selected.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#607f39;fill-opacity:0.50196078;stroke:#000000;stroke-width:21.02636528;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3996"
+       sodipodi:cx="140"
+       sodipodi:cy="502.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="30"
+       d="m 160,502.36218 a 20,30 0 1 1 -40,0 20,30 0 1 1 40,0 z"
+       transform="matrix(1.0059439,0,0,0.67062928,301.15054,108.04044)"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_selected.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:21.02691078;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4034"
+       sodipodi:cx="140"
+       sodipodi:cy="502.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="30"
+       d="m 160,502.36218 a 20,30 0 1 1 -40,0 20,30 0 1 1 40,0 z"
+       transform="matrix(1.0059439,0,0,0.67062928,277.9137,247.46151)"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_selected.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       transform="matrix(1.0059439,0,0,0.67062928,277.9137,247.46151)"
+       d="m 160,502.36218 a 20,30 0 1 1 -40,0 20,30 0 1 1 40,0 z"
+       sodipodi:ry="30"
+       sodipodi:rx="20"
+       sodipodi:cy="502.36218"
+       sodipodi:cx="140"
+       id="path3998"
+       style="fill:#607f39;fill-opacity:0.50196078;stroke:#000000;stroke-width:21.02691078;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="arc"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_selected.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       transform="matrix(1.0059439,0,0,0.67062928,211.10777,94.969718)"
+       d="m 160,502.36218 a 20,30 0 1 1 -40,0 20,30 0 1 1 40,0 z"
+       sodipodi:ry="30"
+       sodipodi:rx="20"
+       sodipodi:cy="502.36218"
+       sodipodi:cx="140"
+       id="path4036"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:21.02691078;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="arc"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_selected.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#607f39;fill-opacity:0.50196078;stroke:#000000;stroke-width:21.02691078;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4000"
+       sodipodi:cx="140"
+       sodipodi:cy="502.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="30"
+       d="m 160,502.36218 a 20,30 0 1 1 -40,0 20,30 0 1 1 40,0 z"
+       transform="matrix(1.0059439,0,0,0.67062928,211.10777,94.969718)"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_selected.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:21.02691078;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4038"
+       sodipodi:cx="140"
+       sodipodi:cy="502.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="30"
+       d="m 160,502.36218 a 20,30 0 1 1 -40,0 20,30 0 1 1 40,0 z"
+       transform="matrix(1.0059439,0,0,0.67062928,158.82487,179.20329)"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_selected.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       transform="matrix(1.0059439,0,0,0.67062928,158.82487,179.20329)"
+       d="m 160,502.36218 a 20,30 0 1 1 -40,0 20,30 0 1 1 40,0 z"
+       sodipodi:ry="30"
+       sodipodi:rx="20"
+       sodipodi:cy="502.36218"
+       sodipodi:cx="140"
+       id="path4002"
+       style="fill:#607f39;fill-opacity:0.50196078;stroke:#000000;stroke-width:21.02691078;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="arc"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_selected.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <rect
+       y="656.47174"
+       x="255.41293"
+       height="230.00049"
+       width="230.00049"
+       id="rect4040"
+       style="fill:#607f39;fill-opacity:1;stroke:#607f39;stroke-width:10;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_pressed.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18"
+       rx="20"
+       ry="20" />
+    <rect
+       y="680.31897"
+       x="318.69498"
+       height="143.77065"
+       width="28.754129"
+       id="rect4042"
+       style="fill:none;stroke:#646464;stroke-width:0.35942662;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.07827984, 1.07827984;stroke-dashoffset:0"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_pressed.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4044"
+       d="m 289.94086,780.95843 57.50826,-86.26239 100.63945,14.37707 -28.75413,143.77064 z"
+       style="fill:none;stroke:#000000;stroke-width:25.15986252;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_pressed.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:21.02636528;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4046"
+       sodipodi:cx="140"
+       sodipodi:cy="502.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="30"
+       d="m 160,502.36218 a 20,30 0 1 1 -40,0 20,30 0 1 1 40,0 z"
+       transform="matrix(1.0059439,0,0,0.67062928,300.14039,372.70041)"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_pressed.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       transform="matrix(1.0059439,0,0,0.67062928,300.14039,372.70041)"
+       d="m 160,502.36218 a 20,30 0 1 1 -40,0 20,30 0 1 1 40,0 z"
+       sodipodi:ry="30"
+       sodipodi:rx="20"
+       sodipodi:cy="502.36218"
+       sodipodi:cx="140"
+       id="path4048"
+       style="fill:#607f39;fill-opacity:1;stroke:#000000;stroke-width:21.02636528;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="arc"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_pressed.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       transform="matrix(1.0059439,0,0,0.67062928,276.90355,512.12148)"
+       d="m 160,502.36218 a 20,30 0 1 1 -40,0 20,30 0 1 1 40,0 z"
+       sodipodi:ry="30"
+       sodipodi:rx="20"
+       sodipodi:cy="502.36218"
+       sodipodi:cx="140"
+       id="path4050"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:21.02691078;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="arc"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_pressed.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#607f39;fill-opacity:1;stroke:#000000;stroke-width:21.02691078;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4052"
+       sodipodi:cx="140"
+       sodipodi:cy="502.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="30"
+       d="m 160,502.36218 a 20,30 0 1 1 -40,0 20,30 0 1 1 40,0 z"
+       transform="matrix(1.0059439,0,0,0.67062928,276.90355,512.12148)"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_pressed.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:21.02691078;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4054"
+       sodipodi:cx="140"
+       sodipodi:cy="502.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="30"
+       d="m 160,502.36218 a 20,30 0 1 1 -40,0 20,30 0 1 1 40,0 z"
+       transform="matrix(1.0059439,0,0,0.67062928,210.09762,359.62969)"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_pressed.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       transform="matrix(1.0059439,0,0,0.67062928,210.09762,359.62969)"
+       d="m 160,502.36218 a 20,30 0 1 1 -40,0 20,30 0 1 1 40,0 z"
+       sodipodi:ry="30"
+       sodipodi:rx="20"
+       sodipodi:cy="502.36218"
+       sodipodi:cx="140"
+       id="path4056"
+       style="fill:#607f39;fill-opacity:1;stroke:#000000;stroke-width:21.02691078;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="arc"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_pressed.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       transform="matrix(1.0059439,0,0,0.67062928,157.81472,443.86326)"
+       d="m 160,502.36218 a 20,30 0 1 1 -40,0 20,30 0 1 1 40,0 z"
+       sodipodi:ry="30"
+       sodipodi:rx="20"
+       sodipodi:cy="502.36218"
+       sodipodi:cx="140"
+       id="path4058"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:21.02691078;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="arc"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_pressed.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#607f39;fill-opacity:1;stroke:#000000;stroke-width:21.02691078;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4060"
+       sodipodi:cx="140"
+       sodipodi:cy="502.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="30"
+       d="m 160,502.36218 a 20,30 0 1 1 -40,0 20,30 0 1 1 40,0 z"
+       transform="matrix(1.0059439,0,0,0.67062928,157.81472,443.86326)"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_area_pressed.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Layer"
+     style="display:none" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Service"
+     style="display:none">
+    <rect
+       y="122.80076"
+       x="178.75998"
+       height="229.94437"
+       width="229.94437"
+       id="rect3007"
+       style="fill:none;stroke:#000000;stroke-width:10.05562687;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_run_normal.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <g
+       id="g3790"
+       transform="matrix(0.751948,0,0,0.751948,51.614157,85.960266)"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_run_normal.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3010"
+         d="m 360.22321,116.23718 -91.125,182.25 -60.75,-60.75"
+         style="fill:none;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path3014"
+         d="m 311.05749,221.96811 48.91665,48.12699 4.07605,74.66656"
+         style="fill:none;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path3016"
+         d="m 440.8708,168.29119 -49.37612,31.80545 -43.07719,-63.73722 -65.59159,4.82863 -20.34934,76.22367"
+         style="fill:none;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         transform="translate(49.999999,17.857143)"
+         d="m 335.00001,80.933609 c 0,13.01814 -7.35532,23.571431 -16.42857,23.571431 -9.07325,0 -16.42857,-10.553291 -16.42857,-23.571431 0,-13.01814 7.35532,-23.571428 16.42857,-23.571428 9.07325,0 16.42857,10.553288 16.42857,23.571428 z"
+         sodipodi:ry="23.571428"
+         sodipodi:rx="16.428572"
+         sodipodi:cy="80.933609"
+         sodipodi:cx="318.57144"
+         id="path3786"
+         style="fill:#afb02f;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+    </g>
+    <rect
+       style="fill:#607f39;fill-opacity:0.50196078;stroke:#607f39;stroke-width:10.05562687;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="rect3883"
+       width="229.94437"
+       height="229.94437"
+       x="180.78029"
+       y="406.65363"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/g3885.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <g
+       transform="matrix(0.751948,0,0,0.751948,53.634462,369.81313)"
+       id="g3885"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 360.22321,116.23718 -91.125,182.25 -60.75,-60.75"
+         id="path3887"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 311.05749,221.96811 48.91665,48.12699 4.07605,74.66656"
+         id="path3889"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 440.8708,168.29119 -49.37612,31.80545 -43.07719,-63.73722 -65.59159,4.82863 -20.34934,76.22367"
+         id="path3891"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#afb02f;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="path3893"
+         sodipodi:cx="318.57144"
+         sodipodi:cy="80.933609"
+         sodipodi:rx="16.428572"
+         sodipodi:ry="23.571428"
+         d="m 335.00001,80.933609 c 0,13.01814 -7.35532,23.571431 -16.42857,23.571431 -9.07325,0 -16.42857,-10.553291 -16.42857,-23.571431 0,-13.01814 7.35532,-23.571428 16.42857,-23.571428 9.07325,0 16.42857,10.553288 16.42857,23.571428 z"
+         transform="translate(49.999999,17.857143)" />
+    </g>
+    <rect
+       style="opacity:0.92000002;fill:#607f39;fill-opacity:1;stroke:#607f39;stroke-width:10.05562687;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="rect3907"
+       width="229.94437"
+       height="229.94437"
+       x="181.79044"
+       y="666.26282"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/g3909.png"
+       inkscape:export-xdpi="17.999533"
+       inkscape:export-ydpi="17.999533" />
+    <g
+       transform="matrix(0.751948,0,0,0.751948,54.644615,629.42234)"
+       id="g3909"
+       inkscape:export-xdpi="17.999533"
+       inkscape:export-ydpi="17.999533">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 360.22321,116.23718 -91.125,182.25 -60.75,-60.75"
+         id="path3911"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 311.05749,221.96811 48.91665,48.12699 4.07605,74.66656"
+         id="path3913"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 440.8708,168.29119 -49.37612,31.80545 -43.07719,-63.73722 -65.59159,4.82863 -20.34934,76.22367"
+         id="path3915"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#afb02f;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="path3917"
+         sodipodi:cx="318.57144"
+         sodipodi:cy="80.933609"
+         sodipodi:rx="16.428572"
+         sodipodi:ry="23.571428"
+         d="m 335.00001,80.933609 c 0,13.01814 -7.35532,23.571431 -16.42857,23.571431 -9.07325,0 -16.42857,-10.553291 -16.42857,-23.571431 0,-13.01814 7.35532,-23.571428 16.42857,-23.571428 9.07325,0 16.42857,10.553288 16.42857,23.571428 z"
+         transform="translate(49.999999,17.857143)" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Debug"
+     style="display:none">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:10.01692009;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="rect3797"
+       width="229.98308"
+       height="229.98308"
+       x="245.70389"
+       y="169.53233"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_bug_normal.png"
+       inkscape:export-xdpi="17.99999"
+       inkscape:export-ydpi="17.99999" />
+    <g
+       id="g3919"
+       transform="matrix(0.72686231,0,0,0.72686231,75.739255,100.21715)"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_bug_normal.png"
+       inkscape:export-xdpi="17.99999"
+       inkscape:export-ydpi="17.99999">
+      <path
+         transform="matrix(0.3491722,-0.82614965,0.69607572,0.41442115,96.389573,454.02612)"
+         d="m 460,242.36218 c 0,38.65994 -40.29437,70 -90,70 -49.70563,0 -90,-31.34006 -90,-70 0,-38.65993 40.29437,-70 90,-70 49.70563,0 90,31.34007 90,70 z"
+         sodipodi:ry="70"
+         sodipodi:rx="90"
+         sodipodi:cy="242.36218"
+         sodipodi:cx="370"
+         id="path3801"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:41.25457001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3803"
+         d="m 440,289.50504 47.85714,41.42857"
+         style="fill:none;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3805"
+         d="m 294.82669,167.23964 54.99999,44.28571"
+         style="fill:none;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3807"
+         d="m 443.57143,240.93361 c 0,0 30.71429,20.71428 67.14286,-1.42857"
+         style="fill:none;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3809"
+         d="m 402.85714,321.64789 c 0.0704,-0.047 23.03717,27.26094 15.71429,72.14286"
+         style="fill:none;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3811"
+         d="m 385.71429,188.79076 c 0.0442,0.0885 -24.2417,-42.10616 -14.28572,-76.42858"
+         style="fill:none;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3813"
+         d="m 342.85714,273.79076 c 0,0 -30.71429,-10 -62.85715,17.85714"
+         style="fill:none;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <rect
+       y="429.14154"
+       x="246.71404"
+       height="229.98308"
+       width="229.98308"
+       id="rect3928"
+       style="fill:#607f39;fill-opacity:1;stroke:#000000;stroke-width:10.01692009;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_bug_selected.png"
+       inkscape:export-xdpi="17.99999"
+       inkscape:export-ydpi="17.99999" />
+    <g
+       transform="matrix(0.72686231,0,0,0.72686231,76.749408,359.82635)"
+       id="g3930"
+       style="fill:#607f39;fill-opacity:1"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_bug_selected.png"
+       inkscape:export-xdpi="17.99999"
+       inkscape:export-ydpi="17.99999">
+      <path
+         sodipodi:type="arc"
+         style="fill:#607f39;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:41.25457001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="path3932"
+         sodipodi:cx="370"
+         sodipodi:cy="242.36218"
+         sodipodi:rx="90"
+         sodipodi:ry="70"
+         d="m 460,242.36218 c 0,38.65994 -40.29437,70 -90,70 -49.70563,0 -90,-31.34006 -90,-70 0,-38.65993 40.29437,-70 90,-70 49.70563,0 90,31.34007 90,70 z"
+         transform="matrix(0.3491722,-0.82614965,0.69607572,0.41442115,96.389573,454.02612)" />
+      <path
+         style="fill:#607f39;fill-opacity:1;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 440,289.50504 47.85714,41.42857"
+         id="path3934"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#607f39;fill-opacity:1;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 294.82669,167.23964 54.99999,44.28571"
+         id="path3936"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#607f39;fill-opacity:1;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 443.57143,240.93361 c 0,0 30.71429,20.71428 67.14286,-1.42857"
+         id="path3938"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#607f39;fill-opacity:1;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 402.85714,321.64789 c 0.0704,-0.047 23.03717,27.26094 15.71429,72.14286"
+         id="path3940"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#607f39;fill-opacity:1;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 385.71429,188.79076 c 0.0442,0.0885 -24.2417,-42.10616 -14.28572,-76.42858"
+         id="path3942"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#607f39;fill-opacity:1;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 342.85714,273.79076 c 0,0 -30.71429,-10 -62.85715,17.85714"
+         id="path3944"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <rect
+       style="fill:#607f39;fill-opacity:0.50196078;stroke:#607f39;stroke-width:10.01692009;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="rect3946"
+       width="229.98308"
+       height="229.98308"
+       x="248.73434"
+       y="700.87256"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_bug_active.png"
+       inkscape:export-xdpi="17.999531"
+       inkscape:export-ydpi="17.999531" />
+    <g
+       id="g3948"
+       transform="matrix(0.72686231,0,0,0.72686231,78.769713,631.55738)"
+       style="fill:#607f39;fill-opacity:0.50196078"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/ic_bug_active.png"
+       inkscape:export-xdpi="17.999531"
+       inkscape:export-ydpi="17.999531">
+      <path
+         transform="matrix(0.3491722,-0.82614965,0.69607572,0.41442115,96.389573,454.02612)"
+         d="m 460,242.36218 c 0,38.65994 -40.29437,70 -90,70 -49.70563,0 -90,-31.34006 -90,-70 0,-38.65993 40.29437,-70 90,-70 49.70563,0 90,31.34007 90,70 z"
+         sodipodi:ry="70"
+         sodipodi:rx="90"
+         sodipodi:cy="242.36218"
+         sodipodi:cx="370"
+         id="path3950"
+         style="fill:#607f39;fill-opacity:0.50196078;fill-rule:nonzero;stroke:#000000;stroke-width:41.25457001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3952"
+         d="m 440,289.50504 47.85714,41.42857"
+         style="fill:#607f39;fill-opacity:0.50196078;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3954"
+         d="m 294.82669,167.23964 54.99999,44.28571"
+         style="fill:#607f39;fill-opacity:0.50196078;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3956"
+         d="m 443.57143,240.93361 c 0,0 30.71429,20.71428 67.14286,-1.42857"
+         style="fill:#607f39;fill-opacity:0.50196078;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3958"
+         d="m 402.85714,321.64789 c 0.0704,-0.047 23.03717,27.26094 15.71429,72.14286"
+         style="fill:#607f39;fill-opacity:0.50196078;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3960"
+         d="m 385.71429,188.79076 c 0.0442,0.0885 -24.2417,-42.10616 -14.28572,-76.42858"
+         style="fill:#607f39;fill-opacity:0.50196078;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3962"
+         d="m 342.85714,273.79076 c 0,0 -30.71429,-10 -62.85715,17.85714"
+         style="fill:#607f39;fill-opacity:0.50196078;stroke:#000000;stroke-width:35;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Light"
+     style="display:none">
+    <rect
+       y="432.75952"
+       x="370.39734"
+       height="59.60265"
+       width="59.60265"
+       id="rect3826"
+       style="fill:none;stroke:#000000;stroke-width:0.397351;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.397351;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="rect3829"
+       width="59.60265"
+       height="59.60265"
+       x="310"
+       y="432.75952" />
+    <rect
+       y="432.75952"
+       x="490.39734"
+       height="59.60265"
+       width="59.60265"
+       id="rect3831"
+       style="fill:none;stroke:#000000;stroke-width:0.397351;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.397351;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="rect3833"
+       width="59.60265"
+       height="59.60265"
+       x="430.39734"
+       y="432.75952" />
+    <path
+       sodipodi:type="arc"
+       style="fill:url(#linearGradient3843);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3835"
+       sodipodi:cx="345"
+       sodipodi:cy="467.36218"
+       sodipodi:rx="25"
+       sodipodi:ry="25"
+       d="m 370,467.36218 a 25,25 0 1 1 -50,0 25,25 0 1 1 50,0 z"
+       transform="translate(-5.1986752,-4.8013363)" />
+    <path
+       transform="translate(55.198664,-4.8013363)"
+       d="m 370,467.36218 a 25,25 0 1 1 -50,0 25,25 0 1 1 50,0 z"
+       sodipodi:ry="25"
+       sodipodi:rx="25"
+       sodipodi:cy="467.36218"
+       sodipodi:cx="345"
+       id="path3853"
+       style="fill:url(#linearGradient3855);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:url(#linearGradient3859);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3857"
+       sodipodi:cx="345"
+       sodipodi:cy="467.36218"
+       sodipodi:rx="25"
+       sodipodi:ry="25"
+       d="m 370,467.36218 a 25,25 0 1 1 -50,0 25,25 0 1 1 50,0 z"
+       transform="translate(115.19866,-4.8013363)" />
+    <path
+       transform="translate(175.19866,-4.8013363)"
+       d="m 370,467.36218 a 25,25 0 1 1 -50,0 25,25 0 1 1 50,0 z"
+       sodipodi:ry="25"
+       sodipodi:rx="25"
+       sodipodi:cy="467.36218"
+       sodipodi:cx="345"
+       id="path3861"
+       style="fill:url(#linearGradient3863);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="arc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="logo"
+     style="display:none">
+    <rect
+       style="opacity:0.92000002;fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke:none;display:inline"
+       id="rect4105"
+       width="160"
+       height="160"
+       x="241.24586"
+       y="135.85732"
+       rx="0"
+       ry="0"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/logo_white_normal.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <rect
+       style="opacity:0.92000002;fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke:none;display:inline"
+       id="rect4107"
+       width="120"
+       height="120"
+       x="268.97913"
+       y="377.93375"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/logo_white_normal.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:15;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.9;stroke-dasharray:none;display:inline"
+       d="M 276.95627,489.70406 381.00198,457.37917 323.92836,386.16343 z"
+       id="path4117"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/logo_white_normal.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       transform="matrix(1.4285713,0,0,1.4285713,-137.41557,130.16295)"
+       d="m 345,239.86218 a 17.5,17.5 0 1 1 -35,0 17.5,17.5 0 1 1 35,0 z"
+       sodipodi:ry="17.5"
+       sodipodi:rx="17.5"
+       sodipodi:cy="239.86218"
+       sodipodi:cx="327.5"
+       id="path4122"
+       style="fill:#ffffff;fill-opacity:0.9;fill-rule:nonzero;stroke:none;display:inline"
+       sodipodi:type="arc"
+       mask="url(#mask3944)"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/logo_white_normal.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <rect
+       style="fill:none;stroke:#ffffff;stroke-width:973;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3955"
+       width="159.02702"
+       height="159.02704"
+       x="236.36218"
+       y="135.73425" />
+    <rect
+       inkscape:export-ydpi="18"
+       inkscape:export-xdpi="18"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/logo_white_normal.png"
+       y="377.93375"
+       x="268.97913"
+       height="120"
+       width="120"
+       id="rect4272"
+       style="opacity:0.92000002;fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke:none;display:inline" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="logo_mask"
+     style="display:none" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="white"
+     style="display:none">
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline"
+       id="path4190"
+       sodipodi:cx="327.5"
+       sodipodi:cy="239.86218"
+       sodipodi:rx="17.5"
+       sodipodi:ry="17.5"
+       d="m 345,239.86218 a 17.5,17.5 0 1 1 -35,0 17.5,17.5 0 1 1 35,0 z"
+       transform="matrix(1.4285713,0,0,1.4285713,-145.14955,-91.912778)"
+       mask="url(#mask4199)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="Button"
+     style="display:inline">
+    <rect
+       ry="10"
+       rx="10"
+       y="185.65906"
+       x="232.42188"
+       height="100"
+       width="100"
+       id="rect4018"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter4082)"
+       transform="matrix(2.0979029,0,0,2.0979019,-235.30277,-320.47271)" />
+    <rect
+       style="fill:url(#linearGradient3950);fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="rect3171"
+       width="209.79028"
+       height="209.79021"
+       x="252.29573"
+       y="60.630157"
+       rx="20.979031"
+       ry="20.979015" />
+    <path
+       style="fill:none;stroke:url(#linearGradient3958);stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter4100)"
+       d="m 238.30423,252.95317 0,-56.58823 c 0,-4.88823 3.93529,-8.82353 8.82353,-8.82353 l 70.58823,0 c 4.88824,0 8.82353,3.9353 8.82353,8.82353 l 0,56.58823"
+       id="rect3941"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssssc"
+       transform="matrix(2.0979029,0,0,2.0979019,-235.30277,-320.47271)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer10"
+     inkscape:label="Logo_app"
+     style="display:inline">
+    <rect
+       mask="url(#mask4371)"
+       ry="25"
+       rx="25"
+       y="309.86221"
+       x="207.8125"
+       height="230"
+       width="230"
+       id="rect4485"
+       style="fill:#1f2821;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline;filter:url(#filter4595)"
+       transform="matrix(0.94357331,0,0,0.94356954,11.038736,43.164137)"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/app_logo.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <rect
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="rect4399"
+       width="186.50317"
+       height="191.66254"
+       x="221.86838"
+       y="337.04446"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/app_logo.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:21.34908867;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter4481)"
+       d="M 248.48704,506.2652 397.13795,460.43308 315.59646,359.45923 z"
+       id="path4181"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/app_logo.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18"
+       transform="matrix(0.94357331,0,0,0.94356954,11.038736,31.841303)" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4183"
+       d="m 360.40186,482.33051 c 0,19.60611 -15.89389,35.5 -35.5,35.5 -19.6061,0 -35.5,-15.89389 -35.5,-35.5 0,-19.6061 15.8939,-35.5 35.5,-35.5 19.60611,0 35.5,15.8939 35.5,35.5 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter4481)"
+       transform="matrix(0.94357331,0,0,0.94356954,11.038736,31.841303)"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/app_logo.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <rect
+       style="fill:url(#linearGradient4309);fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline"
+       id="rect4179"
+       width="230"
+       height="230"
+       x="207.8125"
+       y="309.86221"
+       rx="25"
+       ry="25"
+       mask="url(#mask4371)"
+       transform="matrix(0.94357331,0,0,0.94356954,11.038736,31.841303)"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/app_logo.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       style="fill:none;stroke:url(#linearGradient4259);stroke-width:6;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter4281)"
+       d="m 220.15155,505.20555 0,-160.68669 c 0,-12.36395 9.95365,-22.3176 22.3176,-22.3176 l 160.68669,0 c 12.36395,0 22.31759,9.95365 22.31759,22.3176 l 0,160.68669"
+       id="rect4242"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssssc"
+       transform="matrix(0.94357331,0,0,0.94356954,11.038736,31.841303)"
+       inkscape:export-filename="/media/USB-storage/GPS-enclosure/img/icons/app_logo.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer11"
+     inkscape:label="Logo_mask"
+     style="display:none" />
+</svg>

@@ -1,0 +1,15 @@
+format 76
+
+activitycanvas 128003 activity_ref 202499 // moreSpace
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 88 59 2000 400 400
+end
+activityobjectcanvas 128131 activityobject_ref 251907 // activity object space
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 157 148 2005 53 33
+end
+activityobjectcanvas 128259 activityobject_ref 252035 // activity object record
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 260 144 2005 53 33
+end
+end

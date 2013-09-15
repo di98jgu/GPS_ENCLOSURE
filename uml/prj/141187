@@ -1,0 +1,4956 @@
+format 76
+"bth" // se::bth
+  revision 38
+  modified_by 13 "work"
+  // class settings
+  //class diagram settings
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  //use case diagram settings
+  package_name_in_tab default show_context default auto_label_position default draw_all_relations default class_drawing_mode default shadow default show_stereotype_properties default
+  //sequence diagram settings
+  show_full_operations_definition default write_horizontally default class_drawing_mode default drawing_language default draw_all_relations default shadow default show_stereotype_properties default show_class_context_mode default show_msg_context_mode default
+  //collaboration diagram settings
+  show_full_operations_definition default show_hierarchical_rank default write_horizontally default class_drawing_mode default drawing_language default package_name_in_tab default show_context default show_msg_context default draw_all_relations default shadow default show_stereotype_properties default
+  //object diagram settings
+   write_horizontally default package_name_in_tab default show_context default auto_label_position default draw_all_relations default shadow default show_stereotype_properties default
+  //component diagram settings
+  package_name_in_tab default show_context default auto_label_position default draw_all_relations default shadow default
+  draw_component_as_icon default show_component_req_prov default show_component_rea default show_stereotype_properties default
+  //deployment diagram settings
+  package_name_in_tab default show_context default write_horizontally default auto_label_position default draw_all_relations default shadow default
+  draw_component_as_icon default show_component_req_prov default show_component_rea default show_stereotype_properties default
+  //state diagram settings
+  package_name_in_tab default show_context default auto_label_position default write_trans_label_horizontally default show_trans_definition default draw_all_relations default shadow default
+  show_activities default region_horizontally default drawing_language default show_stereotype_properties default
+  //activity diagram settings
+  package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+  show_infonote default drawing_language default show_stereotype_properties default
+  
+  java_package "/se/bth"
+  usecaseview 128003 "flow_of_code"
+    //use case diagram settings
+    package_name_in_tab default show_context default auto_label_position default draw_all_relations default class_drawing_mode default shadow default show_stereotype_properties default
+    //sequence diagram settings
+    show_full_operations_definition default write_horizontally default class_drawing_mode default drawing_language default draw_all_relations default shadow default show_stereotype_properties default show_class_context_mode default show_msg_context_mode default
+    //collaboration diagram settings
+    show_full_operations_definition default show_hierarchical_rank default write_horizontally default class_drawing_mode default drawing_language default package_name_in_tab default show_context default show_msg_context default draw_all_relations default shadow default show_stereotype_properties default
+    //class diagram settings
+    draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+    //object diagram settings
+     write_horizontally default package_name_in_tab default show_context default auto_label_position default draw_all_relations default shadow default show_stereotype_properties default
+    //state diagram settings
+    package_name_in_tab default show_context default auto_label_position default write_trans_label_horizontally default show_trans_definition default draw_all_relations default shadow default
+    show_activities default region_horizontally default drawing_language default show_stereotype_properties default
+    //activity diagram settings
+    package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+    show_infonote default drawing_language default show_stereotype_properties default
+    usecaseview 134531 "Create fence table"
+      //use case diagram settings
+      package_name_in_tab default show_context default auto_label_position default draw_all_relations default class_drawing_mode default shadow default show_stereotype_properties default
+      //sequence diagram settings
+      show_full_operations_definition default write_horizontally default class_drawing_mode default drawing_language default draw_all_relations default shadow default show_stereotype_properties default show_class_context_mode default show_msg_context_mode default
+      //collaboration diagram settings
+      show_full_operations_definition default show_hierarchical_rank default write_horizontally default class_drawing_mode default drawing_language default package_name_in_tab default show_context default show_msg_context default draw_all_relations default shadow default show_stereotype_properties default
+      //class diagram settings
+      draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+      //object diagram settings
+       write_horizontally default package_name_in_tab default show_context default auto_label_position default draw_all_relations default shadow default show_stereotype_properties default
+      //state diagram settings
+      package_name_in_tab default show_context default auto_label_position default write_trans_label_horizontally default show_trans_definition default draw_all_relations default shadow default
+      show_activities default region_horizontally default drawing_language default show_stereotype_properties default
+      //activity diagram settings
+      package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+      show_infonote default drawing_language default show_stereotype_properties default
+      activity 174339 "Create_table"
+	activitydiagram 207491 "create_table"
+	  package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+	  show_infonote default drawing_language default show_stereotype_properties default
+	  size A4
+	end
+
+	activityaction 216323 "Create fence segment"
+	  opaque_action
+	  flow 296963 "<flow>"
+	    on activityaction_ref 217347 // activity action Closest tile edge
+	  end
+	end
+
+	activityaction 216707 "Create boundery for enclosure"
+	  opaque_action
+	  flow 295043 "<flow>"
+	    on activityaction_ref 216835 // activity action Create grid
+	  end
+	end
+
+	activityaction 216835 "Create grid"
+	  opaque_action
+	  flow 338307 "<flow>"
+	    on activitynode_ref 222083 // flow_final
+	  end
+	end
+
+	activityaction 217219 "Create candle"
+	  opaque_action
+	  flow 297091 "<flow>"
+	    on activityaction_ref 216323 // activity action Create fence segment
+	  end
+	end
+
+	activityaction 217347 "Closest tile edge"
+	  opaque_action
+	  flow 295427 "<flow>"
+	    on activitynode_ref 196995 // decision
+	  end
+	end
+
+	activitynode 196995 decision ""
+	  flow 298499 "<flow>"
+	    on activityaction_ref 219139 // activity action Tile index 1 L/R
+	  end
+
+	  flow 298755 "<flow>"
+	    on activityaction_ref 219011 // activity action Tile index 1 up/down
+	  end
+	end
+
+	activityaction 217475 "Hit R/L edge of tile"
+	  opaque_action
+	  flow 296195 "<flow>"
+	    on activitynode_ref 197251 // decision
+	  end
+	end
+
+	activityaction 217603 "Burn candle R/L"
+	  opaque_action
+	  flow 295683 "<flow>"
+	    on activityaction_ref 217475 // activity action Hit R/L edge of tile
+	  end
+	end
+
+	activityaction 217731 "Segment leave this tile to R/L"
+	  opaque_action
+	  flow 296067 "<flow>"
+	    on activityaction_ref 217987 // activity action Position of R/L exit point
+	  end
+	end
+
+	activityaction 217859 "End of segment R/L"
+	  opaque_action
+	  flow 296579 "<flow>"
+	    on activitynode_ref 197379 // merge
+	  end
+	end
+
+	activityaction 217987 "Position of R/L exit point"
+	  opaque_action
+	  flow 296707 "<flow>"
+	    on activitynode_ref 197379 // merge
+	  end
+	end
+
+	activitynode 197251 decision ""
+	  flow 296323 "<flow>"
+	    on activityaction_ref 217859 // activity action End of segment R/L
+	  end
+
+	  flow 296451 "<flow>"
+	    on activityaction_ref 217731 // activity action Segment leave this tile to R/L
+	  end
+	end
+
+	activityaction 218115 "Mark T/B edge not crossed"
+	  opaque_action
+	  flow 299139 "<flow>"
+	    on activitynode_ref 198019 // merge
+	  end
+	end
+
+	activitynode 197379 merge ""
+	  flow 296835 "<flow>"
+	    on activityaction_ref 218115 // activity action Mark T/B edge not crossed
+	  end
+	end
+
+	activityaction 218243 "Burn candle C/F"
+	  opaque_action
+	  flow 297347 "<flow>"
+	    on activityaction_ref 218371 // activity action Hit T/B edge of tile
+	  end
+	end
+
+	activityaction 218371 "Hit T/B edge of tile"
+	  opaque_action
+	  flow 297987 "<flow>"
+	    on activitynode_ref 197763 // decision
+	  end
+	end
+
+	activityaction 218499 "End of segment T/B"
+	  opaque_action
+	  flow 298115 "<flow>"
+	    on activitynode_ref 197891 // merge
+	  end
+	end
+
+	activityaction 218627 "Segment leave tile at T/B"
+	  opaque_action
+	  flow 299267 "<flow>"
+	    on activityaction_ref 218755 // activity action Position of T/B exit point
+	  end
+	end
+
+	activityaction 218755 "Position of T/B exit point"
+	  opaque_action
+	  flow 298243 "<flow>"
+	    on activitynode_ref 197891 // merge
+	  end
+	end
+
+	activitynode 197763 decision ""
+	  flow 297731 "<flow>"
+	    on activityaction_ref 218499 // activity action End of segment T/B
+	  end
+
+	  flow 297859 "<flow>"
+	    on activityaction_ref 218627 // activity action Segment leave tile at T/B
+	  end
+	end
+
+	activitynode 197891 merge ""
+	  flow 298371 "<flow>"
+	    on activityaction_ref 218883 // activity action Mark T/B edge crossed
+	  end
+	end
+
+	activityaction 218883 "Mark T/B edge crossed"
+	  opaque_action
+	  flow 299011 "<flow>"
+	    on activitynode_ref 198019 // merge
+	  end
+	end
+
+	activityaction 219011 "Tile index 1 up/down"
+	  opaque_action
+	  flow 298883 "<flow>"
+	    on activityaction_ref 218243 // activity action Burn candle C/F
+	  end
+	end
+
+	activityaction 219139 "Tile index 1 L/R"
+	  opaque_action
+	  flow 298627 "<flow>"
+	    on activityaction_ref 217603 // activity action Burn candle R/L
+	  end
+	end
+
+	activitynode 198019 merge ""
+	  flow 299779 "<flow>"
+	    on activityaction_ref 219523 // activity action Update tile
+	  end
+	end
+
+	activityaction 219267 "End of candle"
+	  opaque_action
+	  flow 299523 "<flow>"
+	    on activitynode_ref 198147 // decision
+	  end
+	end
+
+	activitynode 198147 decision ""
+	  flow 299651 "<flow>"
+	    on activityaction_ref 219395 // activity action Get next tile
+	      uml_guard "No"
+	  end
+
+	  flow 300163 "<flow>"
+	    on activityaction_ref 219651 // activity action Mark corners as outside / inside
+	  end
+	end
+
+	activityaction 219395 "Get next tile"
+	  opaque_action
+	  flow 300035 "<flow>"
+	    on activityaction_ref 217347 // activity action Closest tile edge
+	  end
+	end
+
+	activityaction 219523 "Update tile"
+	  opaque_action
+	  flow 299907 "<flow>"
+	    on activityaction_ref 219267 // activity action End of candle
+	  end
+	end
+
+	activityaction 219651 "Mark corners as outside / inside"
+	  opaque_action
+	end
+
+	expansionregion 128003 "For every node in the fence"
+	  iterative
+	  expansionnode 134531 "fence"
+	     explicit_type "Pgon"
+	    unordered 
+	    flow 338179 "<flow>"
+	      on activityaction_ref 217219 // activity action Create candle
+	    end
+	  end
+	end
+
+	activityobject 213123 "fence"
+	   explicit_type "Pgon"
+	  unordered 
+	  flow 337923 "<flow>"
+	    on expansionnode_ref 134531 // fence
+	  end
+
+	  flow 338051 "<flow>"
+	    on activityaction_ref 216707 // activity action Create boundery for enclosure
+	  end
+	end
+
+	activitynode 222083 flow_final ""
+	end
+      end
+
+      activity 195587 "Create_table_java"
+	activitydiagram 227715 "create_table_java"
+	  package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations no shadow default
+	  show_infonote default drawing_language default show_stereotype_properties default
+	  size A1
+	end
+
+	activityaction 248963 "next vertex"
+	  call_behavior_action
+	  synchronous activity_ref 195331 // nextSegment
+	  flow 382211 "<flow>"
+	    on activityaction_ref 264451 // activity action grid.location(wf.v_a[x], wf.v_a[y])
+	  end
+	end
+
+	activityobject 213891 "gc_pos"
+	   explicit_type ""
+	  unordered 
+	end
+
+	activityobject 214019 "gc_size"
+	   explicit_type ""
+	  unordered 
+	end
+
+	activityobject 214403 "gcx_length"
+	   explicit_type ""
+	  unordered 
+	end
+
+	activityobject 214531 "gcy_length"
+	   explicit_type ""
+	  unordered 
+	end
+
+	activityobject 214659 "candle"
+	   explicit_type ""
+	  unordered 
+	end
+
+	activityaction 264451 "grid.location(wf.v_a[x], wf.v_a[y])"
+	  call_operation_action
+	  synchronous operation_ref 144515 // location
+	  flow 382723 "<flow>"
+	    on activityaction_ref 270979 // activity action grid.position(gc_location)
+	  end
+
+	  pin 263299 "grid" type class_ref 142083 // Grid
+	    unordered 
+	    in
+	  end
+
+	  pin 263427 "gc_location" explicit_type "int"
+	    unordered 
+	    return
+	    flow 389379 "<flow>"
+	      on activityobject_ref 235779 // activity object gc_location
+	    end
+	  end
+
+	  pin 263555 "vertex" explicit_type "long"
+	    unordered 
+	    in
+	  end
+	end
+
+	activityaction 270979 "grid.position(gc_location)"
+	  call_operation_action
+	  synchronous operation_ref 144643 // cellPosition
+	  pin 263683 "grid" type class_ref 142083 // Grid
+	    unordered 
+	    in
+	  end
+
+	  pin 263811 "gc_pos" explicit_type "long[]"
+	    unordered 
+	    return
+	    flow 389507 "<flow>"
+	      on activityobject_ref 213891 // activity object gc_pos
+	    end
+	  end
+
+	  pin 263939 "location" explicit_type "int"
+	    unordered 
+	    in
+	  end
+
+	  flow 423299 "<flow>"
+	    on activityaction_ref 281475 // activity action New tile: location
+	  end
+	end
+
+	activityaction 271235 "gc_size[x] * wf.norm_x"
+	  opaque_action
+	  flow 366595 "<flow>"
+	    on activityaction_ref 271619 // activity action wf.dir_x > 0
+	  end
+
+	  flow 393219 "<flow>"
+	    on activityobject_ref 214403 // activity object gcx_length
+	  end
+	end
+
+	activityaction 271363 "(gc_size[x] + gc_pos[x] - wf.vertex_a[x]) * wf.norm_x"
+	  opaque_action
+	  flow 392835 "<flow>"
+	    on activitynode_ref 242563 // merge
+	  end
+
+	  flow 393987 "<flow>"
+	    on activityobject_ref 250883 // activity object x_length
+	  end
+	end
+
+	activityaction 271491 "(wf.vertex_a[x] - gc_pos[x]) * wf.norm_x"
+	  opaque_action
+	  flow 392963 "<flow>"
+	    on activitynode_ref 242563 // merge
+	  end
+
+	  flow 393859 "<flow>"
+	    on activityobject_ref 250883 // activity object x_length
+	  end
+	end
+
+	activityaction 271619 "wf.dir_x > 0"
+	  opaque_action
+	  flow 366211 "<flow>"
+	    on activitynode_ref 242435 // decision
+	  end
+	end
+
+	activitynode 242435 decision ""
+	  flow 366339 "<flow>"
+	    on activityaction_ref 271491 // activity action (wf.vertex_a[x] - gc_pos[x]) * wf.norm_x
+	  end
+
+	  flow 366467 "<flow>"
+	    on activityaction_ref 271363 // activity action (gc_size[x] + gc_pos[x] - wf.vertex_a[x]) * wf.norm_x
+	      uml_guard "True"
+	  end
+	end
+
+	activitynode 242563 merge ""
+	  flow 366979 "<flow>"
+	    on activityaction_ref 271747 // activity action gc_size[y] * wf.norm_y
+	  end
+	end
+
+	activityaction 271747 "gc_size[y] * wf.norm_y"
+	  opaque_action
+	  flow 367107 "<flow>"
+	    on activityaction_ref 271875 // activity action (gc_size[y] + gc_pos[y] - wf.vertex_a[y]) * wf.norm_y
+	  end
+
+	  flow 393091 "<flow>"
+	    on activityobject_ref 214531 // activity object gcy_length
+	  end
+	end
+
+	activityaction 271875 "(gc_size[y] + gc_pos[y] - wf.vertex_a[y]) * wf.norm_y"
+	  opaque_action
+	  flow 393603 "<flow>"
+	    on activityaction_ref 290307 // activity action Set candle to 0
+	  end
+
+	  flow 393731 "<flow>"
+	    on activityobject_ref 250755 // activity object y_length
+	  end
+	end
+
+	activityaction 272003 "No edge crossed"
+	  opaque_action
+	  flow 379779 "<flow>"
+	    on activitynode_ref 250371 // decision
+	  end
+	end
+
+	activityaction 272131 "x_length <= y_length"
+	  opaque_action
+	  flow 368387 "<flow>"
+	    on activitynode_ref 242819 // decision
+	  end
+	end
+
+	activitynode 242819 decision ""
+	  flow 420355 "<flow>"
+	    on activityaction_ref 272643 // activity action candle = candle + y_length
+	  end
+
+	  flow 420483 "<flow>"
+	    on activityaction_ref 272259 // activity action candle = candle + x_length
+	      uml_guard "True"
+	  end
+	end
+
+	activityaction 272259 "candle = candle + x_length"
+	  opaque_action
+	  flow 368899 "<flow>"
+	    on activityaction_ref 272515 // activity action y_length = y_length - x_length
+	  end
+	end
+
+	activityaction 272387 "x_length = x_length - y_length"
+	  opaque_action
+	  flow 369411 "<flow>"
+	    on activityaction_ref 272899 // activity action y_length = gcy_length
+	  end
+	end
+
+	activityaction 272515 "y_length = y_length - x_length"
+	  opaque_action
+	  flow 369027 "<flow>"
+	    on activityaction_ref 272771 // activity action x_length = gcx_length
+	  end
+	end
+
+	activityaction 272643 "candle = candle + y_length"
+	  opaque_action
+	  flow 369283 "<flow>"
+	    on activityaction_ref 272387 // activity action x_length = x_length - y_length
+	  end
+	end
+
+	activityaction 272771 "x_length = gcx_length"
+	  opaque_action
+	  flow 369539 "<flow>"
+	    on activityaction_ref 274051 // activity action candle < wf.length
+	  end
+	end
+
+	activityaction 272899 "y_length = gcy_length"
+	  opaque_action
+	  flow 369667 "<flow>"
+	    on activityaction_ref 273027 // activity action candle < wf.length
+	  end
+	end
+
+	activityaction 273027 "candle < wf.length"
+	  opaque_action
+	  flow 420611 "<flow>"
+	    on activitynode_ref 243203 // decision
+	  end
+	end
+
+	activitynode 242947 decision ""
+	  flow 369923 "<flow>"
+	    on activityaction_ref 274179 // activity action wf.dir_x > 0
+	      uml_guard "True"
+	  end
+
+	  flow 378371 "<flow>"
+	    on activityaction_ref 274563 // activity action cut_b = wf.vertex_b
+	  end
+	end
+
+	activityaction 273155 "cut_b[x] = cell_pos[x] + cell_size[x]"
+	  opaque_action
+	  flow 422787 "<flow>"
+	    on activitynode_ref 243459 // merge
+	  end
+	end
+
+	activityaction 273283 "cut_b[x] = cell_pos[x]"
+	  opaque_action
+	  flow 422659 "<flow>"
+	    on activitynode_ref 243459 // merge
+	  end
+	end
+
+	activityaction 273411 "cut_b[y] = candle / wf.norm_y"
+	  opaque_action
+	  flow 422915 "<flow>"
+	    on activityaction_ref 273795 // activity action gc_location + wf.dir_x
+	  end
+	end
+
+	activityaction 273539 "cut_b[y] = cell_pos[y] + cell_size[y]"
+	  opaque_action
+	  flow 370947 "<flow>"
+	    on activityaction_ref 273667 // activity action cut_b[x] = candle / wf.norm_x
+	  end
+	end
+
+	activityaction 273667 "cut_b[x] = candle / wf.norm_x"
+	  opaque_action
+	  flow 422019 "<flow>"
+	    on activityaction_ref 273923 // activity action gc_location + res[x]
+	  end
+	end
+
+	activityobject 235779 "gc_location"
+	   explicit_type ""
+	  unordered 
+	  flow 389635 "<flow>"
+	    on pin_ref 263939 // location
+	  end
+
+	  flow 423427 "<flow>"
+	    on pin_ref 289923 // location
+	  end
+	end
+
+	activityaction 273795 "gc_location + wf.dir_x"
+	  opaque_action
+	  pin 264707 "gc_location" explicit_type ""
+	    unordered 
+	    out
+	  end
+
+	  flow 423043 "<flow>"
+	    on activitynode_ref 243587 // merge
+	  end
+	end
+
+	activityaction 273923 "gc_location + res[x]"
+	  opaque_action
+	  pin 264835 "gc_location" explicit_type ""
+	    unordered 
+	    out
+	  end
+
+	  flow 421507 "<flow>"
+	    on activitynode_ref 243715 // merge
+	  end
+	end
+
+	activityaction 274051 "candle < wf.length"
+	  opaque_action
+	  flow 420739 "<flow>"
+	    on activitynode_ref 242947 // decision
+	  end
+	end
+
+	activitynode 243075 merge ""
+	  flow 420867 "<flow>"
+	    on activityaction_ref 312067 // activity action Flag: NO_EDGE
+	  end
+	end
+
+	activitynode 243203 decision ""
+	  flow 378627 "<flow>"
+	    on activityaction_ref 274307 // activity action cut_b = wf.vertex_b
+	  end
+
+	  flow 421763 "<flow>"
+	    on activityaction_ref 312195 // activity action Flag: TOP_EDGE
+	      uml_guard "True"
+	  end
+	end
+
+	activityaction 274179 "wf.dir_x > 0"
+	  opaque_action
+	  flow 370051 "<flow>"
+	    on activitynode_ref 243331 // decision
+	  end
+	end
+
+	activitynode 243331 decision ""
+	  flow 422147 "<flow>"
+	    on activityaction_ref 312451 // activity action Flag: LEFT_EDGE
+	  end
+
+	  flow 422275 "<flow>"
+	    on activityaction_ref 312323 // activity action Flag: RIGHT_EDGE
+	      uml_guard "True"
+	  end
+	end
+
+	activitynode 243459 merge ""
+	  flow 370691 "<flow>"
+	    on activityaction_ref 273411 // activity action cut_b[y] = candle / wf.norm_y
+	  end
+	end
+
+	activitynode 243587 merge ""
+	  flow 379011 "<flow>"
+	    on activitynode_ref 250243 // merge
+	  end
+	end
+
+	activityaction 274307 "cut_b = wf.vertex_b"
+	  opaque_action
+	  flow 421635 "<flow>"
+	    on activitynode_ref 243715 // merge
+	  end
+	end
+
+	activityaction 274563 "cut_b = wf.vertex_b"
+	  opaque_action
+	  flow 378499 "<flow>"
+	    on activitynode_ref 243587 // merge
+	  end
+	end
+
+	activitynode 243715 merge ""
+	  flow 379139 "<flow>"
+	    on activitynode_ref 250243 // merge
+	  end
+	end
+
+	activitynode 250243 merge ""
+	  flow 379267 "<flow>"
+	    on activityaction_ref 281219 // activity action addSegment: cut_a, cut_b
+	  end
+	end
+
+	activityaction 281219 "addSegment: cut_a, cut_b"
+	  call_operation_action
+	  synchronous operation_ref 282371 // addSegment
+	  flow 379523 "<flow>"
+	    on activityaction_ref 281731 // activity action cut_a = cut_b
+	  end
+
+	  pin 287747 "section" type class_ref 221827 // Section
+	    unordered 
+	    in
+	  end
+
+	  pin 287875 "cut_a" explicit_type "long[]"
+	    unordered 
+	    in
+	  end
+
+	  pin 288003 "cut_b" explicit_type "long[]"
+	    unordered 
+	    in
+	  end
+	end
+
+	activityaction 281475 "New tile: location"
+	  call_operation_action
+	  synchronous operation_ref 142595 // newTile
+	  pin 289667 "tile_table" type class_ref 141443 // TileTable
+	    unordered 
+	    in
+	  end
+
+	  pin 289795 "Tile" type class_ref 134915 // FenceTile
+	    unordered 
+	    return
+	    flow 423555 "<flow>"
+	      on activityobject_ref 243459 // activity object tile
+	    end
+	  end
+
+	  pin 289923 "location" explicit_type "int"
+	    unordered 
+	    in
+	  end
+
+	  flow 424067 "<flow>"
+	    on activityaction_ref 313219 // activity action New section
+	  end
+	end
+
+	activityaction 281603 "grid.cellSize()"
+	  call_operation_action
+	  synchronous operation_ref 275331 // cellSize
+	  pin 264067 "grid" type class_ref 142083 // Grid
+	    unordered 
+	    in
+	  end
+
+	  pin 264195 "gc_size" explicit_type "long[]"
+	    unordered 
+	    return
+	    flow 389763 "<flow>"
+	      on activityobject_ref 214019 // activity object gc_size
+	    end
+	  end
+
+	  flow 433027 "<flow>"
+	    on activityaction_ref 320771 // activity action cut_a = wf.vertex_a
+	  end
+	end
+
+	activityaction 281731 "cut_a = cut_b"
+	  opaque_action
+	  flow 432387 "<flow>"
+	    on activityaction_ref 272003 // activity action No edge crossed
+	  end
+	end
+
+	activitynode 250371 decision ""
+	  flow 380291 "<flow>"
+	    on activitynode_ref 243075 // merge
+	  end
+
+	  flow 445059 "<flow>"
+	    on activityaction_ref 313091 // activity action Add section to tile
+	  end
+	end
+
+	activityaction 281859 "Create grid"
+	  call_behavior_action
+	  synchronous activity_ref 194691 // Create grid
+	  pin 255235 "fence" type class_ref 201859 // List
+	    unordered 
+	    in
+	  end
+
+	  pin 255363 "grid" type class_ref 142083 // Grid
+	    unordered 
+	    out
+	    flow 381699 "<flow>"
+	      on activityobject_ref 243331 // activity object grid
+	    end
+	  end
+
+	  pin 255491 "resolution" explicit_type "int[]"
+	    unordered 
+	    in
+	  end
+
+	  flow 381571 "<flow>"
+	    on activityaction_ref 282755 // activity action Create walk fence
+	  end
+	end
+
+	activityaction 282755 "Create walk fence"
+	  call_behavior_action
+	  synchronous activity_ref 195075 // FenceIterator
+	  pin 256771 "fence" type class_ref 201859 // List
+	    unordered 
+	    in
+	  end
+
+	  flow 381443 "<flow>"
+	    on activityobject_ref 243203 // activity object wf
+	  end
+
+	  flow 390147 "<flow>"
+	    on activityaction_ref 281603 // activity action grid.cellSize()
+	  end
+	end
+
+	activityobject 243203 "wf"
+	   type class_ref 208643 // FenceIterator
+	  unordered 
+	end
+
+	activityobject 243331 "grid"
+	   type class_ref 142083 // Grid
+	  unordered 
+	end
+
+	activityaction 282883 "Have more vertices"
+	  call_behavior_action
+	  synchronous activity_ref 195459 // hasSegment
+	  pin 264323 "Yes/No" explicit_type "bool"
+	    unordered 
+	    out
+	    flow 390403 "<flow>"
+	      on activitynode_ref 250627 // decision
+	    end
+	  end
+	end
+
+	activitynode 250627 decision ""
+	  flow 382083 "<flow>"
+	    on activityaction_ref 248963 // activity action next vertex
+	      uml_guard "Yes"
+	  end
+	end
+
+	activityobject 243459 "tile"
+	   type class_ref 215171 // Tile
+	  unordered 
+	  flow 424451 "<flow>"
+	    on pin_ref 290435 // tile
+	  end
+	end
+
+	activityaction 290307 "Set candle to 0"
+	  opaque_action
+	  flow 393347 "<flow>"
+	    on activityobject_ref 214659 // activity object candle
+	  end
+
+	  flow 393475 "<flow>"
+	    on activitynode_ref 243075 // merge
+	  end
+	end
+
+	activityobject 250755 "y_length"
+	   explicit_type ""
+	  unordered 
+	end
+
+	activityobject 250883 "x_length"
+	   explicit_type ""
+	  unordered 
+	end
+
+	activityaction 312067 "Flag: NO_EDGE"
+	  value_specification_action
+	  uml_value "0"
+	  pin 287235 "edge" explicit_type "int"
+	    unordered 
+	    out
+	  end
+
+	  flow 420995 "<flow>"
+	    on activityaction_ref 272131 // activity action x_length <= y_length
+	  end
+	end
+
+	activityaction 312195 "Flag: TOP_EDGE"
+	  value_specification_action
+	  pin 287363 "edge" explicit_type "int"
+	    unordered 
+	    out
+	  end
+
+	  flow 421891 "<flow>"
+	    on activityaction_ref 273539 // activity action cut_b[y] = cell_pos[y] + cell_size[y]
+	  end
+	end
+
+	activityaction 312323 "Flag: RIGHT_EDGE"
+	  value_specification_action
+	  pin 287491 "edge" explicit_type "int"
+	    unordered 
+	    out
+	  end
+
+	  flow 422531 "<flow>"
+	    on activityaction_ref 273155 // activity action cut_b[x] = cell_pos[x] + cell_size[x]
+	  end
+	end
+
+	activityaction 312451 "Flag: LEFT_EDGE"
+	  value_specification_action
+	  pin 287619 "edge" explicit_type "int"
+	    unordered 
+	    out
+	  end
+
+	  flow 422403 "<flow>"
+	    on activityaction_ref 273283 // activity action cut_b[x] = cell_pos[x]
+	  end
+	end
+
+	activityaction 312835 "putTile: tile"
+	  call_operation_action
+	  synchronous operation_ref 142851 // putTile
+	  pin 288643 "tile_table" type class_ref 141443 // TileTable
+	    unordered 
+	    in
+	  end
+
+	  pin 288771 "no use" type class_ref 215171 // Tile
+	    unordered 
+	    return
+	  end
+
+	  pin 288899 "tile" type class_ref 215171 // Tile
+	    unordered 
+	    in
+	  end
+
+	  flow 431747 "<flow>"
+	    on activityaction_ref 319747 // activity action prev_edge = edge XOR all_edges
+	  end
+	end
+
+	activityaction 313091 "Add section to tile"
+	  call_operation_action
+	  synchronous operation_ref 309379 // addSection
+	  pin 297347 "tile" type class_ref 215171 // Tile
+	    unordered 
+	    in
+	  end
+
+	  pin 297475 "section" type class_ref 221827 // Section
+	    unordered 
+	    in
+	  end
+
+	  pin 297603 "edge" explicit_type "int"
+	    unordered 
+	    in
+	  end
+
+	  pin 297731 "prev_edge" explicit_type "int"
+	    unordered 
+	    in
+	  end
+
+	  flow 431619 "<flow>"
+	    on activityaction_ref 312835 // activity action putTile: tile
+	  end
+	end
+
+	activityaction 313219 "New section"
+	  call_operation_action
+	  synchronous operation_ref 309507 // newSection
+	  pin 290435 "tile" type class_ref 215171 // Tile
+	    unordered 
+	    in
+	  end
+
+	  pin 290563 "section" type class_ref 221827 // Section
+	    unordered 
+	    return
+	    flow 424579 "<flow>"
+	      on activityobject_ref 265987 // activity object section
+	    end
+	  end
+
+	  flow 424707 "<flow>"
+	    on activityaction_ref 271235 // activity action gc_size[x] * wf.norm_x
+	  end
+	end
+
+	activityobject 265987 "section"
+	   type class_ref 221827 // Section
+	  unordered 
+	end
+
+	activityaction 319747 "prev_edge = edge XOR all_edges"
+	  opaque_action
+	  flow 433795 "<flow>"
+	    on activitynode_ref 271491 // merge
+	  end
+	end
+
+	activityaction 320771 "cut_a = wf.vertex_a"
+	  opaque_action
+	  flow 432515 "<flow>"
+	    on activityobject_ref 272515 // activity object cut_a
+	  end
+
+	  flow 433155 "<flow>"
+	    on activityaction_ref 320899 // activity action cut_b = 0
+	  end
+	end
+
+	activityobject 272515 "cut_a"
+	   explicit_type "long[]"
+	  unordered 
+	end
+
+	activityaction 320899 "cut_b = 0"
+	  opaque_action
+	  flow 432643 "<flow>"
+	    on activityobject_ref 272643 // activity object cut_b
+	  end
+
+	  flow 433283 "<flow>"
+	    on activityaction_ref 321027 // activity action Flag: NO_EDGES
+	  end
+	end
+
+	activityobject 272643 "cut_b"
+	   explicit_type "long[]"
+	  unordered 
+	end
+
+	activityaction 321027 "Flag: NO_EDGES"
+	  opaque_action
+	  flow 432771 "<flow>"
+	    on activityobject_ref 272771 // activity object edge
+	  end
+
+	  flow 432899 "<flow>"
+	    on activityobject_ref 272899 // activity object prev_edge
+	  end
+
+	  flow 440323 "<flow>"
+	    on activitynode_ref 271491 // merge
+	  end
+	end
+
+	activityobject 272771 "edge"
+	   explicit_type "int"
+	  unordered 
+	end
+
+	activityobject 272899 "prev_edge"
+	   explicit_type "int"
+	  unordered 
+	end
+
+	activitynode 271491 merge ""
+	  flow 433667 "<flow>"
+	    on activityaction_ref 282883 // activity action Have more vertices
+	  end
+	end
+      end
+
+      usecaseview 147843 "FenceTable"
+	//use case diagram settings
+	package_name_in_tab default show_context default auto_label_position default draw_all_relations default class_drawing_mode default shadow default show_stereotype_properties default
+	//sequence diagram settings
+	show_full_operations_definition default write_horizontally default class_drawing_mode default drawing_language default draw_all_relations default shadow default show_stereotype_properties default show_class_context_mode default show_msg_context_mode default
+	//collaboration diagram settings
+	show_full_operations_definition default show_hierarchical_rank default write_horizontally default class_drawing_mode default drawing_language default package_name_in_tab default show_context default show_msg_context default draw_all_relations default shadow default show_stereotype_properties default
+	//class diagram settings
+	draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+	//object diagram settings
+	 write_horizontally default package_name_in_tab default show_context default auto_label_position default draw_all_relations default shadow default show_stereotype_properties default
+	//state diagram settings
+	package_name_in_tab default show_context default auto_label_position default write_trans_label_horizontally default show_trans_definition default draw_all_relations default shadow default
+	show_activities default region_horizontally default drawing_language default show_stereotype_properties default
+	//activity diagram settings
+	package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+	show_infonote default drawing_language default show_stereotype_properties default
+	activity 202243 "addSection"
+	  activitydiagram 241027 "add_section"
+	    package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations no shadow default
+	    show_infonote default drawing_language default show_stereotype_properties default
+	    size A4
+	  end
+
+	  parameter 175875 "a" explicit_type "long[]"
+	    unordered 
+	    in
+	    flow 397955 "<flow>"
+	      on activityaction_ref 291331 // activity action next = a
+	    end
+	  end
+
+	  parameter 176003 "b" explicit_type "long[]"
+	    unordered 
+	    in
+	    flow 397315 "<flow>"
+	      on activityaction_ref 291075 // activity action next = b
+	    end
+	  end
+
+	  activityaction 290435 "(offset + record) < space"
+	    opaque_action
+	    flow 394115 "<flow>"
+	      on activitynode_ref 257411 // decision
+	    end
+	  end
+
+	  activitynode 257411 decision ""
+	    flow 394371 "<flow>"
+	      on activitynode_ref 257539 // merge
+	    end
+
+	    flow 394499 "<flow>"
+	      on activityaction_ref 290563 // activity action moreSpace
+		uml_guard "No"
+	    end
+	  end
+
+	  activityaction 290563 "moreSpace"
+	    call_operation_action
+	    synchronous operation_ref 289283 // copyOf
+	    flow 396163 "<flow>"
+	      on activitynode_ref 257539 // merge
+	    end
+
+	    pin 265475 "Arrays" type class_ref 221699 // Arrays
+	      unordered 
+	      in
+	    end
+
+	    pin 265603 "new section" explicit_type "long[]"
+	      unordered 
+	      return
+	      flow 399107 "<flow>"
+		on activityobject_ref 251523 // activity object section
+	      end
+	    end
+
+	    pin 265731 "old section" explicit_type "long[]"
+	      unordered 
+	      in
+	    end
+
+	    pin 265859 "space" explicit_type "int"
+	      unordered 
+	      in
+	    end
+	  end
+
+	  activitynode 257539 merge ""
+	    flow 396547 "<flow>"
+	      on activityaction_ref 290691 // activity action section[offset + y]
+	    end
+	  end
+
+	  activityaction 290691 "section[offset + y]"
+	    opaque_action
+	    flow 395011 "<flow>"
+	      on activityobject_ref 251011 // activity object prev[x]
+	    end
+
+	    flow 396675 "<flow>"
+	      on activityaction_ref 290947 // activity action section[offset + x]
+	    end
+	  end
+
+	  activityaction 290947 "section[offset + x]"
+	    opaque_action
+	    flow 395139 "<flow>"
+	      on activityobject_ref 251139 // activity object prev[y]
+	    end
+
+	    flow 397443 "<flow>"
+	      on activityaction_ref 291075 // activity action next = b
+	    end
+	  end
+
+	  activityobject 251011 "prev[x]"
+	     explicit_type ""
+	    unordered 
+	    flow 396803 "<flow>"
+	      on pin_ref 265091 // prev
+	    end
+	  end
+
+	  activityobject 251139 "prev[y]"
+	     explicit_type ""
+	    unordered 
+	    flow 396931 "<flow>"
+	      on pin_ref 265091 // prev
+	    end
+	  end
+
+	  activityaction 291075 "next = b"
+	    opaque_action
+	    flow 397059 "<flow>"
+	      on activityobject_ref 251651 // activity object next
+	    end
+	  end
+
+	  activityaction 291203 "Same position next and prev"
+	    call_behavior_action
+	    synchronous activity_ref 202371 // samePos
+	    pin 265091 "prev" explicit_type "long[]"
+	      unordered 
+	      in
+	    end
+
+	    pin 265219 "next" explicit_type "long[]"
+	      unordered 
+	      in
+	    end
+
+	    pin 265347 "True/False" explicit_type "bool"
+	      unordered 
+	      out
+	      flow 395267 "<flow>"
+		on activitynode_ref 257667 // decision
+	      end
+	    end
+	  end
+
+	  activitynode 257667 decision ""
+	    flow 395395 "<flow>"
+	      on activityaction_ref 291331 // activity action next = a
+	    end
+
+	    flow 395523 "<flow>"
+	      on activitynode_ref 257795 // merge
+	    end
+	  end
+
+	  activityaction 291331 "next = a"
+	    opaque_action
+	    flow 395651 "<flow>"
+	      on activitynode_ref 257795 // merge
+	    end
+	  end
+
+	  activitynode 257795 merge ""
+	    flow 397571 "<flow>"
+	      on activityaction_ref 291459 // activity action offset + record
+	    end
+	  end
+
+	  activityaction 291459 "offset + record"
+	    opaque_action
+	    flow 396035 "<flow>"
+	      on activityobject_ref 251267 // activity object offset
+	    end
+
+	    flow 397699 "<flow>"
+	      on activityaction_ref 291715 // activity action section[offset + y] = next[y]
+	    end
+	  end
+
+	  activityobject 251267 "offset"
+	     explicit_type ""
+	    unordered 
+	    flow 395907 "<flow>"
+	      on activityaction_ref 291459 // activity action offset + record
+	    end
+	  end
+
+	  activityobject 251395 "record"
+	     explicit_type ""
+	    unordered 
+	    flow 395779 "<flow>"
+	      on activityaction_ref 291459 // activity action offset + record
+	    end
+	  end
+
+	  activityaction 291587 "section[offset + x] = next[x]"
+	    opaque_action
+	    flow 405635 "<flow>"
+	      on activitynode_ref 264579 // activity_final
+	    end
+	  end
+
+	  activityaction 291715 "section[offset + y] = next[y]"
+	    opaque_action
+	    flow 397827 "<flow>"
+	      on activityaction_ref 291587 // activity action section[offset + x] = next[x]
+	    end
+	  end
+
+	  activityobject 251523 "section"
+	     explicit_type ""
+	    unordered 
+	    flow 396291 "<flow>"
+	      on activityaction_ref 290691 // activity action section[offset + y]
+	    end
+
+	    flow 396419 "<flow>"
+	      on activityaction_ref 290947 // activity action section[offset + x]
+	    end
+
+	    flow 398979 "<flow>"
+	      on pin_ref 265731 // old section
+	    end
+	  end
+
+	  activityobject 251651 "next"
+	     explicit_type ""
+	    unordered 
+	    flow 397187 "<flow>"
+	      on pin_ref 265219 // next
+	    end
+	  end
+
+	  activitynode 257923 initial_node ""
+	    flow 398083 "<flow>"
+	      on activityaction_ref 290435 // activity action (offset + record) < space
+	    end
+	  end
+
+	  activityobject 252163 "space"
+	     explicit_type ""
+	    unordered 
+	    flow 398723 "<flow>"
+	      on activityaction_ref 290435 // activity action (offset + record) < space
+	    end
+
+	    flow 398851 "<flow>"
+	      on pin_ref 265859 // space
+		  uml_transformation "space + 10 * record"
+	    end
+	  end
+
+	  activitynode 264579 activity_final ""
+	  end
+	end
+      end
+
+      usecaseview 141315 "FenceIterator"
+	//use case diagram settings
+	package_name_in_tab default show_context default auto_label_position default draw_all_relations default class_drawing_mode default shadow default show_stereotype_properties default
+	//sequence diagram settings
+	show_full_operations_definition default write_horizontally default class_drawing_mode default drawing_language default draw_all_relations default shadow default show_stereotype_properties default show_class_context_mode default show_msg_context_mode default
+	//collaboration diagram settings
+	show_full_operations_definition default show_hierarchical_rank default write_horizontally default class_drawing_mode default drawing_language default package_name_in_tab default show_context default show_msg_context default draw_all_relations default shadow default show_stereotype_properties default
+	//class diagram settings
+	draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+	//object diagram settings
+	 write_horizontally default package_name_in_tab default show_context default auto_label_position default draw_all_relations default shadow default show_stereotype_properties default
+	//state diagram settings
+	package_name_in_tab default show_context default auto_label_position default write_trans_label_horizontally default show_trans_definition default draw_all_relations default shadow default
+	show_activities default region_horizontally default drawing_language default show_stereotype_properties default
+	//activity diagram settings
+	package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+	show_infonote default drawing_language default show_stereotype_properties default
+	usecaseview 154627 "FenceSegment"
+	  //use case diagram settings
+	  package_name_in_tab default show_context default auto_label_position default draw_all_relations default class_drawing_mode default shadow default show_stereotype_properties default
+	  //sequence diagram settings
+	  show_full_operations_definition default write_horizontally default class_drawing_mode default drawing_language default draw_all_relations default shadow default show_stereotype_properties default show_class_context_mode default show_msg_context_mode default
+	  //collaboration diagram settings
+	  show_full_operations_definition default show_hierarchical_rank default write_horizontally default class_drawing_mode default drawing_language default package_name_in_tab default show_context default show_msg_context default draw_all_relations default shadow default show_stereotype_properties default
+	  //class diagram settings
+	  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+	  //object diagram settings
+	   write_horizontally default package_name_in_tab default show_context default auto_label_position default draw_all_relations default shadow default show_stereotype_properties default
+	  //state diagram settings
+	  package_name_in_tab default show_context default auto_label_position default write_trans_label_horizontally default show_trans_definition default draw_all_relations default shadow default
+	  show_activities default region_horizontally default drawing_language default show_stereotype_properties default
+	  //activity diagram settings
+	  package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+	  show_infonote default drawing_language default show_stereotype_properties default
+	  activity 228739 "FenceSegment"
+	  end
+	end
+
+	activity 195075 "FenceIterator"
+	  specification operation_ref 275587 // FenceIterator
+	  activitydiagram 227459 "fence_iterator"
+	    package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+	    show_infonote default drawing_language default show_stereotype_properties default
+	    size A4
+	  end
+
+	  parameter 168963 "fence" type class_ref 201859 // List
+	    unordered 
+	    in
+	    flow 380931 "<flow>"
+	      on pin_ref 255747 // list
+	    end
+
+	    flow 451587 "<flow>"
+	      on pin_ref 310915 // list
+	    end
+
+	    flow 451971 "<flow>"
+	      on pin_ref 311171 // list
+	    end
+	  end
+
+	  activityaction 282115 "Get list iterator"
+	    call_operation_action
+	    synchronous operation_ref 268547 // iterator
+	    pin 255747 "list" type class_ref 201859 // List
+	      unordered 
+	      in
+	    end
+
+	    pin 255875 "vertices" explicit_type "Iterator"
+	      unordered 
+	      return
+	      flow 380675 "<flow>"
+		on activityobject_ref 242947 // activity object vertices
+	      end
+	    end
+
+	    flow 451715 "<flow>"
+	      on activityaction_ref 335747 // activity action Number of verices
+	    end
+	  end
+
+	  activityaction 282371 "Get precision"
+	    read_variable_value_action
+	    attribute_ref 193283 // precision
+	    pin 256259 "precision" explicit_type "int"
+	      unordered 
+	      out
+	      flow 380547 "<flow>"
+		on activityobject_ref 242819 // activity object scale
+		    uml_transformation "10 * precision"
+	      end
+	    end
+
+	    flow 452483 "<flow>"
+	      on activityaction_ref 336003 // activity action Create segment
+	    end
+	  end
+
+	  activityobject 242819 "scale"
+	     explicit_type "short"
+	    unordered 
+	  end
+
+	  activityobject 242947 "vertices"
+	     type class_ref 134787 // iterator
+	    unordered 
+	  end
+
+	  activityaction 282499 "segment.vertex_b[x] = vertex.x"
+	    opaque_action
+	    flow 381059 "<flow>"
+	      on activityaction_ref 282627 // activity action segment.vertex_b[y] = vertex.y
+	    end
+	  end
+
+	  activityaction 282627 "segment.vertex_b[y] = vertex.y"
+	    opaque_action
+	    flow 381315 "<flow>"
+	      on activitynode_ref 250499 // activity_final
+	    end
+	  end
+
+	  activitynode 250499 activity_final ""
+	  end
+
+	  activityaction 335747 "Number of verices"
+	    call_operation_action
+	    synchronous operation_ref 322819 // size
+	    pin 310915 "list" type class_ref 201859 // List
+	      unordered 
+	      in
+	    end
+
+	    pin 311043 "count" explicit_type "int"
+	      unordered 
+	      return
+	      flow 452099 "<flow>"
+		on pin_ref 311427 // index
+		    uml_transformation "count - 1"
+	      end
+	    end
+	  end
+
+	  activityaction 335875 "Get last vertex"
+	    call_operation_action
+	    synchronous operation_ref 322691 // get
+	    pin 311171 "list" type class_ref 201859 // List
+	      unordered 
+	      in
+	    end
+
+	    pin 311299 "vertex" explicit_type "Object"
+	      unordered 
+	      return
+	      flow 452227 "<flow>"
+		on activityaction_ref 282371 // activity action Get precision
+	      end
+	    end
+
+	    pin 311427 "index" explicit_type "int"
+	      unordered 
+	      in
+	    end
+	  end
+
+	  activityaction 336003 "Create segment"
+	    opaque_action
+	    pin 311555 "segment" type class_ref 241667 // FenceSegment
+	      unordered 
+	      out
+	      flow 452355 "<flow>"
+		on activityaction_ref 282499 // activity action segment.vertex_b[x] = vertex.x
+	      end
+	    end
+	  end
+	end
+
+	activity 195331 "nextSegment"
+	  activitydiagram 234243 "next_vertex"
+	    package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+	    show_infonote default drawing_language default show_stereotype_properties default
+	    size A4
+	  end
+
+	  activityaction 255619 "vertex_b[y] > v[y]"
+	    opaque_action
+	    flow 350083 "<flow>"
+	      on activitynode_ref 229123 // decision
+	    end
+	  end
+
+	  activityobject 221955 "v"
+	     explicit_type ""
+	    unordered 
+	  end
+
+	  activityaction 256003 "v[x] = vertex.x * scale"
+	    opaque_action
+	    flow 358275 "<flow>"
+	      on activityobject_ref 221955 // activity object v
+	    end
+
+	    flow 358531 "<flow>"
+	      on activityaction_ref 256131 // activity action v[y] = vertex.y * scale
+	    end
+	  end
+
+	  activityaction 256131 "v[y] = vertex.y * scale"
+	    opaque_action
+	    flow 358403 "<flow>"
+	      on activityobject_ref 221955 // activity object v
+	    end
+
+	    flow 358659 "<flow>"
+	      on activityaction_ref 255619 // activity action vertex_b[y] > v[y]
+	    end
+	  end
+
+	  activityaction 256259 "vertex_a = v"
+	    opaque_action
+	    flow 350723 "<flow>"
+	      on activitynode_ref 229251 // merge
+	    end
+	  end
+
+	  activityaction 256515 "vertex_a = vertex_b"
+	    opaque_action
+	    flow 350467 "<flow>"
+	      on activityaction_ref 256643 // activity action vertex_b = v
+	    end
+	  end
+
+	  activityaction 256643 "vertex_b = v"
+	    opaque_action
+	    flow 350595 "<flow>"
+	      on activitynode_ref 229251 // merge
+	    end
+	  end
+
+	  activitynode 229123 decision ""
+	    flow 350211 "<flow>"
+	      on activityaction_ref 256259 // activity action vertex_a = v
+	    end
+
+	    flow 350339 "<flow>"
+	      on activityaction_ref 256515 // activity action vertex_a = vertex_b
+	    end
+	  end
+
+	  activitynode 229251 merge ""
+	    flow 358787 "<flow>"
+	      on activityaction_ref 256899 // activity action delta x
+	    end
+	  end
+
+	  activityobject 222083 "length"
+	     explicit_type ""
+	    unordered 
+	  end
+
+	  activityaction 256771 "hypotunuse"
+	    opaque_action
+	    flow 350851 "<flow>"
+	      on activityobject_ref 222083 // activity object length
+	    end
+
+	    flow 359171 "<flow>"
+	      on activityaction_ref 263811 // activity action Normalize x
+	    end
+	  end
+
+	  activityaction 256899 "delta x"
+	    opaque_action
+	    flow 350979 "<flow>"
+	      on activityobject_ref 222339 // activity object delta_x
+	    end
+
+	    flow 358915 "<flow>"
+	      on activityaction_ref 257027 // activity action delta y
+	    end
+	  end
+
+	  activityaction 257027 "delta y"
+	    opaque_action
+	    flow 351107 "<flow>"
+	      on activityobject_ref 222467 // activity object delta_y
+	    end
+
+	    flow 359043 "<flow>"
+	      on activityaction_ref 256771 // activity action hypotunuse
+	    end
+	  end
+
+	  activityaction 257155 "sign delta x"
+	    opaque_action
+	    flow 351491 "<flow>"
+	      on activityobject_ref 222595 // activity object dir_x
+	    end
+
+	    flow 359683 "<flow>"
+	      on activitynode_ref 235907 // activity_final
+	    end
+	  end
+
+	  activityobject 222339 "delta_x"
+	     explicit_type ""
+	    unordered 
+	  end
+
+	  activityobject 222467 "delta_y"
+	     explicit_type ""
+	    unordered 
+	  end
+
+	  activityobject 222595 "dir_x"
+	     explicit_type "int"
+	    unordered 
+	  end
+
+	  activityaction 263811 "Normalize x"
+	    opaque_action
+	    flow 358019 "<flow>"
+	      on activityobject_ref 229123 // activity object norm_x
+	    end
+
+	    flow 359299 "<flow>"
+	      on activityaction_ref 263939 // activity action Normalize y
+	    end
+	  end
+
+	  activityaction 263939 "Normalize y"
+	    opaque_action
+	    flow 358147 "<flow>"
+	      on activityobject_ref 229251 // activity object norm_y
+	    end
+
+	    flow 359427 "<flow>"
+	      on activityaction_ref 257155 // activity action sign delta x
+	    end
+	  end
+
+	  activityobject 229123 "norm_x"
+	     explicit_type ""
+	    unordered 
+	  end
+
+	  activityobject 229251 "norm_y"
+	     explicit_type ""
+	    unordered 
+	  end
+
+	  activitynode 235779 initial_node ""
+	    flow 359555 "<flow>"
+	      on activityaction_ref 256003 // activity action v[x] = vertex.x * scale
+	    end
+	  end
+
+	  activitynode 235907 activity_final ""
+	  end
+	end
+
+	activity 195459 "hasSegment"
+	  activitydiagram 240771 "has vertex"
+	    package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+	    show_infonote default drawing_language default show_stereotype_properties default
+	    size A4
+	  end
+
+	  parameter 175491 "Yes/No" explicit_type "bool"
+	    unordered 
+	    return
+	  end
+	end
+      end
+
+      usecaseview 147971 "ideas"
+	//use case diagram settings
+	package_name_in_tab default show_context default auto_label_position default draw_all_relations default class_drawing_mode default shadow default show_stereotype_properties default
+	//sequence diagram settings
+	show_full_operations_definition default write_horizontally default class_drawing_mode default drawing_language default draw_all_relations default shadow default show_stereotype_properties default show_class_context_mode default show_msg_context_mode default
+	//collaboration diagram settings
+	show_full_operations_definition default show_hierarchical_rank default write_horizontally default class_drawing_mode default drawing_language default package_name_in_tab default show_context default show_msg_context default draw_all_relations default shadow default show_stereotype_properties default
+	//class diagram settings
+	draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+	//object diagram settings
+	 write_horizontally default package_name_in_tab default show_context default auto_label_position default draw_all_relations default shadow default show_stereotype_properties default
+	//state diagram settings
+	package_name_in_tab default show_context default auto_label_position default write_trans_label_horizontally default show_trans_definition default draw_all_relations default shadow default
+	show_activities default region_horizontally default drawing_language default show_stereotype_properties default
+	//activity diagram settings
+	package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+	show_infonote default drawing_language default show_stereotype_properties default
+	activity 202627 "closeSection"
+	  activitydiagram 241411 "close_section"
+	    package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+	    show_infonote default drawing_language default show_stereotype_properties default
+	    size A4
+	  end
+	end
+
+	activity 202499 "moreSpace"
+	  activitydiagram 241283 "more_space"
+	    package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+	    show_infonote default drawing_language default show_stereotype_properties default
+	    size A4
+	  end
+
+	  activityobject 251907 "space"
+	     explicit_type ""
+	    unordered 
+	  end
+
+	  activityobject 252035 "record"
+	     explicit_type ""
+	    unordered 
+	  end
+	end
+
+	activity 180995 "Franklin_intersect"
+	  activitydiagram 214019 "intersect"
+	    package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+	    show_infonote default drawing_language default show_stereotype_properties default
+	    size A1
+	  end
+
+	  activityobject 195587 "x1"
+	     explicit_type "long"
+	    unordered 
+	    flow 306691 "<flow>"
+	      on activityaction_ref 226179 // activity action x2 - x1
+	    end
+	  end
+
+	  activityobject 195715 "y1"
+	     explicit_type "long"
+	    unordered 
+	  end
+
+	  activityobject 195843 "x2"
+	     explicit_type "long"
+	    unordered 
+	    flow 306819 "<flow>"
+	      on activityaction_ref 226179 // activity action x2 - x1
+	    end
+	  end
+
+	  activityobject 195971 "y2"
+	     explicit_type "long"
+	    unordered 
+	  end
+
+	  activityobject 196099 "x3"
+	     explicit_type "long"
+	    unordered 
+	    flow 307075 "<flow>"
+	      on activityaction_ref 226307 // activity action x3 - x4
+	    end
+	  end
+
+	  activityobject 196227 "y3"
+	     explicit_type "long"
+	    unordered 
+	  end
+
+	  activityobject 196355 "x4"
+	     explicit_type "long"
+	    unordered 
+	    flow 307203 "<flow>"
+	      on activityaction_ref 226307 // activity action x3 - x4
+	    end
+	  end
+
+	  activityobject 196483 "y4"
+	     explicit_type "long"
+	    unordered 
+	  end
+
+	  activityobject 196611 "x"
+	     explicit_type "long"
+	    unordered 
+	  end
+
+	  activityobject 196739 "y"
+	     explicit_type "long"
+	    unordered 
+	  end
+
+	  activityobject 196867 "Ax"
+	     explicit_type "long"
+	    unordered 
+	  end
+
+	  activityobject 196995 "Bx"
+	     explicit_type "long"
+	    unordered 
+	  end
+
+	  activityobject 197123 "Cx"
+	     explicit_type "long"
+	    unordered 
+	  end
+
+	  activityobject 197251 "Ay"
+	     explicit_type "long"
+	    unordered 
+	  end
+
+	  activityobject 197379 "By"
+	     explicit_type "long"
+	    unordered 
+	  end
+
+	  activityobject 197507 "Cy"
+	     explicit_type "long"
+	    unordered 
+	  end
+
+	  activityobject 197635 "d"
+	     explicit_type "long"
+	    unordered 
+	  end
+
+	  activityobject 197763 "e"
+	     explicit_type "long"
+	    unordered 
+	  end
+
+	  activityobject 197891 "f"
+	     explicit_type "long"
+	    unordered 
+	  end
+
+	  activityobject 198019 "num"
+	     explicit_type "long"
+	    unordered 
+	  end
+
+	  activityobject 198147 "offset"
+	     explicit_type "long"
+	    unordered 
+	  end
+
+	  activityobject 198275 "x1lo"
+	     explicit_type "short"
+	    unordered 
+	  end
+
+	  activityobject 198403 "x1hi"
+	     explicit_type "short"
+	    unordered 
+	  end
+
+	  activityobject 198531 "y1lo"
+	     explicit_type "short"
+	    unordered 
+	  end
+
+	  activityobject 198659 "y1hi"
+	     explicit_type "short"
+	    unordered 
+	  end
+
+	  activityaction 226179 "x2 - x1"
+	    opaque_action
+	    flow 306947 "<flow>"
+	      on activityobject_ref 196867 // activity object Ax
+	    end
+
+	    flow 307459 "<flow>"
+	      on activityaction_ref 226307 // activity action x3 - x4
+	    end
+	  end
+
+	  activityaction 226307 "x3 - x4"
+	    opaque_action
+	    flow 307331 "<flow>"
+	      on activityobject_ref 196995 // activity object Bx
+	    end
+
+	    flow 307587 "<flow>"
+	      on activityaction_ref 226435 // activity action Ax < 0
+	    end
+	  end
+
+	  activityaction 226435 "Ax < 0"
+	    opaque_action
+	    flow 308739 "<flow>"
+	      on activitynode_ref 204675 // decision
+	    end
+	  end
+
+	  activityaction 226563 "x1lo = x2"
+	    opaque_action
+	    flow 307843 "<flow>"
+	      on activityaction_ref 226691 // activity action x1hi = x1
+	    end
+
+	    flow 308355 "<flow>"
+	      on activityobject_ref 198275 // activity object x1lo
+	    end
+	  end
+
+	  activityaction 226691 "x1hi = x1"
+	    opaque_action
+	    flow 308483 "<flow>"
+	      on activityobject_ref 198403 // activity object x1hi
+	    end
+
+	    flow 308995 "<flow>"
+	      on activitynode_ref 204803 // merge
+	    end
+	  end
+
+	  activitynode 204675 decision ""
+	    flow 307715 "<flow>"
+	      on activityaction_ref 226563 // activity action x1lo = x2
+		uml_guard "True"
+	    end
+
+	    flow 307971 "<flow>"
+	      on activityaction_ref 226947 // activity action x1lo = x1
+	    end
+	  end
+
+	  activityaction 226819 "x1hi = x2"
+	    opaque_action
+	    flow 308611 "<flow>"
+	      on activityobject_ref 198403 // activity object x1hi
+	    end
+
+	    flow 308867 "<flow>"
+	      on activitynode_ref 204803 // merge
+	    end
+	  end
+
+	  activityaction 226947 "x1lo = x1"
+	    opaque_action
+	    flow 308099 "<flow>"
+	      on activityaction_ref 226819 // activity action x1hi = x2
+	    end
+
+	    flow 308227 "<flow>"
+	      on activityobject_ref 198275 // activity object x1lo
+	    end
+	  end
+
+	  activitynode 204803 merge ""
+	    flow 309123 "<flow>"
+	      on activityaction_ref 227075 // activity action Bx > 0
+	    end
+	  end
+
+	  activityaction 227075 "Bx > 0"
+	    opaque_action
+	    flow 309251 "<flow>"
+	      on activitynode_ref 204931 // decision
+	    end
+	  end
+
+	  activityaction 227203 "x1hi < x4 or x3 < x1lo"
+	    opaque_action
+	    flow 309507 "<flow>"
+	      on activitynode_ref 205059 // decision
+	    end
+	  end
+
+	  activitynode 204931 decision ""
+	    flow 309379 "<flow>"
+	      on activityaction_ref 227203 // activity action x1hi < x4 or x3 < x1lo
+		uml_guard "True"
+	    end
+
+	    flow 309763 "<flow>"
+	      on activityaction_ref 227459 // activity action x1hi < x3 or x4 < x1lo
+	    end
+	  end
+
+	  activitynode 205059 decision ""
+	    flow 310403 "<flow>"
+	      on activitynode_ref 205571 // merge
+	    end
+
+	    flow 315267 "<flow>"
+	      on activitynode_ref 206723 // merge
+		uml_guard "True"
+	    end
+	  end
+
+	  activityaction 227331 "DONT INTERSECT"
+	    opaque_action
+	    flow 309891 "<flow>"
+	      on activitynode_ref 205187 // flow_final
+	    end
+	  end
+
+	  activityaction 227459 "x1hi < x3 or x4 < x1lo"
+	    opaque_action
+	    flow 310019 "<flow>"
+	      on activitynode_ref 205315 // decision
+	    end
+	  end
+
+	  activitynode 205187 flow_final ""
+	  end
+
+	  activitynode 205315 decision ""
+	    flow 310531 "<flow>"
+	      on activitynode_ref 205571 // merge
+	    end
+
+	    flow 315139 "<flow>"
+	      on activitynode_ref 206723 // merge
+		uml_guard "True"
+	    end
+	  end
+
+	  activitynode 205571 merge ""
+	    flow 311683 "<flow>"
+	      on activityaction_ref 228099 // activity action Ay = y2 - y1
+	    end
+	  end
+
+	  activityaction 227587 "Cx = x1 - x3"
+	    opaque_action
+	    flow 310659 "<flow>"
+	      on activityobject_ref 197123 // activity object Cx
+	    end
+
+	    flow 311299 "<flow>"
+	      on activityaction_ref 227715 // activity action Cy = y1 - y3
+	    end
+	  end
+
+	  activityaction 227715 "Cy = y1 - y3"
+	    opaque_action
+	    flow 310787 "<flow>"
+	      on activityobject_ref 197507 // activity object Cy
+	    end
+
+	    flow 311427 "<flow>"
+	      on activityaction_ref 227843 // activity action d = By * Cx - Bx * Cy
+	    end
+	  end
+
+	  activityaction 227843 "d = By * Cx - Bx * Cy"
+	    opaque_action
+	    flow 310915 "<flow>"
+	      on activityobject_ref 197635 // activity object d
+	    end
+
+	    flow 311555 "<flow>"
+	      on activityaction_ref 227971 // activity action f = Ay * Bx - Ax * By
+	    end
+	  end
+
+	  activityaction 227971 "f = Ay * Bx - Ax * By"
+	    opaque_action
+	    flow 311043 "<flow>"
+	      on activityobject_ref 197891 // activity object f
+	    end
+
+	    flow 316547 "<flow>"
+	      on activityaction_ref 229379 // activity action f > 0
+	    end
+	  end
+
+	  activityaction 228099 "Ay = y2 - y1"
+	    opaque_action
+	    flow 311811 "<flow>"
+	      on activityaction_ref 228227 // activity action By = y3 - y4
+	    end
+
+	    flow 315907 "<flow>"
+	      on activityobject_ref 197251 // activity object Ay
+	    end
+	  end
+
+	  activityaction 228227 "By = y3 - y4"
+	    opaque_action
+	    flow 311939 "<flow>"
+	      on activityaction_ref 228355 // activity action Ay < 0
+	    end
+
+	    flow 316035 "<flow>"
+	      on activityobject_ref 197379 // activity object By
+	    end
+	  end
+
+	  activityaction 228355 "Ay < 0"
+	    opaque_action
+	    flow 312067 "<flow>"
+	      on activitynode_ref 205699 // decision
+	    end
+	  end
+
+	  activitynode 205699 decision ""
+	    flow 312707 "<flow>"
+	      on activityaction_ref 228867 // activity action y1lo = y1
+	    end
+
+	    flow 312835 "<flow>"
+	      on activityaction_ref 228483 // activity action y1lo = y2
+		uml_guard "True"
+	    end
+	  end
+
+	  activityaction 228483 "y1lo = y2"
+	    opaque_action
+	    flow 312195 "<flow>"
+	      on activityobject_ref 198531 // activity object y1lo
+	    end
+
+	    flow 312963 "<flow>"
+	      on activityaction_ref 228611 // activity action  y1hi = y1
+	    end
+	  end
+
+	  activityaction 228611 " y1hi = y1"
+	    opaque_action
+	    flow 312579 "<flow>"
+	      on activityobject_ref 198659 // activity object y1hi
+	    end
+
+	    flow 313219 "<flow>"
+	      on activitynode_ref 205827 // merge
+	    end
+	  end
+
+	  activityaction 228739 "y1hi = y2"
+	    opaque_action
+	    flow 312451 "<flow>"
+	      on activityobject_ref 198659 // activity object y1hi
+	    end
+
+	    flow 313347 "<flow>"
+	      on activitynode_ref 205827 // merge
+	    end
+	  end
+
+	  activityaction 228867 "y1lo = y1"
+	    opaque_action
+	    flow 312323 "<flow>"
+	      on activityobject_ref 198531 // activity object y1lo
+	    end
+
+	    flow 313091 "<flow>"
+	      on activityaction_ref 228739 // activity action y1hi = y2
+	    end
+	  end
+
+	  activitynode 205827 merge ""
+	    flow 315651 "<flow>"
+	      on activityaction_ref 228995 // activity action By > 0
+	    end
+	  end
+
+	  activityaction 228995 "By > 0"
+	    opaque_action
+	    flow 313475 "<flow>"
+	      on activitynode_ref 205955 // decision
+	    end
+	  end
+
+	  activitynode 205955 decision ""
+	    flow 313603 "<flow>"
+	      on activityaction_ref 229251 // activity action y1hi < y3 or y4 < y1lo
+	    end
+
+	    flow 313731 "<flow>"
+	      on activityaction_ref 229123 // activity action y1hi < y4 or y3 < y1lo
+		uml_guard "True"
+	    end
+	  end
+
+	  activityaction 229123 "y1hi < y4 or y3 < y1lo"
+	    opaque_action
+	    flow 314115 "<flow>"
+	      on activitynode_ref 206211 // decision
+	    end
+	  end
+
+	  activityaction 229251 "y1hi < y3 or y4 < y1lo"
+	    opaque_action
+	    flow 313987 "<flow>"
+	      on activitynode_ref 206083 // decision
+	    end
+	  end
+
+	  activitynode 206083 decision ""
+	    flow 314243 "<flow>"
+	      on activitynode_ref 206339 // merge
+	    end
+
+	    flow 314755 "<flow>"
+	      on activitynode_ref 206467 // merge
+		uml_guard "True"
+	    end
+	  end
+
+	  activitynode 206211 decision ""
+	    flow 314371 "<flow>"
+	      on activitynode_ref 206339 // merge
+	    end
+
+	    flow 314883 "<flow>"
+	      on activitynode_ref 206467 // merge
+		uml_guard "True"
+	    end
+	  end
+
+	  activitynode 206339 merge ""
+	    flow 315779 "<flow>"
+	      on activityaction_ref 227587 // activity action Cx = x1 - x3
+	    end
+	  end
+
+	  activitynode 206467 merge ""
+	    flow 315011 "<flow>"
+	      on activitynode_ref 206595 // merge
+	    end
+	  end
+
+	  activitynode 206595 merge ""
+	    flow 315395 "<flow>"
+	      on activityaction_ref 227331 // activity action DONT INTERSECT
+	    end
+	  end
+
+	  activitynode 206723 merge ""
+	    flow 315523 "<flow>"
+	      on activitynode_ref 206595 // merge
+	    end
+	  end
+
+	  activityaction 229379 "f > 0"
+	    opaque_action
+	    flow 316163 "<flow>"
+	      on activitynode_ref 206851 // decision
+	    end
+	  end
+
+	  activityaction 229507 "d < 0 or d > f"
+	    opaque_action
+	    flow 316803 "<flow>"
+	      on activitynode_ref 207107 // decision
+	    end
+	  end
+
+	  activitynode 206851 decision ""
+	    flow 316291 "<flow>"
+	      on activityaction_ref 229507 // activity action d < 0 or d > f
+		uml_guard "True"
+	    end
+
+	    flow 316419 "<flow>"
+	      on activityaction_ref 229635 // activity action d > 0 or d < f
+	    end
+	  end
+
+	  activityaction 229635 "d > 0 or d < f"
+	    opaque_action
+	    flow 316675 "<flow>"
+	      on activitynode_ref 206979 // decision
+	    end
+	  end
+
+	  activitynode 206979 decision ""
+	    flow 317059 "<flow>"
+	      on activitynode_ref 207235 // merge
+		uml_guard "True"
+	    end
+
+	    flow 317187 "<flow>"
+	      on activitynode_ref 207363 // merge
+	    end
+	  end
+
+	  activitynode 207107 decision ""
+	    flow 316931 "<flow>"
+	      on activitynode_ref 207235 // merge
+		uml_guard "True"
+	    end
+
+	    flow 317315 "<flow>"
+	      on activitynode_ref 207363 // merge
+	    end
+	  end
+
+	  activitynode 207235 merge ""
+	    flow 327683 "<flow>"
+	      on activitynode_ref 206595 // merge
+	    end
+	  end
+
+	  activitynode 207363 merge ""
+	    flow 317443 "<flow>"
+	      on activityaction_ref 229763 // activity action e = Ax * Cy - Ay * Cx
+	    end
+	  end
+
+	  activityaction 229763 "e = Ax * Cy - Ay * Cx"
+	    opaque_action
+	    flow 317571 "<flow>"
+	      on activityobject_ref 197763 // activity object e
+	    end
+
+	    flow 317699 "<flow>"
+	      on activityaction_ref 229891 // activity action f > 0
+	    end
+	  end
+
+	  activityaction 229891 "f > 0"
+	    opaque_action
+	    flow 317827 "<flow>"
+	      on activitynode_ref 207491 // decision
+	    end
+	  end
+
+	  activitynode 207491 decision ""
+	    flow 317955 "<flow>"
+	      on activityaction_ref 230019 // activity action e < 0 or e > f
+		uml_guard "True"
+	    end
+
+	    flow 318083 "<flow>"
+	      on activityaction_ref 230147 // activity action e > 0 or e < f
+	    end
+	  end
+
+	  activityaction 230019 "e < 0 or e > f"
+	    opaque_action
+	    flow 318339 "<flow>"
+	      on activitynode_ref 207747 // decision
+	    end
+	  end
+
+	  activityaction 230147 "e > 0 or e < f"
+	    opaque_action
+	    flow 318211 "<flow>"
+	      on activitynode_ref 207619 // decision
+	    end
+	  end
+
+	  activitynode 207619 decision ""
+	    flow 318595 "<flow>"
+	      on activitynode_ref 207875 // merge
+		uml_guard "True"
+	    end
+
+	    flow 318723 "<flow>"
+	      on activitynode_ref 208003 // merge
+	    end
+	  end
+
+	  activitynode 207747 decision ""
+	    flow 318467 "<flow>"
+	      on activitynode_ref 207875 // merge
+		uml_guard "True"
+	    end
+
+	    flow 318851 "<flow>"
+	      on activitynode_ref 208003 // merge
+	    end
+	  end
+
+	  activitynode 207875 merge ""
+	    flow 327555 "<flow>"
+	      on activitynode_ref 206595 // merge
+	    end
+	  end
+
+	  activitynode 208003 merge ""
+	    flow 318979 "<flow>"
+	      on activityaction_ref 230275 // activity action f == 0
+	    end
+	  end
+
+	  activityaction 230275 "f == 0"
+	    opaque_action
+	    flow 319363 "<flow>"
+	      on activitynode_ref 208131 // decision
+	    end
+	  end
+
+	  activityaction 230403 "num = d * Ax"
+	    opaque_action
+	    flow 319107 "<flow>"
+	      on activityobject_ref 198019 // activity object num
+	    end
+
+	    flow 326787 "<flow>"
+	      on activityaction_ref 237059 // activity action Same sign num and f
+	    end
+	  end
+
+	  activitynode 208131 decision ""
+	    flow 319491 "<flow>"
+	      on activityaction_ref 230403 // activity action num = d * Ax
+	    end
+
+	    flow 319619 "<flow>"
+	      on activityaction_ref 230531 // activity action PARALLEL
+		uml_guard "True"
+	    end
+	  end
+
+	  activityaction 230531 "PARALLEL"
+	    opaque_action
+	    flow 319747 "<flow>"
+	      on activitynode_ref 208259 // flow_final
+	    end
+	  end
+
+	  activitynode 208259 flow_final ""
+	  end
+
+	  activityaction 237059 "Same sign num and f"
+	    opaque_action
+	    flow 326915 "<flow>"
+	      on activitynode_ref 214787 // decision
+	    end
+	  end
+
+	  activityaction 237187 "f / 2 "
+	    opaque_action
+	    flow 326403 "<flow>"
+	      on activityobject_ref 198147 // activity object offset
+	    end
+
+	    flow 327427 "<flow>"
+	      on activitynode_ref 214915 // merge
+	    end
+	  end
+
+	  activityaction 237315 "- f / 2"
+	    opaque_action
+	    flow 326275 "<flow>"
+	      on activityobject_ref 198147 // activity object offset
+	    end
+
+	    flow 327299 "<flow>"
+	      on activitynode_ref 214915 // merge
+	    end
+	  end
+
+	  activitynode 214787 decision ""
+	    flow 327043 "<flow>"
+	      on activityaction_ref 237315 // activity action - f / 2
+	    end
+
+	    flow 327171 "<flow>"
+	      on activityaction_ref 237187 // activity action f / 2 
+		uml_guard "True"
+	    end
+	  end
+
+	  activitynode 214915 merge ""
+	    flow 327811 "<flow>"
+	      on activityaction_ref 237443 // activity action x = x1 + (num + offset) / f
+	    end
+	  end
+
+	  activityaction 237443 "x = x1 + (num + offset) / f"
+	    opaque_action
+	    flow 329475 "<flow>"
+	      on activityobject_ref 196611 // activity object x
+	    end
+
+	    flow 329731 "<flow>"
+	      on activityaction_ref 238211 // activity action DO INTERSECT
+	    end
+	  end
+
+	  activityaction 237571 "num = d * Ay"
+	    opaque_action
+	    flow 328067 "<flow>"
+	      on activityaction_ref 237699 // activity action Same sign num and f
+	    end
+
+	    flow 329603 "<flow>"
+	      on activityobject_ref 198019 // activity object num
+	    end
+	  end
+
+	  activityaction 237699 "Same sign num and f"
+	    opaque_action
+	    flow 328195 "<flow>"
+	      on activitynode_ref 215043 // decision
+	    end
+	  end
+
+	  activitynode 215043 decision ""
+	    flow 327939 "<flow>"
+	      on activityaction_ref 237827 // activity action f / 2
+		uml_guard "True"
+	    end
+
+	    flow 328323 "<flow>"
+	      on activityaction_ref 237955 // activity action - f / 2
+	    end
+	  end
+
+	  activityaction 237827 "f / 2"
+	    opaque_action
+	    flow 328579 "<flow>"
+	      on activityobject_ref 198147 // activity object offset
+	    end
+
+	    flow 328835 "<flow>"
+	      on activitynode_ref 215171 // merge
+	    end
+	  end
+
+	  activityaction 237955 "- f / 2"
+	    opaque_action
+	    flow 328451 "<flow>"
+	      on activityobject_ref 198147 // activity object offset
+	    end
+
+	    flow 328707 "<flow>"
+	      on activitynode_ref 215171 // merge
+	    end
+	  end
+
+	  activityaction 238083 "y = y1 + (num + offset) / f"
+	    opaque_action
+	    flow 329347 "<flow>"
+	      on activityobject_ref 196739 // activity object y
+	    end
+
+	    flow 329859 "<flow>"
+	      on activityaction_ref 238211 // activity action DO INTERSECT
+	    end
+	  end
+
+	  activitynode 215171 merge ""
+	    flow 328963 "<flow>"
+	      on activityaction_ref 238083 // activity action y = y1 + (num + offset) / f
+	    end
+	  end
+
+	  activityaction 238211 "DO INTERSECT"
+	    opaque_action
+	    flow 329987 "<flow>"
+	      on activitynode_ref 215427 // activity_final
+	    end
+	  end
+
+	  activitynode 215427 activity_final ""
+	  end
+
+	  activitynode 215555 initial_node ""
+	    flow 330115 "<flow>"
+	      on activityaction_ref 226179 // activity action x2 - x1
+	    end
+	  end
+	end
+
+	activity 194563 "Create segment"
+	end
+
+	activity 194435 "Mark corners"
+	end
+
+	activity 194307 "Edge_hit_TB"
+	end
+
+	activity 194179 "Edge_hit_RL"
+	  activitydiagram 227203 "edge_RL"
+	    package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+	    show_infonote default drawing_language default show_stereotype_properties default
+	    size A4
+	  end
+	end
+
+	activity 187523 "intersect"
+	  activitydiagram 220547 "intersect"
+	    package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+	    show_infonote default drawing_language default show_stereotype_properties default
+	    size A4
+	  end
+
+	  activityobject 205187 "fence"
+	     type class_ref 141827 // Segment
+	    unordered 
+	  end
+
+	  activityobject 205315 "pos"
+	     explicit_type "long[]"
+	    unordered 
+	  end
+
+	  activityobject 205443 "corner"
+	     explicit_type "long[]"
+	    unordered 
+	  end
+
+	  activityobject 205955 "aa_x"
+	     explicit_type "long"
+	    unordered 
+	  end
+
+	  activityobject 206083 "aa_y"
+	     explicit_type "long"
+	    unordered 
+	  end
+
+	  activityobject 206211 "ab_x"
+	     explicit_type "long"
+	    unordered 
+	  end
+
+	  activityobject 206339 "ab_y"
+	     explicit_type "long"
+	    unordered 
+	  end
+
+	  activityobject 206467 "ba_x"
+	     explicit_type "long"
+	    unordered 
+	  end
+
+	  activityobject 206595 "ba_y"
+	     explicit_type "long"
+	    unordered 
+	  end
+
+	  activityaction 238851 "flag = ba_x < low_x && bb_x < low_x"
+	    opaque_action
+	    pin 240515 "flag" explicit_type ""
+	      unordered 
+	      out
+	      flow 331011 "<flow>"
+		on activityaction_ref 238979 // activity action flag |= ba_y < low_y && bb_y < low_y
+	      end
+	    end
+	  end
+
+	  activityaction 238979 "flag |= ba_y < low_y && bb_y < low_y"
+	    opaque_action
+	    pin 240643 "flag" explicit_type ""
+	      unordered 
+	      out
+	      flow 331139 "<flow>"
+		on activityaction_ref 239107 // activity action flag |= high_x < ba_x && high_x < bb_x
+	      end
+	    end
+	  end
+
+	  activityaction 239107 "flag |= high_x < ba_x && high_x < bb_x"
+	    opaque_action
+	    pin 240771 "flag" explicit_type ""
+	      unordered 
+	      out
+	      flow 331267 "<flow>"
+		on activityaction_ref 239235 // activity action flag |= high_y < ba_y && high_y < bb_y
+	      end
+	    end
+	  end
+
+	  activityaction 239235 "flag |= high_y < ba_y && high_y < bb_y"
+	    opaque_action
+	    pin 240899 "flag" explicit_type ""
+	      unordered 
+	      out
+	    end
+	  end
+
+	  activityaction 239363 "OR"
+	    opaque_action
+	  end
+	end
+
+	activity 174467 "Create_segment"
+	  activitydiagram 227587 "create_segment"
+	    package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+	    show_infonote default drawing_language default show_stereotype_properties default
+	    size A4
+	  end
+
+	  activityaction 248451 "length = hypotenuse"
+	    opaque_action
+	  end
+
+	  activityaction 248579 "scale to long"
+	    opaque_action
+	  end
+
+	  activityaction 248707 "dx = a[x] - b[x]"
+	    opaque_action
+	  end
+
+	  activityaction 248835 "dy = a[y] - b[y]"
+	    opaque_action
+	  end
+	end
+      end
+
+      activity 194691 "Create grid"
+	activitydiagram 227075 "create_grid"
+	  package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations no shadow default
+	  show_infonote default drawing_language default show_stereotype_properties default
+	  size A4
+	end
+
+	activityaction 245891 "Get a java Iterator"
+	  call_operation_action
+	  synchronous operation_ref 268547 // iterator
+	  pin 247427 "fence" type class_ref 201859 // List
+	    unordered 
+	    in
+	  end
+
+	  pin 247555 "vertices" explicit_type "Iterator"
+	    unordered 
+	    return
+	    flow 339075 "<flow>"
+	      on expansionnode_ref 134659 // vertices
+	    end
+
+	    flow 341891 "<flow>"
+	      on activityaction_ref 247171 // activity action Get first vertex
+	    end
+	  end
+	end
+
+	activityaction 246019 "point_x < min_x"
+	  opaque_action
+	  flow 338691 "<flow>"
+	    on activityaction_ref 246147 // activity action point_x > max_x
+	  end
+
+	  flow 339203 "<flow>"
+	    on activityobject_ref 213379 // activity object min_x
+	  end
+	end
+
+	activityaction 246147 "point_x > max_x"
+	  opaque_action
+	  flow 338819 "<flow>"
+	    on activityaction_ref 246275 // activity action point_y < min_y
+	  end
+
+	  flow 339331 "<flow>"
+	    on activityobject_ref 213507 // activity object min_y
+	  end
+	end
+
+	activityaction 246275 "point_y < min_y"
+	  opaque_action
+	  flow 338947 "<flow>"
+	    on activityaction_ref 246403 // activity action point_y > max_y
+	  end
+
+	  flow 339459 "<flow>"
+	    on activityobject_ref 213635 // activity object max_x
+	  end
+	end
+
+	activityaction 246403 "point_y > max_y"
+	  opaque_action
+	  flow 339587 "<flow>"
+	    on activityobject_ref 213763 // activity object max_y
+	  end
+	end
+
+	activityaction 246531 "Get scale"
+	  opaque_action
+	  pin 248451 "scale" explicit_type "double[]"
+	    unordered 
+	    out
+	    flow 341251 "<flow>"
+	      on pin_ref 248323 // scale
+	    end
+	  end
+	end
+
+	activityaction 246659 "Grow 1 % min and max values"
+	  opaque_action
+	  flow 340739 "<flow>"
+	    on activitynode_ref 222211 // decision
+	  end
+	end
+
+	activityaction 246787 "Create table grid"
+	  call_operation_action
+	  synchronous operation_ref 268803 // Grid
+	  pin 247811 "grid" type class_ref 142083 // Grid
+	    unordered 
+	    return
+	    flow 341763 "<flow>"
+	      on parameter_ref 162307 // grid
+	    end
+	  end
+
+	  pin 247939 "res" explicit_type "int[]"
+	    unordered 
+	    in
+	  end
+
+	  pin 248067 "origin" explicit_type "double[]"
+	    unordered 
+	    in
+	  end
+
+	  pin 248195 "size" explicit_type "double[]"
+	    unordered 
+	    in
+	  end
+
+	  pin 248323 "scale" explicit_type "short"
+	    unordered 
+	    in
+	  end
+	end
+
+	parameter 162179 "fence" type class_ref 201859 // List
+	  unordered 
+	  in
+	  flow 339715 "<flow>"
+	    on pin_ref 247427 // fence
+	  end
+	end
+
+	parameter 162307 "grid" type class_ref 142083 // Grid
+	  unordered 
+	  return
+	end
+
+	expansionregion 134531 "Find min / max value"
+	  iterative
+	  expansionnode 134659 "vertices"
+	     type class_ref 134787 // iterator
+	    unordered 
+	    flow 338563 "<flow>"
+	      on activityaction_ref 246019 // activity action point_x < min_x
+	    end
+	  end
+
+	  activityobject 213379 "min_x"
+	     explicit_type "long"
+	    unordered 
+	    flow 339971 "<flow>"
+	      on activityaction_ref 246659 // activity action Grow 1 % min and max values
+	    end
+	  end
+
+	  activityobject 213507 "min_y"
+	     explicit_type "long"
+	    unordered 
+	    flow 340099 "<flow>"
+	      on activityaction_ref 246659 // activity action Grow 1 % min and max values
+	    end
+	  end
+
+	  activityobject 213635 "max_x"
+	     explicit_type "long"
+	    unordered 
+	    flow 340227 "<flow>"
+	      on activityaction_ref 246659 // activity action Grow 1 % min and max values
+	    end
+	  end
+
+	  activityobject 213763 "max_y"
+	     explicit_type "long"
+	    unordered 
+	    flow 339843 "<flow>"
+	      on activityaction_ref 246659 // activity action Grow 1 % min and max values
+	    end
+	  end
+	end
+
+	activityaction 246915 "origin"
+	  opaque_action
+	  pin 248579 "min_xy" explicit_type "double[]"
+	    unordered 
+	    out
+	    flow 341379 "<flow>"
+	      on pin_ref 248067 // origin
+	    end
+	  end
+	end
+
+	activityaction 247043 "size"
+	  opaque_action
+	  pin 248707 "diff" explicit_type "double[]"
+	    unordered 
+	    out
+	    flow 341507 "<flow>"
+	      on pin_ref 248195 // size
+	    end
+	  end
+	end
+
+	activitynode 222211 decision ""
+	  flow 340867 "<flow>"
+	    on activityaction_ref 246531 // activity action Get scale
+	  end
+
+	  flow 340995 "<flow>"
+	    on activityaction_ref 246915 // activity action origin
+	  end
+
+	  flow 341123 "<flow>"
+	    on activityaction_ref 247043 // activity action size
+	  end
+	end
+
+	parameter 162435 "resolution" explicit_type "int[]"
+	  unordered 
+	  in
+	  flow 341635 "<flow>"
+	    on pin_ref 247939 // res
+	  end
+	end
+
+	activityaction 247171 "Get first vertex"
+	  opaque_action
+	  flow 342019 "<flow>"
+	    on activityaction_ref 246531 // activity action Get scale
+	  end
+	end
+      end
+
+      activity 202115 "entryAt"
+	activitydiagram 240899 "entry_at"
+	  package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+	  show_infonote default drawing_language default show_stereotype_properties default
+	  size A4
+	end
+
+	activityobject 249987 "tile_index"
+	   explicit_type ""
+	  unordered 
+	  flow 391171 "<flow>"
+	    on activityaction_ref 289411 // activity action tile_index[at]
+	  end
+	end
+
+	activityaction 289411 "tile_index[at]"
+	  opaque_action
+	  flow 391299 "<flow>"
+	    on activityobject_ref 250243 // activity object i
+	  end
+	end
+
+	activityobject 250243 "i"
+	   explicit_type "int"
+	  unordered 
+	  flow 391427 "<flow>"
+	    on activityaction_ref 289539 // activity action i >= 0
+	  end
+	end
+
+	activityaction 289539 "i >= 0"
+	  opaque_action
+	  flow 390531 "<flow>"
+	    on activitynode_ref 257155 // decision
+	  end
+	end
+
+	activitynode 257155 decision ""
+	  flow 391811 "<flow>"
+	    on activityaction_ref 289923 // activity action new TileEntry(tile_data[i], at, FENCE)
+	      uml_guard "True"
+	  end
+
+	  flow 391939 "<flow>"
+	    on activityaction_ref 289667 // activity action new TileEntry(new TileData(), at, tile_index[at])
+	  end
+	end
+
+	activityaction 289667 "new TileEntry(new TileData(), at, tile_index[at])"
+	  opaque_action
+	  flow 391555 "<flow>"
+	    on activitynode_ref 257283 // merge
+	  end
+	end
+
+	activityobject 250371 "entry"
+	   type class_ref 215171 // Tile
+	  unordered 
+	  flow 392195 "<flow>"
+	    on parameter_ref 175747 // entry
+	  end
+	end
+
+	activityaction 289923 "new TileEntry(tile_data[i], at, FENCE)"
+	  opaque_action
+	  flow 391683 "<flow>"
+	    on activitynode_ref 257283 // merge
+	  end
+	end
+
+	activityobject 250499 "FENCE"
+	   explicit_type "int"
+	  unordered 
+	  flow 390915 "<flow>"
+	    on activityaction_ref 289923 // activity action new TileEntry(tile_data[i], at, FENCE)
+	  end
+	end
+
+	activitynode 257283 merge ""
+	  flow 392323 "<flow>"
+	    on activityobject_ref 250371 // activity object entry
+	  end
+	end
+
+	parameter 175619 "at" explicit_type "int"
+	  unordered 
+	  in
+	  flow 392067 "<flow>"
+	    on activityaction_ref 289411 // activity action tile_index[at]
+	  end
+	end
+
+	parameter 175747 "entry" type class_ref 215171 // Tile
+	  unordered 
+	  return
+	end
+      end
+
+      activity 202371 "samePos"
+	specification operation_ref 289155 // samePos
+	activitydiagram 241155 "same_pos"
+	  package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+	  show_infonote default drawing_language default show_stereotype_properties default
+	  size A4
+	end
+
+	parameter 176259 "a" explicit_type "long[]"
+	  unordered 
+	  in
+	  flow 394627 "<flow>"
+	    on activityaction_ref 290819 // activity action (a[x] == b[x]) and (a[y] == b[y])
+	  end
+	end
+
+	parameter 176387 "b" explicit_type "long[]"
+	  unordered 
+	  in
+	  flow 394755 "<flow>"
+	    on activityaction_ref 290819 // activity action (a[x] == b[x]) and (a[y] == b[y])
+	  end
+	end
+
+	parameter 176515 "True/False" explicit_type "bool"
+	  unordered 
+	  return
+	end
+
+	activityaction 290819 "(a[x] == b[x]) and (a[y] == b[y])"
+	  opaque_action
+	  pin 264963 "same" explicit_type "bool"
+	    unordered 
+	    out
+	    flow 394883 "<flow>"
+	      on parameter_ref 176515 // True/False
+	    end
+	  end
+	end
+      end
+
+      usecaseview 148099 "SectionBuilder"
+	//use case diagram settings
+	package_name_in_tab default show_context default auto_label_position default draw_all_relations default class_drawing_mode default shadow default show_stereotype_properties default
+	//sequence diagram settings
+	show_full_operations_definition default write_horizontally default class_drawing_mode default drawing_language default draw_all_relations default shadow default show_stereotype_properties default show_class_context_mode default show_msg_context_mode default
+	//collaboration diagram settings
+	show_full_operations_definition default show_hierarchical_rank default write_horizontally default class_drawing_mode default drawing_language default package_name_in_tab default show_context default show_msg_context default draw_all_relations default shadow default show_stereotype_properties default
+	//class diagram settings
+	draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+	//object diagram settings
+	 write_horizontally default package_name_in_tab default show_context default auto_label_position default draw_all_relations default shadow default show_stereotype_properties default
+	//state diagram settings
+	package_name_in_tab default show_context default auto_label_position default write_trans_label_horizontally default show_trans_definition default draw_all_relations default shadow default
+	show_activities default region_horizontally default drawing_language default show_stereotype_properties default
+	//activity diagram settings
+	package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+	show_infonote default drawing_language default show_stereotype_properties default
+	activity 209155 "addSegment"
+	  activitydiagram 247939 "add_segment"
+	    package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+	    show_infonote default drawing_language default show_stereotype_properties default
+	    size A4
+	  end
+
+	  activityobject 258691 "tile"
+	     type class_ref 195331 // TileData
+	    unordered 
+	  end
+
+	  activityobject 258819 "section"
+	     type class_ref 221827 // Section
+	    unordered 
+	    flow 406403 "<flow>"
+	      on pin_ref 272387 // entry
+	    end
+	  end
+
+	  activityobject 258947 "a"
+	     explicit_type ""
+	    unordered 
+	    flow 406147 "<flow>"
+	      on pin_ref 272515 // a
+	    end
+	  end
+
+	  activityobject 259075 "b"
+	     explicit_type ""
+	    unordered 
+	    flow 406275 "<flow>"
+	      on pin_ref 272643 // b
+	    end
+	  end
+
+	  activityobject 259203 "close"
+	     explicit_type ""
+	    unordered 
+	  end
+
+	  activityobject 259331 "cross_edge"
+	     explicit_type ""
+	    unordered 
+	  end
+
+	  activityaction 298371 "tile.parity_y XOR cross_y"
+	    read_variable_value_action
+	    no_variable
+	  end
+
+	  activityaction 298499 "Add segment"
+	    call_operation_action
+	    synchronous operation_ref 282371 // addSegment
+	    pin 272387 "entry" type class_ref 221827 // Section
+	      unordered 
+	      in
+	    end
+
+	    pin 272515 "a" explicit_type "long[]"
+	      unordered 
+	      in
+	    end
+
+	    pin 272643 "b" explicit_type "long[]"
+	      unordered 
+	      in
+	    end
+
+	    flow 407043 "<flow>"
+	      on activityaction_ref 298883 // activity action Edge crossed
+	    end
+	  end
+
+	  activityaction 298627 "cross_edge"
+	    opaque_action
+	  end
+
+	  activityaction 298755 "tile.status OR cross_edge"
+	    opaque_action
+	    pin 273539 "status" explicit_type "int"
+	      unordered 
+	      out
+	    end
+	  end
+
+	  activityaction 298883 "Edge crossed"
+	    opaque_action
+	    flow 406659 "<flow>"
+	      on activitynode_ref 264707 // decision
+	    end
+	  end
+
+	  activitynode 264707 decision ""
+	  end
+	end
+      end
+
+      activity 215683 "flipFlags"
+	activitydiagram 254467 "flip_edge"
+	  package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+	  show_infonote default drawing_language default show_stereotype_properties default
+	  size A4
+	end
+
+	activityaction 319875 "All edges"
+	  opaque_action
+	  flow 431875 "<flow>"
+	    on activitynode_ref 271363 // decision
+	  end
+	end
+
+	activityaction 320003 "Top edge"
+	  opaque_action
+	end
+
+	activityaction 320131 "Right edge"
+	  opaque_action
+	end
+
+	activityaction 320259 "Left edge"
+	  opaque_action
+	end
+
+	activityaction 320387 "Bottom edge"
+	  opaque_action
+	end
+
+	activitynode 271363 decision ""
+	end
+
+	activityaction 320515 "flags XOR mask"
+	  opaque_action
+	end
+      end
+
+      activity 222211 "markCorners"
+	activitydiagram 260995 "mark corners"
+	  package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+	  show_infonote default drawing_language default show_stereotype_properties default
+	  size A1
+	end
+
+	activityaction 327555 "corner[row * 4] = OUTSIDE"
+	  opaque_action
+	  flow 444803 "<flow>"
+	    on activityobject_ref 279683 // activity object index
+	  end
+	end
+
+	activityobject 279427 "res"
+	   explicit_type "int[]"
+	  unordered 
+	  flow 440707 "<flow>"
+	    on activityaction_ref 327555 // activity action corner[row * 4] = OUTSIDE
+		uml_transformation "row = res[x]"
+	  end
+	end
+
+	activityaction 327683 "Grid::resolution()"
+	  call_operation_action
+	  synchronous operation_ref 316163 // resolution
+	  pin 304259 "grid" type class_ref 142083 // Grid
+	    unordered 
+	    in
+	  end
+
+	  pin 304387 "res" explicit_type "int[]"
+	    unordered 
+	    return
+	    flow 440451 "<flow>"
+	      on activityobject_ref 279427 // activity object res
+	    end
+	  end
+	end
+
+	activityobject 279555 "grid"
+	   type class_ref 142083 // Grid
+	  unordered 
+	  flow 440579 "<flow>"
+	    on pin_ref 304259 // grid
+	  end
+	end
+
+	activityobject 279683 "index"
+	   explicit_type "int"
+	  unordered 
+	  flow 444931 "<flow>"
+	    on activitynode_ref 279043 // merge
+	  end
+	end
+
+	activityaction 327939 "index < length of table_data"
+	  opaque_action
+	  flow 441219 "<flow>"
+	    on activitynode_ref 278147 // decision
+	  end
+	end
+
+	activitynode 278147 decision ""
+	  flow 444547 "<flow>"
+	    on activityaction_ref 329091 // activity action index % row == 0
+	  end
+
+	  flow 444675 "<flow>"
+	    on activitynode_ref 279299 // activity_final
+	  end
+	end
+
+	activityaction 328067 "Get tile data"
+	  opaque_action
+	  flow 441347 "<flow>"
+	    on activityobject_ref 279811 // activity object tile_data
+	  end
+
+	  flow 444163 "<flow>"
+	    on activityaction_ref 328451 // activity action Tile parity 
+	  end
+	end
+
+	activityobject 279811 "tile_data"
+	   type class_ref 195331 // TileData
+	  unordered 
+	end
+
+	activityaction 328195 "Set corners"
+	  opaque_action
+	  flow 443779 "<flow>"
+	    on activitynode_ref 278915 // merge
+	  end
+	end
+
+	activityaction 328323 "Tile type"
+	  opaque_action
+	  flow 441475 "<flow>"
+	    on activitynode_ref 278275 // decision
+	  end
+	end
+
+	activityaction 328451 "Tile parity "
+	  opaque_action
+	  flow 441731 "<flow>"
+	    on activitynode_ref 278403 // decision
+	  end
+	end
+
+	activitynode 278275 decision ""
+	  flow 442627 "<flow>"
+	    on activityaction_ref 328067 // activity action Get tile data
+	      uml_guard "Fence"
+	  end
+
+	  flow 442755 "<flow>"
+	    on activityaction_ref 328963 // activity action Set type
+	      uml_guard "Not fence"
+	  end
+	end
+
+	activitynode 278403 decision ""
+	  flow 441859 "<flow>"
+	    on activityaction_ref 328579 // activity action Clear TR
+	  end
+
+	  flow 441987 "<flow>"
+	    on activityaction_ref 328707 // activity action Raise TR
+	  end
+	end
+
+	activityaction 328579 "Clear TR"
+	  opaque_action
+	  flow 442243 "<flow>"
+	    on activitynode_ref 278531 // merge
+	  end
+	end
+
+	activityaction 328707 "Raise TR"
+	  opaque_action
+	  flow 442115 "<flow>"
+	    on activitynode_ref 278531 // merge
+	  end
+	end
+
+	activitynode 278531 merge ""
+	  flow 442371 "<flow>"
+	    on activityaction_ref 328195 // activity action Set corners
+	  end
+	end
+
+	activityaction 328835 "Rotate corners"
+	  opaque_action
+	  flow 443267 "<flow>"
+	    on activitynode_ref 278787 // merge
+	  end
+	end
+
+	activityaction 328963 "Set type"
+	  opaque_action
+	  flow 443523 "<flow>"
+	    on activitynode_ref 278915 // merge
+	  end
+	end
+
+	activityaction 329091 "index % row == 0"
+	  opaque_action
+	  flow 442883 "<flow>"
+	    on activitynode_ref 278659 // decision
+	  end
+	end
+
+	activitynode 278659 decision ""
+	  flow 443011 "<flow>"
+	    on activityaction_ref 328323 // activity action Tile type
+	      uml_guard "No"
+	  end
+
+	  flow 443139 "<flow>"
+	    on activityaction_ref 328835 // activity action Rotate corners
+	  end
+	end
+
+	activitynode 278787 merge ""
+	  flow 444419 "<flow>"
+	    on activitynode_ref 279043 // merge
+	  end
+	end
+
+	activityaction 329219 "index++"
+	  opaque_action
+	  flow 444035 "<flow>"
+	    on activitynode_ref 278787 // merge
+	  end
+	end
+
+	activitynode 278915 merge ""
+	  flow 443907 "<flow>"
+	    on activityaction_ref 329219 // activity action index++
+	  end
+	end
+
+	activitynode 279043 merge ""
+	  flow 444291 "<flow>"
+	    on activityaction_ref 327939 // activity action index < length of table_data
+	  end
+	end
+
+	activitynode 279299 activity_final ""
+	end
+      end
+    end
+
+    usecaseview 134659 "service"
+      //use case diagram settings
+      package_name_in_tab default show_context default auto_label_position default draw_all_relations default class_drawing_mode default shadow default show_stereotype_properties default
+      //sequence diagram settings
+      show_full_operations_definition default write_horizontally default class_drawing_mode default drawing_language default draw_all_relations default shadow default show_stereotype_properties default show_class_context_mode default show_msg_context_mode default
+      //collaboration diagram settings
+      show_full_operations_definition default show_hierarchical_rank default write_horizontally default class_drawing_mode default drawing_language default package_name_in_tab default show_context default show_msg_context default draw_all_relations default shadow default show_stereotype_properties default
+      //class diagram settings
+      draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+      //object diagram settings
+       write_horizontally default package_name_in_tab default show_context default auto_label_position default draw_all_relations default shadow default show_stereotype_properties default
+      //state diagram settings
+      package_name_in_tab default show_context default auto_label_position default write_trans_label_horizontally default show_trans_definition default draw_all_relations default shadow default
+      show_activities default region_horizontally default drawing_language default show_stereotype_properties default
+      //activity diagram settings
+      package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+      show_infonote default drawing_language default show_stereotype_properties default
+      activity 128003 "Location_event"
+	activitydiagram 160899 "location_event"
+	  package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations no shadow default
+	  show_infonote default drawing_language default show_stereotype_properties default
+	  size A4
+	end
+
+	activityaction 128003 "Get GPS position"
+	  opaque_action
+	  flow 135939 "<flow>"
+	    on activityobject_ref 128003 // activity object sflj
+	  end
+
+	  flow 235011 "<flow>"
+	    on activityobject_ref 175747 // activity object gps_pos
+	  end
+	end
+
+	activitynode 128131 decision ""
+	  flow 135043 "<flow>"
+	    on activitynode_ref 134659 // merge
+	      uml_guard "in space"
+	  end
+
+	  flow 292227 "<flow>"
+	    on activityaction_ref 215299 // activity action Get tile occupied by user
+	      uml_guard "Space needed"
+	  end
+	end
+
+	activityaction 134787 "Update user space"
+	  call_behavior_action
+	  synchronous activity_ref 174211 // Update_space
+	  pin 233219 "marker" type class_ref 188803 // Area
+	    unordered 
+	    in
+	  end
+
+	  pin 233347 "myself" type class_ref 148611 // User
+	    unordered 
+	    in
+	  end
+
+	  flow 294019 "<flow>"
+	    on activitynode_ref 134659 // merge
+	  end
+	end
+
+	activitynode 134659 merge ""
+	  flow 261379 "<flow>"
+	    on activityaction_ref 142595 // activity action Max time to next check
+	  end
+	end
+
+	activitynode 134787 activity_final ""
+	end
+
+	activityobject 128003 "sflj"
+	   explicit_type ""
+	  unordered 
+	end
+
+	activityaction 135171 "Check location"
+	  accept_event_action
+	  timeevent
+	  flow 136067 "<flow>"
+	    on activityaction_ref 128003 // activity action Get GPS position
+	  end
+	end
+
+	activitypartition 128131 "Android"
+	end
+
+	activitypartition 128259 "Enclosure"
+	end
+
+	activitypartition 128387 "Behavior"
+	end
+
+	activityaction 135299 "Set alarm for next check"
+	  opaque_action
+	  flow 136451 "<flow>"
+	    on activitynode_ref 134787 // activity_final
+	  end
+	end
+
+	activityaction 135427 "Update of user space needed ?"
+	  call_behavior_action
+	  synchronous activity_ref 147715 // Space_needed
+	  pin 136579 "answer" explicit_type "bool"
+	    unordered 
+	    out
+	    flow 261251 "<flow>"
+	      on activitynode_ref 128131 // decision
+	    end
+	  end
+
+	  pin 181251 "myself" type class_ref 148611 // User
+	    unordered 
+	    in
+	  end
+	end
+
+	activityaction 135555 "Update user position"
+	  call_behavior_action
+	  synchronous activity_ref 147587 // Update_position
+	  flow 137347 "<flow>"
+	    on activityaction_ref 135427 // activity action Update of user space needed ?
+	  end
+
+	  pin 181123 "myself" type class_ref 148611 // User
+	    unordered 
+	    in
+	  end
+	end
+
+	activitynode 135043 decision ""
+	  flow 137731 "<flow>"
+	    on activityaction_ref 135811 // activity action User escaped !
+	      uml_guard "Outside"
+	  end
+
+	  flow 144515 "<flow>"
+	    on activityaction_ref 134787 // activity action Update user space
+	      uml_guard "Inside"
+	  end
+	end
+
+	activityaction 135811 "User escaped !"
+	  broadcast_signal_action
+	  pin 233475 "myself" type class_ref 148611 // User
+	    unordered 
+	    in
+	  end
+	end
+
+	activityaction 142595 "Max time to next check"
+	  call_behavior_action
+	  synchronous activity_ref 134531 // Calc_Time
+	  associated_diagram activitydiagram_ref 160899 // location_event
+	  pin 233859 "myself" type class_ref 148611 // User
+	    unordered 
+	    in
+	  end
+
+	  pin 233987 "seconds" explicit_type "int"
+	    unordered 
+	    out
+	    flow 294915 "<flow>"
+	      on activityaction_ref 135299 // activity action Set alarm for next check
+	    end
+	  end
+	end
+
+	activityobject 155267 "myself"
+	   type class_ref 148611 // User
+	  unordered 
+	end
+
+	activityobject 168579 "AppObj"
+	  stereotype "datastore"
+	   type class_ref 155651 // AppObject
+	  unordered 
+	  flow 233219 "<flow>"
+	    on activityobject_ref 175363 // activity object fence
+	  end
+
+	  flow 243587 "<flow>"
+	    on activityobject_ref 155267 // activity object myself
+	  end
+	end
+
+	activityobject 175363 "fence"
+	   type class_ref 248195 // Enclosure
+	  unordered 
+	end
+
+	activityobject 175747 "gps_pos"
+	   type class_ref 168835 // Coordinate
+	  unordered 
+	  flow 235139 "<flow>"
+	    on activityaction_ref 135555 // activity action Update user position
+	  end
+	end
+
+	activityaction 215299 "Get tile occupied by user"
+	  call_behavior_action
+	  synchronous activity_ref 167555 // At tile
+	  pin 231043 "myself" type class_ref 148611 // User
+	    unordered 
+	    in
+	  end
+
+	  pin 231171 "tile" type class_ref 188803 // Area
+	    unordered 
+	    out
+	    flow 292739 "<flow>"
+	      on activityobject_ref 189059 // activity object tile
+	    end
+	  end
+
+	  pin 231299 "fence" type class_ref 134915 // FenceTile
+	    unordered 
+	    in
+	  end
+	end
+
+	activityaction 215427 "User outside fence"
+	  call_operation_action
+	  synchronous operation_ref 336643 // insideFence
+	  flow 292355 "<flow>"
+	    on activityaction_ref 215427 // activity action User outside fence
+	  end
+
+	  pin 319235 "tile" type class_ref 188803 // Area
+	    unordered 
+	    in
+	  end
+
+	  pin 319363 "Inside / Outside" explicit_type "bool"
+	    unordered 
+	    return
+	    flow 460035 "<flow>"
+	      on activitynode_ref 135043 // decision
+	    end
+	  end
+
+	  pin 319491 "marker" type class_ref 254851 // Marker
+	    unordered 
+	    in
+	  end
+	end
+
+	activityobject 189059 "tile"
+	   type class_ref 188803 // Area
+	  unordered 
+	  flow 293891 "<flow>"
+	    on pin_ref 233219 // marker
+	  end
+
+	  flow 459907 "<flow>"
+	    on pin_ref 319235 // tile
+	  end
+	end
+      end
+
+      activity 147587 "Update_position"
+	specification operation_ref 232963 // updPosition
+	activitydiagram 180611 "Update_position"
+	  package_name_in_tab default show_context default show_opaque_action_definition yes auto_label_position default write_flow_label_horizontally default draw_all_relations yes shadow default
+	  show_infonote default drawing_language default show_stereotype_properties default
+	  size A4
+	end
+
+	activitynode 148867 activity_final ""
+	end
+
+	activityaction 151043 "New position"
+	  call_operation_action
+	  synchronous operation_ref 219011 // getPosition
+	  pin 174083 "get position" type class_ref 168835 // Coordinate
+	    unordered 
+	    in
+	  end
+
+	  pin 174211 "new_pos" explicit_type "double[]"
+	    unordered 
+	    return
+	    flow 235779 "<flow>"
+	      on pin_ref 136067 // new_pos
+	    end
+	  end
+
+	  flow 235907 "<flow>"
+	    on activityaction_ref 180355 // activity action Get user position
+	  end
+	end
+
+	activityaction 151171 "Update position"
+	  call_operation_action
+	  synchronous operation_ref 178307 // update
+	  pin 135939 "update" type class_ref 148995 // Position
+	    unordered 
+	    in
+	  end
+
+	  pin 136067 "new_pos" explicit_type "double[]"
+	    unordered 
+	    in
+	  end
+
+	  flow 170755 "<flow>"
+	    on activitynode_ref 148867 // activity_final
+	  end
+	end
+
+	activityobject 154499 "old_pos"
+	   type class_ref 148995 // Position
+	  unordered 
+	  flow 170243 "<flow>"
+	    on activityaction_ref 151299 // activity action Position have changed
+	  end
+
+	  flow 170499 "<flow>"
+	    on pin_ref 135939 // update
+	  end
+	end
+
+	activityaction 151299 "Position have changed"
+	  broadcast_signal_action
+	  uml "Event"
+	end
+
+	activityaction 151427 "Position changed"
+	  accept_event_action
+	  flow 236163 "<flow>"
+	    on activitynode_ref 170243 // fork
+	  end
+	end
+
+	activityaction 151683 "User movment"
+	  call_operation_action
+	  synchronous no_operation
+	  pin 136323 "pos Changed" type class_ref 148739 // Space
+	    unordered 
+	    in
+	  end
+
+	  flow 236803 "<flow>"
+	    on activitynode_ref 170371 // join
+	  end
+	end
+
+	activityobject 154627 "allowed_space [Trek::User]"
+	   type class_ref 148739 // Space
+	  unordered 
+	  flow 170883 "<flow>"
+	    on pin_ref 136323 // pos Changed
+	  end
+	end
+
+	activitynode 149379 flow_final ""
+	end
+
+	activityaction 180355 "Get user position"
+	  call_operation_action
+	  synchronous operation_ref 185731 // position
+	  pin 174339 "position" type class_ref 148611 // User
+	    unordered 
+	    in
+	  end
+
+	  pin 174467 "old_pos" type class_ref 148995 // Position
+	    unordered 
+	    return
+	    flow 258179 "<flow>"
+	      on activityobject_ref 154499 // activity object old_pos
+	    end
+	  end
+	end
+
+	activitynode 170243 fork ""
+	  flow 236419 "<flow>"
+	    on activityaction_ref 180483 // activity action New user position
+	  end
+
+	  flow 236547 "<flow>"
+	    on activityaction_ref 151683 // activity action User movment
+	  end
+	end
+
+	activitynode 170371 join ""
+	  flow 236291 "<flow>"
+	    on activitynode_ref 149379 // flow_final
+	  end
+	end
+
+	activityaction 180483 "New user position"
+	  call_operation_action
+	  synchronous no_operation
+	  flow 236675 "<flow>"
+	    on activitynode_ref 170371 // join
+	  end
+
+	  pin 174595 "pos changed" type class_ref 148739 // Space
+	    unordered 
+	    in
+	  end
+	end
+
+	parameter 128003 "position" type class_ref 168835 // Coordinate
+	  unordered 
+	  in
+	  flow 258563 "<flow>"
+	    on pin_ref 174083 // get position
+	  end
+	end
+
+	parameter 128131 "myself" type class_ref 148611 // User
+	  unordered 
+	  in
+	  flow 258691 "<flow>"
+	    on pin_ref 174595 // pos changed
+	  end
+
+	  flow 258819 "<flow>"
+	    on pin_ref 174339 // position
+	  end
+	end
+      end
+
+      activity 147715 "Space_needed"
+	specification operation_ref 233091 // spaceNeeded
+	activitydiagram 180867 "space_needed"
+	  package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations no shadow default
+	  show_infonote default drawing_language default show_stereotype_properties default
+	  size A4
+	end
+
+	activitynode 149635 activity_final ""
+	end
+
+	activityaction 151811 "No space needed"
+	  create_object_action
+	  pin 197891 "False" explicit_type "bool"
+	    unordered 
+	    out
+	    flow 260483 "<flow>"
+	      on activitynode_ref 183555 // merge
+	    end
+	  end
+	end
+
+	activityaction 151939 "Free to move ?"
+	  call_operation_action
+	  synchronous operation_ref 232707 // isMovable
+	  pin 197379 "myself" type class_ref 148611 // User
+	    unordered 
+	    in
+	  end
+
+	  pin 197507 "movable" explicit_type "bool"
+	    unordered 
+	    return
+	    flow 260099 "<flow>"
+	      on activitynode_ref 183427 // decision
+	    end
+	  end
+	end
+
+	parameter 128259 "myself" explicit_type ""
+	  unordered 
+	  in
+	  flow 260995 "<flow>"
+	    on pin_ref 197379 // myself
+	  end
+	end
+
+	activitynode 183427 decision ""
+	  flow 259203 "<flow>"
+	    on activityaction_ref 151811 // activity action No space needed
+	      uml_guard "Yes"
+	  end
+
+	  flow 259971 "<flow>"
+	    on activityaction_ref 193795 // activity action Space needed
+	      uml_guard "No"
+	  end
+	end
+
+	parameter 128387 "answer" explicit_type "bool"
+	  unordered 
+	  return
+	end
+
+	activityaction 193795 "Space needed"
+	  create_object_action
+	  pin 198019 "True" explicit_type "bool"
+	    unordered 
+	    out
+	    flow 260611 "<flow>"
+	      on activitynode_ref 183555 // merge
+	    end
+	  end
+	end
+
+	activitynode 183555 merge ""
+	  flow 292099 "<flow>"
+	    on activityobject_ref 188931 // activity object boolean
+	  end
+	end
+
+	activityobject 188931 "boolean"
+	   explicit_type "bool"
+	  unordered 
+	  flow 291971 "<flow>"
+	    on parameter_ref 128387 // answer
+	  end
+	end
+      end
+
+      activity 167555 "At tile"
+	specification operation_ref 240259 // atTile
+	activitydiagram 200707 "at_tile"
+	  package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+	  show_infonote default drawing_language default show_stereotype_properties default
+	  size A4
+	end
+
+	parameter 134915 "myself" type class_ref 148611 // User
+	  unordered 
+	  in
+	  flow 274819 "<flow>"
+	    on pin_ref 204931 // myself
+	  end
+	end
+
+	parameter 135043 "tile" type class_ref 188803 // Area
+	  unordered 
+	  return
+	end
+
+	activityaction 200451 "Get position"
+	  call_operation_action
+	  synchronous operation_ref 185731 // position
+	  pin 204931 "myself" type class_ref 148611 // User
+	    unordered 
+	    in
+	  end
+
+	  pin 205059 "position" type class_ref 148995 // Position
+	    unordered 
+	    return
+	    flow 459139 "<flow>"
+	      on pin_ref 318339 // position
+		  uml_transformation "position.toDouble()"
+	    end
+	  end
+	end
+
+	activityaction 200579 "Get maker for enclosure"
+	  call_operation_action
+	  synchronous operation_ref 336771 // Marker
+	  pin 318083 "marker" type class_ref 254851 // Marker
+	    unordered 
+	    return
+	    flow 459523 "<flow>"
+	      on pin_ref 319107 // marker
+	    end
+	  end
+
+	  pin 318211 "boundery" type class_ref 141571 // EuclidPlane
+	    unordered 
+	    in
+	  end
+
+	  pin 318339 "position" explicit_type "double[]"
+	    unordered 
+	    in
+	  end
+	end
+
+	parameter 141571 "fence" type class_ref 134915 // FenceTile
+	  unordered 
+	  in
+	  flow 459267 "<flow>"
+	    on pin_ref 318467 // fence
+	  end
+
+	  flow 459779 "<flow>"
+	    on pin_ref 318851 // fence
+	  end
+	end
+
+	activityaction 342531 "Get fence boundery"
+	  call_operation_action
+	  synchronous operation_ref 128259 // boundery
+	  pin 318467 "fence" type class_ref 248195 // Enclosure
+	    unordered 
+	    in
+	  end
+
+	  pin 318595 "boundery" type class_ref 141955 // Boundery
+	    unordered 
+	    return
+	    flow 459011 "<flow>"
+	      on pin_ref 318211 // boundery
+	    end
+	  end
+	end
+
+	activityaction 342787 "Get tile"
+	  call_operation_action
+	  synchronous operation_ref 240515 // getArea
+	  pin 318851 "fence" type class_ref 248195 // Enclosure
+	    unordered 
+	    in
+	  end
+
+	  pin 318979 "tile" type class_ref 188803 // Area
+	    unordered 
+	    return
+	    flow 459651 "<flow>"
+	      on parameter_ref 135043 // tile
+	    end
+	  end
+
+	  pin 319107 "marker" type class_ref 254851 // Marker
+	    unordered 
+	    in
+	  end
+	end
+      end
+
+      activity 167427 "New_boundery"
+	specification operation_ref 240131 // updSpace
+	activitydiagram 200579 "new_boundery"
+	  package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+	  show_infonote default drawing_language default show_stereotype_properties default
+	  size A4
+	end
+
+	activityaction 207235 "User at fence"
+	  call_operation_action
+	  synchronous operation_ref 240771 // atFence
+	  pin 219395 "marker" type class_ref 188803 // Area
+	    unordered 
+	    in
+	  end
+
+	  pin 219523 "Yes/No" explicit_type "bool"
+	    unordered 
+	    return
+	    flow 281987 "<flow>"
+	      on activitynode_ref 190083 // decision
+	    end
+	  end
+	end
+
+	parameter 148099 "marker" explicit_type ""
+	  unordered 
+	  in
+	  flow 281859 "<flow>"
+	    on pin_ref 219395 // marker
+	  end
+
+	  flow 282243 "<flow>"
+	    on pin_ref 219651 // marker
+	  end
+
+	  flow 283011 "<flow>"
+	    on pin_ref 220547 // marker
+	  end
+
+	  flow 283139 "<flow>"
+	    on pin_ref 219907 // marker
+	  end
+	end
+
+	activityaction 207363 "Get tile boundery"
+	  call_operation_action
+	  synchronous operation_ref 192515 // boundery
+	  pin 219651 "marker" type class_ref 188803 // Area
+	    unordered 
+	    in
+	  end
+
+	  pin 219779 "boundery" type class_ref 141955 // Boundery
+	    unordered 
+	    return
+	    flow 282627 "<flow>"
+	      on activitynode_ref 190211 // merge
+	    end
+	  end
+	end
+
+	activityaction 207491 "Get tile"
+	  call_operation_action
+	  synchronous no_operation
+	  pin 219907 "marker" type class_ref 188803 // Area
+	    unordered 
+	    in
+	  end
+
+	  pin 220035 "tile" type class_ref 134915 // FenceTile
+	    unordered 
+	    return
+	    flow 283395 "<flow>"
+	      on pin_ref 220163 // tile
+	    end
+	  end
+	end
+
+	activityaction 207619 "Get min distance to fence"
+	  call_operation_action
+	  synchronous operation_ref 164739 // fenceDist
+	  pin 220163 "tile" type class_ref 134915 // FenceTile
+	    unordered 
+	    in
+	  end
+
+	  pin 220291 "min_dist" explicit_type "long"
+	    unordered 
+	    return
+	    flow 284035 "<flow>"
+	      on pin_ref 221955 // diagonal
+		  uml_transformation "2*min_dist"
+	    end
+	  end
+
+	  pin 220419 "user_pos" explicit_type "long[]"
+	    unordered 
+	    in
+	  end
+	end
+
+	activityaction 207747 "Get position for marker"
+	  call_operation_action
+	  synchronous operation_ref 239875 // position
+	  pin 220547 "marker" type class_ref 188803 // Area
+	    unordered 
+	    in
+	  end
+
+	  pin 220675 "user_pos" explicit_type "long[]"
+	    unordered 
+	    return
+	    flow 283267 "<flow>"
+	      on pin_ref 220419 // user_pos
+	    end
+
+	    flow 283907 "<flow>"
+	      on pin_ref 221827 // center
+	    end
+	  end
+
+	  flow 282883 "<flow>"
+	    on activityaction_ref 207491 // activity action Get tile
+	  end
+	end
+
+	parameter 148355 "boundery" type class_ref 141955 // Boundery
+	  unordered 
+	  return
+	end
+
+	activityaction 207875 "Create a new boundery"
+	  call_operation_action
+	  synchronous no_operation
+	  pin 221699 "boundery" type class_ref 141955 // Boundery
+	    unordered 
+	    out
+	    flow 284163 "<flow>"
+	      on activitynode_ref 190211 // merge
+	    end
+	  end
+
+	  pin 221827 "center" explicit_type "long[]"
+	    unordered 
+	    in
+	  end
+
+	  pin 221955 "diagonal" explicit_type "long"
+	    unordered 
+	    in
+	  end
+	end
+
+	activitynode 190083 decision ""
+	  flow 282115 "<flow>"
+	    on activityaction_ref 207363 // activity action Get tile boundery
+	      uml_guard "No"
+	  end
+
+	  flow 282755 "<flow>"
+	    on activityaction_ref 207747 // activity action Get position for marker
+	      uml_guard "Yes"
+	  end
+	end
+
+	activitynode 190211 merge ""
+	  flow 282499 "<flow>"
+	    on activityobject_ref 182275 // activity object boundery
+	  end
+	end
+
+	activityobject 182275 "boundery"
+	   type class_ref 141955 // Boundery
+	  unordered 
+	  flow 282371 "<flow>"
+	    on parameter_ref 148355 // boundery
+	  end
+	end
+      end
+
+      activity 174083 "New_space"
+	activitydiagram 207235 "new_space"
+	  package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+	  show_infonote default drawing_language default show_stereotype_properties default
+	  size A4
+	end
+
+	activityaction 214403 "Create a new space"
+	  call_operation_action
+	  synchronous operation_ref 232579 // Space
+	  pin 228483 "space" type class_ref 148739 // Space
+	    unordered 
+	    out
+	    flow 291843 "<flow>"
+	      on parameter_ref 155011 // space
+	    end
+	  end
+
+	  pin 228611 "position" type class_ref 148995 // Position
+	    unordered 
+	    in
+	  end
+
+	  pin 228739 "space_size" explicit_type "double[]"
+	    unordered 
+	    in
+	  end
+	end
+
+	activityaction 214531 "Create a new position for space"
+	  call_operation_action
+	  synchronous operation_ref 254723 // Position
+	  pin 230787 "position" type class_ref 148995 // Position
+	    unordered 
+	    out
+	    flow 291715 "<flow>"
+	      on pin_ref 228611 // position
+	    end
+	  end
+
+	  pin 230915 "space_pos" explicit_type "double[]"
+	    unordered 
+	    in
+	  end
+	end
+
+	activityaction 214659 "Get position for space"
+	  call_operation_action
+	  synchronous operation_ref 255107 // position
+	  pin 230275 "boundery" type class_ref 141571 // EuclidPlane
+	    unordered 
+	    in
+	  end
+
+	  pin 230403 "space_pos" explicit_type "double[]"
+	    unordered 
+	    return
+	    flow 291203 "<flow>"
+	      on pin_ref 230915 // space_pos
+	    end
+	  end
+
+	  pin 230531 "zoom" explicit_type "short"
+	    unordered 
+	    in
+	  end
+	end
+
+	activityaction 214787 "Get size for space"
+	  call_operation_action
+	  synchronous operation_ref 254979 // size
+	  pin 229635 "boundery" type class_ref 141571 // EuclidPlane
+	    unordered 
+	    in
+	  end
+
+	  pin 229763 "space_size" explicit_type "double[]"
+	    unordered 
+	    return
+	    flow 291331 "<flow>"
+	      on pin_ref 228739 // space_size
+	    end
+	  end
+
+	  pin 229891 "zoom" explicit_type "short"
+	    unordered 
+	    in
+	  end
+	end
+
+	activityaction 215171 "Real world zoom factor: \"1\""
+	  value_specification_action
+	  uml_value "1"
+	  pin 230659 "zoom" explicit_type "short"
+	    unordered 
+	    out
+	    flow 290691 "<flow>"
+	      on pin_ref 230531 // zoom
+	    end
+
+	    flow 290819 "<flow>"
+	      on pin_ref 229891 // zoom
+	    end
+	  end
+	end
+
+	parameter 154883 "boundery" type class_ref 141955 // Boundery
+	  unordered 
+	  in
+	  flow 290947 "<flow>"
+	    on pin_ref 230275 // boundery
+	  end
+
+	  flow 291075 "<flow>"
+	    on pin_ref 229635 // boundery
+	  end
+	end
+
+	parameter 155011 "space" type class_ref 148739 // Space
+	  unordered 
+	  return
+	end
+      end
+
+      activity 174211 "Update_space"
+	activitydiagram 207363 "update_space"
+	  package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+	  show_infonote default drawing_language default show_stereotype_properties default
+	  size A4
+	end
+
+	activityaction 215555 "Get user bounderies"
+	  call_behavior_action
+	  synchronous activity_ref 167427 // New_boundery
+	  pin 231939 "marker" explicit_type ""
+	    unordered 
+	    in
+	  end
+
+	  pin 232067 "boundery" type class_ref 141955 // Boundery
+	    unordered 
+	    out
+	    flow 293251 "<flow>"
+	      on pin_ref 232195 // boundery
+	    end
+	  end
+	end
+
+	activityaction 215683 "Create new user space"
+	  call_behavior_action
+	  synchronous activity_ref 174083 // New_space
+	  pin 232195 "boundery" type class_ref 141955 // Boundery
+	    unordered 
+	    in
+	  end
+
+	  pin 232323 "space" type class_ref 148739 // Space
+	    unordered 
+	    out
+	    flow 293379 "<flow>"
+	      on pin_ref 232579 // space
+	    end
+	  end
+	end
+
+	activityaction 215811 "Add new user space to user"
+	  call_operation_action
+	  synchronous operation_ref 255363 // updSpace
+	  pin 232451 "myself" type class_ref 148611 // User
+	    unordered 
+	    in
+	  end
+
+	  pin 232579 "space" type class_ref 148739 // Space
+	    unordered 
+	    in
+	  end
+
+	  flow 293763 "<flow>"
+	    on activitynode_ref 196739 // activity_final
+	  end
+	end
+
+	parameter 155139 "marker" type class_ref 188803 // Area
+	  unordered 
+	  in
+	  flow 293123 "<flow>"
+	    on pin_ref 231939 // marker
+	  end
+	end
+
+	parameter 155395 "myself" type class_ref 148611 // User
+	  unordered 
+	  in
+	  flow 293507 "<flow>"
+	    on pin_ref 232451 // myself
+	  end
+	end
+
+	activitynode 196739 activity_final ""
+	end
+      end
+
+      activity 134531 "Calc_Time"
+	activitydiagram 167427 "calc_time"
+	  package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations no shadow default
+	  show_infonote default drawing_language default show_stereotype_properties default
+	  size A4
+	end
+
+	activityaction 142979 "Distance to boundery edge"
+	  call_operation_action
+	  synchronous operation_ref 171523 // nearestEdge
+	  pin 128387 "space" type class_ref 148739 // Space
+	    unordered 
+	    in
+	  end
+
+	  pin 128515 "distance" explicit_type "double"
+	    unordered 
+	    return
+	    flow 294659 "<flow>"
+	      on pin_ref 135299 // dist
+	    end
+	  end
+	end
+
+	activityaction 143491 "Elapsed time"
+	  opaque_action
+	  flow 146179 "<flow>"
+	    on activityaction_ref 143619 // activity action Moved distance
+	  end
+	end
+
+	activityaction 143619 "Moved distance"
+	  opaque_action
+	end
+
+	activityaction 143747 "Distance per time unit"
+	  call_operation_action
+	  synchronous operation_ref 171395 // speed
+	  pin 128003 "myself" type class_ref 148611 // User
+	    unordered 
+	    in effect read
+	  end
+
+	  pin 128131 "speed" explicit_type "double"
+	    unordered 
+	    return
+	    flow 294403 "<flow>"
+	      on pin_ref 135427 // speed
+	    end
+	  end
+	end
+
+	activityaction 143875 "Time to reach edge"
+	  call_operation_action
+	  synchronous operation_ref 178051 // time
+	  pin 135043 "movment" type class_ref 155523 // Movment
+	    unordered 
+	    in
+	  end
+
+	  pin 135171 "seconds" explicit_type "int"
+	    unordered 
+	    return
+	    flow 294787 "<flow>"
+	      on parameter_ref 155651 // seconds
+	    end
+	  end
+
+	  pin 135299 "dist" explicit_type "double"
+	    unordered 
+	    in
+	  end
+
+	  pin 135427 "speed" explicit_type "double"
+	    unordered 
+	    in
+	  end
+	end
+
+	activitynode 142211 flow_final ""
+	end
+
+	activityaction 144003 "Time diff"
+	  opaque_action
+	  flow 147331 "<flow>"
+	    on activityaction_ref 144131 // activity action Save current time
+	  end
+
+	  parameterset 128003 ""
+	    pins
+	    end
+	  end
+	end
+
+	activityaction 144131 "Save current time"
+	  opaque_action
+	  flow 147459 "<flow>"
+	    on activitynode_ref 142211 // flow_final
+	  end
+	end
+
+	activityobject 141187 "app_obj"
+	   explicit_type "AppObject"
+	  unordered 
+	end
+
+	activityobject 154243 "movment"
+	   type class_ref 155523 // Movment
+	  unordered 
+	  flow 168707 "<flow>"
+	    on pin_ref 135043 // movment
+	  end
+	end
+
+	activityaction 215939 "Get user space"
+	  call_operation_action
+	  synchronous operation_ref 232067 // space
+	  pin 233603 "myself" type class_ref 148611 // User
+	    unordered 
+	    in
+	  end
+
+	  pin 233731 "space" type class_ref 148739 // Space
+	    unordered 
+	    return
+	    flow 294531 "<flow>"
+	      on pin_ref 128387 // space
+	    end
+	  end
+	end
+
+	parameter 155523 "myself" type class_ref 148611 // User
+	  unordered 
+	  in
+	  flow 294147 "<flow>"
+	    on pin_ref 128003 // myself
+	  end
+
+	  flow 294275 "<flow>"
+	    on pin_ref 233603 // myself
+	  end
+	end
+
+	parameter 155651 "seconds" explicit_type "int"
+	  unordered 
+	  return
+	end
+      end
+    end
+
+    activity 154371 "User_at_fence"
+      activitydiagram 187523 "user_at_fence"
+	package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+	show_infonote default drawing_language default show_stereotype_properties default
+	size A4
+      end
+
+      activitynode 156419 activity_final ""
+      end
+
+      activitynode 156547 initial_node ""
+	flow 180739 "<flow>"
+	  on activityaction_ref 158851 // activity action Get user position
+	end
+      end
+
+      activityaction 158851 "Get user position"
+	call_operation_action
+	synchronous operation_ref 185731 // position
+	comment "(UserField::userPos())"
+	pin 181763 "user position" type class_ref 148739 // Space
+	  unordered 
+	  in
+	end
+
+	pin 181891 "" type class_ref 148995 // Position
+	  unordered 
+	  return
+	  flow 244227 "<flow>"
+	    on activityaction_ref 160643 // activity action Translate coordinat
+	  end
+	end
+      end
+
+      activityaction 158979 "Get tile location"
+	call_operation_action
+	synchronous no_operation
+	pin 145283 "tile pos" type class_ref 141443 // TileTable
+	  unordered 
+	  in
+	end
+
+	pin 145411 "tile_loc" explicit_type "int"
+	  unordered 
+	  return
+	  flow 204675 "<flow>"
+	    on pin_ref 152323 // tile_loc
+	  end
+	end
+
+	pin 145539 "fence_pos" explicit_type "long"
+	  unordered 
+	  in
+	end
+      end
+
+      activityaction 159107 "Tile type"
+	call_operation_action
+	synchronous operation_ref 142979 // tileType
+	pin 152067 "tile type" type class_ref 141443 // TileTable
+	  unordered 
+	  in
+	end
+
+	pin 152195 "type" explicit_type "int"
+	  unordered 
+	  return
+	  flow 204547 "<flow>"
+	    on activitynode_ref 156675 // decision
+	  end
+	end
+
+	pin 152323 "tile_loc" explicit_type "int"
+	  unordered 
+	  in
+	end
+      end
+
+      activityaction 159619 "larm"
+	opaque_action
+	flow 181763 "<flow>"
+	  on activitynode_ref 156419 // activity_final
+	end
+      end
+
+      activityaction 159747 "Get tile boundery"
+	call_operation_action
+	synchronous operation_ref 192515 // boundery
+	pin 153603 "tile boundery" type class_ref 141443 // TileTable
+	  unordered 
+	  in
+	end
+
+	pin 153731 "boundery" type class_ref 141955 // Boundery
+	  unordered 
+	  return
+	  flow 225923 "<flow>"
+	    on activitynode_ref 157059 // merge
+	  end
+	end
+
+	pin 153859 "fence_pos" explicit_type "long[]"
+	  unordered 
+	  in
+	end
+      end
+
+      activitynode 156675 decision ""
+	flow 197379 "<flow>"
+	  on activityaction_ref 159747 // activity action Get tile boundery
+	    uml_guard "Inside fence"
+	end
+
+	flow 197635 "<flow>"
+	  on activitynode_ref 156931 // merge
+	    uml_guard "Outside fence"
+	end
+
+	flow 205059 "<flow>"
+	  on activityaction_ref 160003 // activity action Get tile
+	    uml_guard "At fence"
+	end
+      end
+
+      activityaction 160003 "Get tile"
+	call_operation_action
+	synchronous operation_ref 142723 // getTile
+	pin 152451 "get tile" type class_ref 141443 // TileTable
+	  unordered 
+	  in
+	end
+
+	pin 152579 "tile" explicit_type "FenceTile  [se.bth.enclosure]"
+	  unordered 
+	  return
+	  flow 211587 "<flow>"
+	    on pin_ref 152835 // tile
+	  end
+	end
+
+	pin 152707 "tile_loc" explicit_type "int"
+	  unordered 
+	  in
+	end
+      end
+
+      activityaction 160131 "User inside the fence"
+	call_operation_action
+	synchronous operation_ref 164611 // insideFence
+	pin 152835 "tile" type class_ref 134915 // FenceTile
+	  unordered 
+	  in
+	end
+
+	pin 152963 "inside" explicit_type "bool"
+	  unordered 
+	  return
+	  flow 211971 "<flow>"
+	    on activitynode_ref 156803 // decision
+	  end
+	end
+
+	pin 153091 "fence_pos" explicit_type "long[]"
+	  unordered 
+	  in
+	end
+      end
+
+      activitynode 156803 decision ""
+	flow 183427 "<flow>"
+	  on activitynode_ref 156931 // merge
+	    uml_guard "No"
+	end
+
+	flow 197763 "<flow>"
+	  on activityaction_ref 160387 // activity action Min distance to fence
+	    uml_guard "Yes"
+	end
+      end
+
+      activityaction 160387 "Min distance to fence"
+	call_operation_action
+	synchronous operation_ref 164739 // fenceDist
+	pin 153219 "tile" type class_ref 134915 // FenceTile
+	  unordered 
+	  in
+	end
+
+	pin 153347 "distance" explicit_type "long"
+	  unordered 
+	  return
+	  flow 211715 "<flow>"
+	    on activityaction_ref 160515 // activity action Create boundery
+	  end
+	end
+
+	pin 153475 "fence_pos" explicit_type "long[]"
+	  unordered 
+	  in
+	end
+      end
+
+      activityaction 160515 "Create boundery"
+	opaque_action
+	flow 183811 "<flow>"
+	  on activitynode_ref 157059 // merge
+	end
+      end
+
+      activitynode 156931 merge ""
+	flow 183555 "<flow>"
+	  on activityaction_ref 159619 // activity action larm
+	end
+      end
+
+      activitynode 157059 merge ""
+	flow 243843 "<flow>"
+	  on activityaction_ref 187011 // activity action New boundery
+	end
+      end
+
+      activityobject 161923 "myself"
+	 type class_ref 148611 // User
+	unordered is_control
+	flow 244099 "<flow>"
+	  on pin_ref 181763 // user position
+	end
+      end
+
+      activityobject 162051 "fence"
+	 type class_ref 141443 // TileTable
+	unordered 
+	flow 184323 "<flow>"
+	  on pin_ref 145283 // tile pos
+	end
+
+	flow 204803 "<flow>"
+	  on pin_ref 152067 // tile type
+	end
+
+	flow 204931 "<flow>"
+	  on pin_ref 152451 // get tile
+	end
+
+	flow 211843 "<flow>"
+	  on pin_ref 153603 // tile boundery
+	end
+      end
+
+      activityaction 160643 "Translate coordinat"
+	opaque_action
+	pin 160771 "fence_pos" explicit_type "long[]"
+	  unordered 
+	  out
+	  flow 218499 "<flow>"
+	    on pin_ref 145539 // fence_pos
+	  end
+	end
+      end
+
+      activityaction 167171 "Get table boundery"
+	opaque_action
+      end
+
+      activityaction 187011 "New boundery"
+	opaque_action
+	flow 243971 "<flow>"
+	  on activitynode_ref 156419 // activity_final
+	end
+      end
+    end
+  end
+
+  package_ref 141315 // enclosure
+
+  package_ref 147843 // Trek
+
+  package_ref 154371 // Android
+end

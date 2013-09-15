@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Enclosure</string>
+    <string name="preferences">EnclosureData</string>
+
+    <string name="description_logo">GPS enclosure</string>
+    <string name="description_separator">separator</string>
+    <string name="description_area">Select area</string>
+    <string name="description_run">Run service</string>
+    <string name="description_info">Montitor status</string>
+    
+    <string name="title_home">GPS enclosure</string>
+    <string name="title_area">Select area</string>
+    <string name="title_run">Run service</string>
+    <string name="title_debug">View info</string>
+
+    <string name="default_intro">Placeholder for intro text.</string>
+    <string name="area_intro">Select area to enclose.</string>
+    <string name="run_intro">Run or stop service enclosure.</string>
+    <string name="debug_intro">View status info about enclosure.</string>
+    
+    <string name="service_run_service">Run enclosure service</string>
+    <string name="service_stop_service">Stop enclosure service</string>
+    <string name="service_manual_service">Manualy update enclosure</string>
+    <string name="service_update_now">Update location </string>
+    <string name="service_info">Field for service messages...</string>
+    
+    <string name="key_service">service</string>
+    <string name="key_area">area</string>
+        
+</resources>

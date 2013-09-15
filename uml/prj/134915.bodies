@@ -1,0 +1,3 @@
+class FenceTile
+!!!135043.java!!!	cross() : bool
+return bool_value;

@@ -1,0 +1,3 @@
+class EuclidPlane
+!!!157827.java!!!	EuclidPlane(in a : long [2], in b : long [2]) : void
+return this;

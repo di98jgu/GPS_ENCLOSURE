@@ -1,0 +1,26 @@
+format 76
+
+classcanvas 128003 class_ref 141443 // FenceTable
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 79.8121 28.1425 2000
+end
+classcanvas 128131 class_ref 134915 // FenceTile
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 518.954 223.454 3005
+end
+classcanvas 128387 class_ref 141699 // FenceSection
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 90.7986 299.803 3011
+end
+relationcanvas 128259 relation_ref 134787 // <directional aggregation>
+  from ref 128003 z 3006 stereotype "<<list>>" xyz 432 265 3006 to ref 128131
+  role_a_pos 483 307 3000 no_role_b
+  multiplicity_a_pos 487 337 3000 no_multiplicity_b
+end
+relationcanvas 128515 relation_ref 135171 // <directional aggregation>
+  decenter_end 508
+  from ref 128131 z 3012 stereotype "<<array>>" xyz 384.5 420 3000 to ref 128387
+  role_a_pos 332 407 3000 no_role_b
+  multiplicity_a_pos 332 437 3000 no_multiplicity_b
+end
+end

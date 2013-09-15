@@ -1,0 +1,101 @@
+format 76
+
+activityactioncanvas 128259 activityaction_ref 151811 // activity action No space needed
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 312 223 3016 83 48
+  pins
+    pincanvas 139011 pin_ref 197891 // False
+      xyzwh 394 242 3018 11 11 label_xy 406 229
+    end
+  end
+end
+activityactioncanvas 128387 activityaction_ref 151939 // activity action Free to move ?
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 147 150 3022 125 40
+  pins
+    pincanvas 135427 pin_ref 197379 // myself
+      xyzwh 201 189 3024 11 11 label_xy 215 201
+    end
+    pincanvas 135555 pin_ref 197507 // movable
+      xyzwh 271 164 3024 11 11 label_xy 283 171
+    end
+  end
+end
+activitycanvas 130307 activity_ref 147715 // Space_needed
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 93 40 2995 523 243
+  params
+    parametercanvas 130563 parameter_ref 128259 // myself
+        xyzwh 66 209 2996 55 33
+    end
+    parametercanvas 131715 parameter_ref 128387 // answer
+        xyzwh 588 158 2996 55 33
+    end
+  end
+end
+activitynodecanvas 130947 activitynode_ref 183427 // decision
+  xyz 341 151 3010
+end
+activityactioncanvas 135683 activityaction_ref 193795 // activity action Space needed
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 310 64 3000 85 49
+  pins
+    pincanvas 139139 pin_ref 198019 // True
+      xyzwh 394 82 3002 11 11 label_xy 406 69
+    end
+  end
+end
+activitynodecanvas 135811 activitynode_ref 183555 // merge
+  xyz 443 155 3000
+end
+activityobjectcanvas 141315 activityobject_ref 188931 // activity object boolean
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 495 149 3021 67 51
+end
+flowcanvas 131203 flow_ref 259203 // <flow>
+  
+  from ref 130947 z 3017 label "[Yes]" xyz 356 187 3017 to ref 128259
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 137219 flow_ref 260099 // <flow>
+  
+  from ref 135555 z 3025 to ref 130947
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 137475 flow_ref 259971 // <flow>
+  
+  from ref 130947 z 3011 label "[No]" xyz 356 134 3011 to ref 135683
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 139267 flow_ref 260483 // <flow>
+  
+  from ref 139011 z 3019 to point 452 244
+  line 142211 z 3019 to ref 135811
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 139523 flow_ref 260611 // <flow>
+  
+  from ref 139139 z 3003 to point 452 84
+  line 142339 z 3003 to ref 135811
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 140163 flow_ref 260995 // <flow>
+  
+  from ref 130563 z 3025 to point 203 223
+  line 142467 z 3025 to ref 135427
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 141443 flow_ref 291971 // <flow>
+  
+  from ref 141315 z 3022 to ref 131715
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 141571 flow_ref 292099 // <flow>
+  
+  from ref 135811 z 3022 to ref 141315
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+end

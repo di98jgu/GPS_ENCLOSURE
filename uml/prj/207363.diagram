@@ -1,0 +1,83 @@
+format 76
+
+activityactioncanvas 128003 activityaction_ref 215555 // activity action Get user bounderies
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 165 157 3010 100 60
+  pins
+    pincanvas 128387 pin_ref 231939 // marker
+      xyzwh 155 181 3011 11 11 label_xy 106 169
+    end
+    pincanvas 128515 pin_ref 232067 // boundery
+      xyzwh 264 182 3011 11 11 label_xy 278 188
+    end
+  end
+end
+activityactioncanvas 128131 activityaction_ref 215683 // activity action Create new user space
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 361 157 3010 100 60
+  pins
+    pincanvas 128643 pin_ref 232195 // boundery
+      xyzwh 351 181 3011 11 11 label_xy 288 169
+    end
+    pincanvas 128771 pin_ref 232323 // space
+      xyzwh 406 147 3011 11 11 label_xy 369 131
+    end
+  end
+end
+activityactioncanvas 128259 activityaction_ref 215811 // activity action Add new user space to user
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 361 45 2995 100 60
+  pins
+    pincanvas 128899 pin_ref 232451 // myself
+      xyzwh 351 71 2996 11 11 label_xy 302 58
+    end
+    pincanvas 129027 pin_ref 232579 // space
+      xyzwh 405 104 2996 11 11 label_xy 419 114
+    end
+  end
+end
+activitycanvas 129155 activity_ref 174211 // Update_space
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 65 21 2990 479 211
+  params
+    parametercanvas 129283 parameter_ref 155139 // marker
+        xyzwh 35 170 2991 61 31
+    end
+    parametercanvas 129539 parameter_ref 155395 // myself
+        xyzwh 35 90 2991 61 31
+    end
+  end
+end
+activitynodecanvas 130563 activitynode_ref 196739 // activity_final
+  xyz 506 63 2995
+end
+flowcanvas 129667 flow_ref 293123 // <flow>
+  
+  from ref 129283 z 3012 to ref 128387
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 129795 flow_ref 293251 // <flow>
+  
+  from ref 128515 z 3012 to ref 128643
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 129923 flow_ref 293379 // <flow>
+  
+  from ref 128771 z 3012 to ref 129027
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 130051 flow_ref 293507 // <flow>
+  
+  from ref 129539 z 3012 to point 156 73
+  line 130435 z 3012 to ref 128899
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 130691 flow_ref 293763 // <flow>
+  
+  from ref 128259 z 2996 to ref 130563
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+end

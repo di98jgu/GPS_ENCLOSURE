@@ -1,0 +1,3 @@
+class Enclosure
+!!!128003.java!!!	isInside(in marker : Marker) : bool
+return boolean_value;

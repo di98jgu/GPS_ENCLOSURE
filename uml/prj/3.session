@@ -1,0 +1,15 @@
+window_sizes 1198 698 370 818 610 0
+diagrams
+  active  classdiagram_ref 128003 // all_classes
+    818 610 69 4 252 0
+end
+show_stereotypes
+selected class_ref 141827 // Segment
+open
+  usecaseview_ref 128003 // flow_of_code
+  classview_ref 128003 // classes
+  deploymentview_ref 128003 // code
+  artifact_ref 128259 // Iterator
+end
+end
+verbose

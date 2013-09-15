@@ -1,0 +1,131 @@
+format 76
+
+activityactioncanvas 128003 activityaction_ref 214403 // activity action Create a new space
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 368 241 3010 107 49
+  pins
+    pincanvas 128131 pin_ref 228483 // space
+      xyzwh 474 258 3011 11 11 label_xy 487 246
+    end
+    pincanvas 128259 pin_ref 228611 // position
+      xyzwh 418 231 3011 11 11 label_xy 433 216
+    end
+    pincanvas 128387 pin_ref 228739 // space_size
+      xyzwh 358 261 3011 11 11 label_xy 282 249
+    end
+  end
+end
+activityactioncanvas 128515 activityaction_ref 214531 // activity action Create a new position for space
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 363 74 3010 123 52
+  pins
+    pincanvas 131203 pin_ref 230787 // position
+      xyzwh 417 125 3011 11 11 label_xy 435 136
+    end
+    pincanvas 131331 pin_ref 230915 // space_pos
+      xyzwh 353 95 3011 11 11 label_xy 280 83
+    end
+  end
+end
+activityactioncanvas 128643 activityaction_ref 214659 // activity action Get position for space
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 164 75 3010 101 51
+  pins
+    pincanvas 130563 pin_ref 230275 // boundery
+      xyzwh 154 95 3011 11 11 label_xy 92 83
+    end
+    pincanvas 130691 pin_ref 230403 // space_pos
+      xyzwh 264 95 3011 11 11 label_xy 277 102
+    end
+    pincanvas 130819 pin_ref 230531 // zoom
+      xyzwh 212 125 3011 11 11 label_xy 226 135
+    end
+  end
+end
+activityactioncanvas 128771 activityaction_ref 214787 // activity action Get size for space
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 166 241 3010 102 50
+  pins
+    pincanvas 129923 pin_ref 229635 // boundery
+      xyzwh 156 258 3011 11 11 label_xy 94 246
+    end
+    pincanvas 130051 pin_ref 229763 // space_size
+      xyzwh 267 262 3011 11 11 label_xy 279 270
+    end
+    pincanvas 130179 pin_ref 229891 // zoom
+      xyzwh 215 231 3011 11 11 label_xy 229 215
+    end
+  end
+end
+activityactioncanvas 130947 activityaction_ref 215171 // activity action Real world zoom factor: "1"
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 252 155 3010 116 51
+  pins
+    pincanvas 131075 pin_ref 230659 // zoom
+      xyzwh 242 175 3011 11 11 label_xy 202 172
+    end
+  end
+end
+activitycanvas 131459 activity_ref 174083 // New_space
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 49 30 3005 487 267
+  params
+    parametercanvas 131587 parameter_ref 154883 // boundery
+        xyzwh 10 152 3007 79 31
+    end
+    parametercanvas 131715 parameter_ref 155011 // space
+        xyzwh 496 153 3007 79 31
+    end
+  end
+end
+flowcanvas 131843 flow_ref 290691 // <flow>
+  
+  from ref 131075 z 3012 to point 216 155
+  line 134275 z 3012 to ref 130819
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 131971 flow_ref 290819 // <flow>
+  
+  from ref 131075 z 3012 to point 220 205
+  line 134147 z 3012 to ref 130179
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 132483 flow_ref 290947 // <flow>
+  
+  from ref 131587 z 3012 to point 88 98
+  line 133635 z 3012 to ref 130563
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 132611 flow_ref 291075 // <flow>
+  
+  from ref 131587 z 3012 to point 80 261
+  line 133763 z 3012 to ref 129923
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 132739 flow_ref 291203 // <flow>
+  
+  from ref 130691 z 3012 to ref 131331
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 132867 flow_ref 291331 // <flow>
+  
+  from ref 130051 z 3012 to ref 128387
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 133379 flow_ref 291715 // <flow>
+  
+  from ref 131203 z 3012 to ref 128259
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 133507 flow_ref 291843 // <flow>
+  
+  from ref 128131 z 3012 to point 526 261
+  line 134403 z 3012 to ref 131715
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+end

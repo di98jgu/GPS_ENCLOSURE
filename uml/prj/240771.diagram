@@ -1,0 +1,12 @@
+format 76
+
+activitycanvas 128003 activity_ref 195459 // hasSegment
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 48 284 2000 400 400
+  params
+    parametercanvas 128131 parameter_ref 175491 // Yes/No
+        xyzwh 412 485 2002 71 33
+    end
+  end
+end
+end

@@ -1,0 +1,79 @@
+format 76
+
+activityobjectcanvas 128259 activityobject_ref 205187 // activity object fence
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 74.6 119.8 2000 69 51
+end
+activityobjectcanvas 128387 activityobject_ref 205315 // activity object pos
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 192.2 119.8 2000 49 51
+end
+activityobjectcanvas 128515 activityobject_ref 205443 // activity object corner
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 280.6 118.6 2000 57 51
+end
+activityobjectcanvas 130179 activityobject_ref 205955 // activity object aa_x
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 217.2 56.2 2000 49 51
+end
+activityactioncanvas 130307 activityaction_ref 238851 // activity action flag = ba_x < low_x && bb_x < low_x
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 103.6 310 2000 241 41
+  pins
+    pincanvas 130947 pin_ref 240515 // flag
+      xyzwh 210 350 2002 11 11 label_xy 223 360
+    end
+  end
+end
+activityactioncanvas 130435 activityaction_ref 238979 // activity action flag |= ba_y < low_y && bb_y < low_y
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 110 392.4 2005 241 41
+  pins
+    pincanvas 131075 pin_ref 240643 // flag
+      xyzwh 229.8 432.4 2007 11 11 label_xy 238 443
+    end
+  end
+end
+activityactioncanvas 130563 activityaction_ref 239107 // activity action flag |= high_x < ba_x && high_x < bb_x
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 88 479.8 2000 255 41
+  pins
+    pincanvas 131203 pin_ref 240771 // flag
+      xyzwh 206.2 519.8 2002 11 11 label_xy 224 530
+    end
+  end
+end
+activityactioncanvas 130691 activityaction_ref 239235 // activity action flag |= high_y < ba_y && high_y < bb_y
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 103.8 563.6 2000 253 41
+  pins
+    pincanvas 131331 pin_ref 240899 // flag
+      xyzwh 214.8 603.6 2002 11 11 label_xy 230 618
+    end
+  end
+end
+activityactioncanvas 130819 activityaction_ref 239363 // activity action OR
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 415.4 421.2 2000 75 41
+end
+flowcanvas 131459 flow_ref 331011 // <flow>
+  
+  from ref 130947 z 2006 to ref 130435
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 131587 flow_ref 331139 // <flow>
+  
+  from ref 131075 z 2008 to ref 130563
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 131715 flow_ref 331267 // <flow>
+  
+  from ref 131203 z 2003 to ref 130691
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+end

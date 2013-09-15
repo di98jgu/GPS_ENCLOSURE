@@ -1,0 +1,568 @@
+format 76
+"Trek" // se::bth::Trek
+  revision 10
+  modified_by 3 "jim"
+  // class settings
+  //class diagram settings
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  //use case diagram settings
+  package_name_in_tab default show_context default auto_label_position default draw_all_relations default class_drawing_mode default shadow default show_stereotype_properties default
+  //sequence diagram settings
+  show_full_operations_definition default write_horizontally default class_drawing_mode default drawing_language default draw_all_relations default shadow default show_stereotype_properties default show_class_context_mode default show_msg_context_mode default
+  //collaboration diagram settings
+  show_full_operations_definition default show_hierarchical_rank default write_horizontally default class_drawing_mode default drawing_language default package_name_in_tab default show_context default show_msg_context default draw_all_relations default shadow default show_stereotype_properties default
+  //object diagram settings
+   write_horizontally default package_name_in_tab default show_context default auto_label_position default draw_all_relations default shadow default show_stereotype_properties default
+  //component diagram settings
+  package_name_in_tab default show_context default auto_label_position default draw_all_relations default shadow default
+  draw_component_as_icon default show_component_req_prov default show_component_rea default show_stereotype_properties default
+  //deployment diagram settings
+  package_name_in_tab default show_context default write_horizontally default auto_label_position default draw_all_relations default shadow default
+  draw_component_as_icon default show_component_req_prov default show_component_rea default show_stereotype_properties default
+  //state diagram settings
+  package_name_in_tab default show_context default auto_label_position default write_trans_label_horizontally default show_trans_definition default draw_all_relations default shadow default
+  show_activities default region_horizontally default drawing_language default show_stereotype_properties default
+  //activity diagram settings
+  package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+  show_infonote default drawing_language default show_stereotype_properties default
+  
+  java_dir "se/bth/trek"
+  java_package "se.bth.trek"
+  classview 141059 "classes"
+    //class diagram settings
+    draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+    //collaboration diagram settings
+    show_full_operations_definition default show_hierarchical_rank default write_horizontally default class_drawing_mode default drawing_language default package_name_in_tab default show_context default show_msg_context default draw_all_relations default shadow default show_stereotype_properties default
+    //object diagram settings
+     write_horizontally default package_name_in_tab default show_context default auto_label_position default draw_all_relations default shadow default show_stereotype_properties default
+    //sequence diagram settings
+    show_full_operations_definition default write_horizontally default class_drawing_mode default drawing_language default draw_all_relations default shadow default show_stereotype_properties default show_class_context_mode default show_msg_context_mode default
+    //state diagram settings
+    package_name_in_tab default show_context default auto_label_position default write_trans_label_horizontally default show_trans_definition default draw_all_relations default shadow default
+    show_activities default region_horizontally default drawing_language default show_stereotype_properties default
+    //class settings
+    //activity diagram settings
+    package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+    show_infonote default drawing_language default show_stereotype_properties default
+    associated_deployment_view deploymentview_ref 134659 // code
+    classdiagram 174083 "all_classes"
+      draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+      size A4
+    end
+
+    class 148611 "User"
+      visibility public 
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      classrelation 164099 // <dependency>
+	relation 163843 -_->
+	  stereotype "import"
+	  a package
+	    classrelation_ref 164099 // <dependency>
+	  b parent class_ref 182275 // Date
+      end
+
+      classrelation 163331 // <dependency>
+	relation 163075 -_->
+	  a package
+	    classrelation_ref 163331 // <dependency>
+	  b parent class_ref 155523 // Movment
+      end
+
+      classrelation 163203 // free_space (<unidirectional association>)
+	relation 162947 --->
+	  a role_name "free_space" init_value "null" private
+	    comment "Allowed space around this user."
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 163203 // free_space (<unidirectional association>)
+	  b parent class_ref 148739 // Space
+	  association_type class_ref 148739 // Space
+      end
+
+      classrelation 149763 // ref (<unidirectional association>)
+	relation 149507 --->
+	  a role_name "ref" multiplicity "2" init_value "null" private
+	    comment "Reference position for user"
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type}${multiplicity} ${name}${value};
+"
+	    classrelation_ref 149763 // ref (<unidirectional association>)
+	  b parent class_ref 148995 // Position
+	  association_type class_ref 148995 // Position
+      end
+
+      operation 171395 "speed"
+	public explicit_return_type "double"
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "The current estimatde speed of user.
+
+@return double Speed of user"
+      end
+
+      operation 179075 "isIdle"
+	public explicit_return_type "bool"
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "User is idle if no change of position have occured over 
+a period of time.
+
+@return <code> true </code> if user is idle"
+      end
+
+      operation 232707 "isMovable"
+	public explicit_return_type "bool"
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "A movable user is within its allowed space. 
+
+return <code> true </code> if user is in allowed space"
+      end
+
+      operation 185731 "position"
+	public return_type class_ref 148995 // Position
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "The position of this on in the space.
+
+@return Position of usser"
+      end
+
+      operation 232067 "space"
+	public return_type class_ref 148739 // Space
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Free or allowed space sourding this user.
+
+@return Free space around this user"
+      end
+
+      operation 232323 "setReference"
+	public explicit_return_type ""
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "This sets a reference positon, "
+      end
+
+      operation 232195 "timestamp"
+	protected explicit_return_type "double"
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Create a timestamp for current time. This number of seconds since January 1, 1970, 00:00:00 GMT.
+
+@return Timestamp for current time"
+      end
+
+      class 182147 "PosList"
+	visibility package 
+	cpp_decl ""
+	java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+	php_decl ""
+	python_2_2 python_decl ""
+	idl_decl ""
+	explicit_switch_type ""
+	
+	classrelation 163971 // <generalisation>
+	  relation 163715 ---|>
+	    a public
+	      java "${type}"
+	      classrelation_ref 163971 // <generalisation>
+	    b parent class_ref 155779 // PositionListener
+	end
+      end
+
+      attribute 173187 "ref_time"
+	private explicit_type "double"
+	init_value "0"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Timestamp for reference position"
+      end
+
+      operation 255363 "updSpace"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "space" type class_ref 148739 // Space
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Update current space with new space for this user.
+
+@param space New space"
+      end
+    end
+
+    class 148739 "Space"
+      visibility public 
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      operation 232579 "Space"
+	public explicit_return_type ""
+	nparams 2
+	  param in name "pos" type class_ref 148995 // Position
+	  param in name "size" explicit_type "double[]"
+	
+	java_def "  ${comment}${@}${visibility}${final}${synchronized}${name}${(}${t0} ${p0}, ${t1} ${p1}${)}${throws} {
+  ${body}}
+"
+	
+	
+	
+	comment "Create a new space.
+
+@param pos Position of space, the corner closest to origin
+@param size Size of space
+"
+      end
+
+      operation 171523 "nearestEdge"
+	public explicit_return_type "double"
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Distance to nearest boundery edge. This requires that a 
+user position and boundery have been set.
+
+@return double"
+      end
+
+      operation 179203 "inSpace"
+	public explicit_return_type "bool"
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "A boundery box define the bordes of this space and if 
+user is inside that box then user is in this space.
+
+@return <code> true </code> if user is in this space"
+      end
+
+      attribute 166147 "size"
+	private explicit_type "double"
+	multiplicity "2"
+	init_value "{0, 0}"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type}${multiplicity} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Size of this area"
+      end
+
+      attribute 172675 "position"
+	private explicit_type "double"
+	multiplicity "2"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type}${multiplicity} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Position of this area, the corner closest to origin"
+      end
+
+      classrelation 170627 // mark (<unidirectional association>)
+	relation 170371 --->
+	  a role_name "mark" init_value "null" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 170627 // mark (<unidirectional association>)
+	  b parent class_ref 148995 // Position
+	  association_type class_ref 148995 // Position
+      end
+    end
+
+    class 148995 "Position"
+      visibility public 
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      comment "This class reprecents a geografic position."
+      attribute 172931 "pos"
+	private explicit_type "double"
+	multiplicity "2"
+	init_value "0"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type}${multiplicity} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Estimated current position"
+      end
+
+      attribute 172803 "track"
+	private explicit_type "double[]"
+	multiplicity "10"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type}${multiplicity} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Track of previous postions used for estimating current position."
+      end
+
+      classrelation 149891 // listeners (<directional aggregation>)
+	relation 149635 o-->
+	  stereotype "list"
+	  a role_name "listeners" multiplicity "0..*" init_value "new ArrayList<PositionListener>()" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${stereotype}<${type}> ${name}${value};
+"
+	    classrelation_ref 149891 // listeners (<directional aggregation>)
+	  b parent class_ref 155779 // PositionListener
+      end
+
+      operation 254595 "Position"
+	public explicit_return_type ""
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${synchronized}${name}${(}${)}${throws} {
+  ${body}}
+"
+	
+	
+	
+      end
+
+      operation 254723 "Position"
+	public explicit_return_type ""
+	nparams 1
+	  param in name "pos" explicit_type "double[]"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Create a new position at given coordinates."
+      end
+
+      operation 178307 "update"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "pos" explicit_type "double[]"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Update current position.
+
+@param pos New position"
+      end
+
+      operation 178435 "addListener"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "listener" explicit_type "PositionListener"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Add a update listener to this class. All changes of current
+position trigger this event.
+
+@param listener Position listener"
+      end
+
+      operation 240899 "toDouble"
+	public explicit_return_type "double[]"
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Get this position as a array of lenght 2 of type double.
+
+@return This position "
+      end
+
+      operation 178563 "posEvent"
+	private explicit_return_type "void"
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Change of postion event. All listeners is informed."
+      end
+    end
+
+    class 155523 "Movment"
+      visibility public 
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      operation 178051 "time"
+	class_operation public explicit_return_type "double"
+	nparams 2
+	  param in name "dist" explicit_type "double"
+	  param in name "speed" explicit_type "double"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}, ${t1} ${p1}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Time to cover a fixed distance in a given average speed.
+
+@param dist Distance to cover
+@param speed Average speed
+@return Time in seconds"
+      end
+
+      operation 232451 "speed"
+	class_operation public explicit_return_type "double"
+	nparams 2
+	  param in name "dist" explicit_type "double"
+	  param in name "time" explicit_type "double"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}, ${t1} ${p1}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Average speed to cover a fixed distance at given time.
+
+@param dist Distance to cover
+@param time Time in seconds
+@return Average speed"
+      end
+    end
+
+    class 155779 "PositionListener"
+      visibility package stereotype "interface"
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      operation 178691 "posChanged"
+	public explicit_return_type "void"
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Called then position have changed."
+      end
+    end
+  end
+
+  deploymentview 134659 "code"
+    //deployment diagram settings
+    package_name_in_tab default show_context default write_horizontally default auto_label_position default draw_all_relations default shadow default
+    draw_component_as_icon default show_component_req_prov default show_component_rea default show_stereotype_properties default
+  end
+end

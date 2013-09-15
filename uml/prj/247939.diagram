@@ -1,0 +1,98 @@
+format 76
+
+activityobjectcanvas 128003 activityobject_ref 258691 // activity object tile
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 256 91 2000 65 51
+end
+activityobjectcanvas 128131 activityobject_ref 258819 // activity object section
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 429 93 2000 85 51
+end
+activityobjectcanvas 128259 activityobject_ref 258947 // activity object a
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 93 144 2000 31 33
+end
+activityobjectcanvas 128387 activityobject_ref 259075 // activity object b
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 91 189 2000 31 33
+end
+activityobjectcanvas 128515 activityobject_ref 259203 // activity object close
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 84 260 2000 49 33
+end
+activityobjectcanvas 128643 activityobject_ref 259331 // activity object cross_edge
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 70 314 2000 85 33
+end
+activityactioncanvas 128899 activityaction_ref 298371 // activity action tile.parity_y XOR cross_y
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 188 483 2000 100 60
+end
+activityactioncanvas 129411 activityaction_ref 298499 // activity action Add segment
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 336 276 2000 99 40
+  pins
+    pincanvas 129539 pin_ref 272387 // entry
+      xyzwh 429 266 2002 11 11 label_xy 390 254
+    end
+    pincanvas 129667 pin_ref 272515 // a
+      xyzwh 372 266 2002 11 11 label_xy 359 254
+    end
+    pincanvas 129795 pin_ref 272643 // b
+      xyzwh 344 266 2002 11 11 label_xy 331 254
+    end
+  end
+end
+activityactioncanvas 130435 activityaction_ref 298627 // activity action cross_edge
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 440 416 2005 100 60
+end
+activityactioncanvas 130563 activityaction_ref 298755 // activity action tile.status OR cross_edge
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 474 302 2000 100 60
+  pins
+    pincanvas 131459 pin_ref 273539 // status
+      xyzwh 464 327 2002 11 11 label_xy 422 315
+    end
+  end
+end
+activityactioncanvas 131587 activityaction_ref 298883 // activity action Edge crossed
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 276 382 2000 84 49
+end
+activitynodecanvas 131715 activitynode_ref 264707 // decision
+  xyz 306 459 2000
+end
+flowcanvas 129923 flow_ref 406147 // <flow>
+  
+  from ref 128259 z 2003 to point 373 157
+  line 131971 z 2003 to ref 129667
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 130051 flow_ref 406275 // <flow>
+  
+  from ref 128387 z 2003 to point 359 181
+  line 132099 z 2003 to ref 129795
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 130179 flow_ref 406403 // <flow>
+  
+  from ref 128131 z 2003 to ref 129539
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 131843 flow_ref 406659 // <flow>
+  
+  from ref 131587 z 2001 to ref 131715
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 132483 flow_ref 407043 // <flow>
+  
+  from ref 129411 z 2001 to ref 131587
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+end

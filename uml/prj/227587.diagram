@@ -1,0 +1,23 @@
+format 76
+
+activityactioncanvas 128003 activityaction_ref 248451 // activity action length = hypotenuse
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 190 197 2000 152 40
+end
+activityactioncanvas 128131 activityaction_ref 248579 // activity action scale to long
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 208 141 2000 115 40
+end
+activityactioncanvas 128259 activityaction_ref 248707 // activity action dx = a[x] - b[x]
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 205 255 2000 124 40
+end
+activityactioncanvas 128387 activityaction_ref 248835 // activity action dy = a[y] - b[y]
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 215 316 2000 109 40
+end
+end

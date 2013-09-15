@@ -1,0 +1,173 @@
+format 76
+
+activitycanvas 128003 activity_ref 195075 // FenceIterator
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 102 17 2000 407 439
+  params
+    parametercanvas 128131 parameter_ref 168963 // fence
+        xyzwh 72 118 2002 61 35
+    end
+  end
+end
+activityactioncanvas 128259 activityaction_ref 282115 // activity action Get list iterator
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 268 42 2005 74 49
+  pins
+    pincanvas 128387 pin_ref 255747 // list
+      xyzwh 258 64 2007 11 11 label_xy 231 47
+    end
+    pincanvas 128515 pin_ref 255875 // vertices
+      xyzwh 341 62 2007 11 11 label_xy 356 50
+    end
+  end
+end
+activityactioncanvas 129027 activityaction_ref 282371 // activity action Get precision
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 303 238 2005 101 41
+  pins
+    pincanvas 129155 pin_ref 256259 // precision
+      xyzwh 326 278 2007 11 11 label_xy 344 287
+    end
+  end
+end
+activityobjectcanvas 129411 activityobject_ref 242819 // activity object scale
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 305 317 2005 53 51
+end
+activityobjectcanvas 129923 activityobject_ref 242947 // activity object vertices
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 424 42 2005 67 51
+end
+activityactioncanvas 130563 activityaction_ref 282499 // activity action segment.vertex_b[x] = vertex.x
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 123 316 2005 154 50
+end
+activityactioncanvas 130691 activityaction_ref 282627 // activity action segment.vertex_b[y] = vertex.y
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 121 384 2005 159 52
+end
+activitynodecanvas 131075 activitynode_ref 250499 // activity_final
+  xyz 317 399 2005
+end
+activityactioncanvas 131715 activityaction_ref 335747 // activity action Number of verices
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 179 156 2010 88 50
+  pins
+    pincanvas 131843 pin_ref 310915 // list
+      xyzwh 169 175 2012 11 11 label_xy 145 156
+    end
+    pincanvas 131971 pin_ref 311043 // count
+      xyzwh 266 173 2012 11 11 label_xy 279 182
+    end
+  end
+end
+activityactioncanvas 132355 activityaction_ref 335875 // activity action Get last vertex
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 395 163 2010 81 50
+  pins
+    pincanvas 132611 pin_ref 311171 // list
+      xyzwh 385 194 2012 11 11 label_xy 342 190
+    end
+    pincanvas 132739 pin_ref 311299 // vertex
+      xyzwh 429 212 2012 11 11 label_xy 447 220
+    end
+    pincanvas 132867 pin_ref 311427 // index
+      xyzwh 385 173 2012 11 11 label_xy 348 154
+    end
+  end
+end
+activityactioncanvas 134147 activityaction_ref 336003 // activity action Create segment
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 143 239 2011 113 40
+  pins
+    pincanvas 134275 pin_ref 311555 // segment
+      xyzwh 194 278 2013 11 11 label_xy 219 288
+    end
+  end
+end
+flowcanvas 129539 flow_ref 380547 // <flow>
+  
+  from ref 129155 z 2008 to ref 129411
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+  transformation 
+  information 129667 "<<transformation>>
+10 * precision"
+    xyzwh 365 311 2008 136 55
+end
+flowcanvas 130051 flow_ref 380675 // <flow>
+  
+  from ref 128515 z 2008 to ref 129923
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 130307 flow_ref 380931 // <flow>
+  
+  from ref 128131 z 2008 to point 138 67
+  line 133379 z 2008 to ref 128387
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 130819 flow_ref 381059 // <flow>
+  
+  from ref 130563 z 2006 to ref 130691
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 131203 flow_ref 381315 // <flow>
+  
+  from ref 130691 z 2006 to ref 131075
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 132099 flow_ref 451587 // <flow>
+  
+  from ref 128131 z 2013 to point 139 178
+  line 134787 z 2013 to ref 131843
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 132227 flow_ref 451715 // <flow>
+  
+  from ref 128259 z 2011 to ref 131715
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 132995 flow_ref 451971 // <flow>
+  
+  from ref 128131 z 2013 to point 134 221
+  line 133123 z 2013 to point 362 221
+  line 134019 z 2013 to point 370 197
+  line 133251 z 2013 to ref 132611
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 133507 flow_ref 452099 // <flow>
+  
+  from ref 131971 z 2013 to ref 132867
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+  transformation 
+  information 133635 "<<transformation>>
+count - 1"
+    xyzwh 293 101 2013 137 53
+end
+flowcanvas 133891 flow_ref 452227 // <flow>
+  
+  from ref 132739 z 2013 to point 432 255
+  line 134915 z 2013 to ref 129027
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 134531 flow_ref 452355 // <flow>
+  
+  from ref 134275 z 2014 to ref 130563
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 134659 flow_ref 452483 // <flow>
+  
+  from ref 129027 z 2012 to ref 134147
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+line 129795 -_-_
+  from ref 129539 z 2009 to ref 129667
+line 133763 -_-_
+  from ref 133507 z 2014 to ref 133635
+end

@@ -1,0 +1,8 @@
+format 76
+
+activityactioncanvas 129027 activityaction_ref 320515 // activity action flags XOR mask
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 240 219 2000 100 60
+end
+end

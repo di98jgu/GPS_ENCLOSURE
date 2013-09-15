@@ -1,0 +1,13 @@
+format 76
+
+artifactcanvas 128003 artifact_ref 128003 // Enclosure
+  xyz 227 185 2005
+end
+artifactcanvas 128131 artifact_ref 128131 // Fence
+  xyz 229 104 2005
+end
+packagecanvas 128259 
+  package_ref 128003 // se
+    xyzwh 172 49 2000 243 219
+end
+end

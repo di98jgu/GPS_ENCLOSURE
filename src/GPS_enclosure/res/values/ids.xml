@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="title_container" />
+    <item type="id" name="title_logo" />
+    <item type="id" name="title_text" />
+    
+    <item type="id" name="run_service" />
+    <item type="id" name="stop_service" />
+    <item type="id" name="manual_service" />
+    <item type="id" name="call_service" />
+
+    <item type="id" name="dialog_discard_confirm" />
+
+    <item type="id" name="dialog_moderator" />
+    <item type="id" name="dialog_wave" />
+
+    <item type="id" name="blocks_ruler" />
+    <item type="id" name="blocks_now" />
+
+</resources>

@@ -1,0 +1,43 @@
+format 76
+
+activitycanvas 128003 activity_ref 202371 // samePos
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 108.8 224.4 2000 546 366
+  params
+    parametercanvas 128131 parameter_ref 176259 // a
+        xyzwh 71.5 350 2002 75 35
+    end
+    parametercanvas 128259 parameter_ref 176387 // b
+        xyzwh 71.5 439.8 2002 75 35
+    end
+    parametercanvas 128387 parameter_ref 176515 // True/False
+        xyzwh 616.8 392.3 2002 75 35
+    end
+  end
+end
+activityactioncanvas 128515 activityaction_ref 290819 // activity action (a[x] == b[x]) and (a[y] == b[y])
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 299 395 2005 207 43
+  pins
+    pincanvas 128899 pin_ref 264963 // same
+      xyzwh 505 404 2007 11 11 label_xy 521 386
+    end
+  end
+end
+flowcanvas 128643 flow_ref 394627 // <flow>
+  
+  from ref 128131 z 2006 to ref 128515
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 128771 flow_ref 394755 // <flow>
+  
+  from ref 128259 z 2006 to ref 128515
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 129027 flow_ref 394883 // <flow>
+  
+  from ref 128899 z 2008 to ref 128387
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+end

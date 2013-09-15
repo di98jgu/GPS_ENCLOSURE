@@ -1,0 +1,50 @@
+format 76
+
+activitynodecanvas 128003 activitynode_ref 163587 // initial_node
+  xyz 133 28 2000
+end
+activitynodecanvas 128131 activitynode_ref 163715 // activity_final
+  xyz 129 297 2000
+end
+activityactioncanvas 128259 activityaction_ref 173827 // activity action Update user location
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 93 183 2000 100 60
+  pins
+    pincanvas 129027 pin_ref 167427 // set field
+      xyzwh 192 212 2002 11 11 label_xy 203 195
+    end
+    pincanvas 129155 pin_ref 167555 // boundery
+      xyzwh 136 173 2002 11 11 label_xy 151 158
+    end
+  end
+end
+activityobjectcanvas 128387 activityobject_ref 168707 // activity object location
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 264 191 2000 67 51
+end
+activityobjectcanvas 128515 activityobject_ref 168835 // activity object boundery
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 104 95 2000 75 51
+end
+flowcanvas 128643 flow_ref 226051 // <flow>
+  
+  from ref 128003 z 2001 to ref 128515
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 129283 flow_ref 226307 // <flow>
+  
+  from ref 128515 z 2003 to ref 129155
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 129411 flow_ref 226435 // <flow>
+  
+  from ref 128387 z 2003 to ref 129027
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 129539 flow_ref 226563 // <flow>
+  
+  from ref 128259 z 2001 to ref 128131
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+end

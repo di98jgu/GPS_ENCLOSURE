@@ -1,0 +1,118 @@
+format 76
+
+activityobjectcanvas 128003 activityobject_ref 249987 // activity object tile_index
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 181.2 553.6 2011 73 33
+end
+activityactioncanvas 128259 activityaction_ref 289411 // activity action tile_index[at]
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 131.4 459.6 2017 119 41
+end
+activityobjectcanvas 128387 activityobject_ref 250243 // activity object i
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 348.2 455.8 2023 31 51
+end
+activityactioncanvas 128515 activityaction_ref 289539 // activity action i >= 0
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 315.4 526.2 2017 97 41
+end
+activitynodecanvas 128643 activitynode_ref 257155 // decision
+  xyz 352.8 586.6 2011
+end
+activityactioncanvas 128899 activityaction_ref 289667 // activity action new TileEntry(new TileData(), at, tile_index[at])
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 107 636.8 2017 207 57
+end
+activityobjectcanvas 129539 activityobject_ref 250371 // activity object entry
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 585.6 715.6 2011 69 51
+end
+activityactioncanvas 129795 activityaction_ref 289923 // activity action new TileEntry(tile_data[i], at, FENCE)
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 427.6 637.8 2017 179 53
+end
+activityobjectcanvas 129923 activityobject_ref 250499 // activity object FENCE
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 484.2 546 2011 65 51
+end
+activitynodecanvas 130947 activitynode_ref 257283 // merge
+  xyz 365.8 722.2 2011
+end
+activitycanvas 131587 activity_ref 202115 // entryAt
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 72.2 405.6 2006 610 379
+  params
+    parametercanvas 131715 parameter_ref 175619 // at
+        xyzwh 47.2 586.8 2008 51 27
+    end
+    parametercanvas 131843 parameter_ref 175747 // entry
+        xyzwh 656.2 623.4 2008 51 27
+    end
+  end
+end
+flowcanvas 128771 flow_ref 390531 // <flow>
+  
+  from ref 128515 z 2018 to ref 128643
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 130051 flow_ref 390915 // <flow>
+  
+  from ref 129923 z 2018 to ref 129795
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 130307 flow_ref 391171 // <flow>
+  
+  from ref 128003 z 2018 to ref 128259
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 130435 flow_ref 391299 // <flow>
+  
+  from ref 128259 z 2024 to ref 128387
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 130819 flow_ref 391427 // <flow>
+  
+  from ref 128387 z 2024 to ref 128515
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 131075 flow_ref 391555 // <flow>
+  
+  from ref 128899 z 2018 to ref 130947
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 131203 flow_ref 391683 // <flow>
+  decenter_begin 448
+  
+  from ref 129795 z 2018 to ref 130947
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 131331 flow_ref 391811 // <flow>
+  
+  from ref 128643 z 2018 label "[True]" xyz 397 613.5 2018 to ref 129795
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 131459 flow_ref 391939 // <flow>
+  
+  from ref 128643 z 2018 to ref 128899
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 131971 flow_ref 392067 // <flow>
+  
+  from ref 131715 z 2018 to ref 128259
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 132099 flow_ref 392195 // <flow>
+  
+  from ref 129539 z 2012 to ref 131843
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 132227 flow_ref 392323 // <flow>
+  
+  from ref 130947 z 2012 to ref 129539
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+end

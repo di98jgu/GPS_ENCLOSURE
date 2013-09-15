@@ -1,0 +1,114 @@
+format 76
+
+activityactioncanvas 128387 activityaction_ref 142979 // activity action Distance to boundery edge
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 342.241 312.814 3010 113 51
+  pins
+    pincanvas 136579 pin_ref 128387 // space
+      xyzwh 332.472 334.062 3011 11 11 label_xy 292 317
+    end
+    pincanvas 136707 pin_ref 128515 // distance
+      xyzwh 389.99 302.879 3011 11 11 label_xy 338 286
+    end
+  end
+end
+activityactioncanvas 129411 activityaction_ref 143747 // activity action Distance per time unit
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 147.471 206.859 3010 111 51
+  pins
+    pincanvas 135555 pin_ref 128003 // myself
+      xyzwh 137.129 224.092 3011 11 11 label_xy 94 206
+    end
+    pincanvas 135683 pin_ref 128131 // speed
+      xyzwh 257.245 227.18 3011 11 11 label_xy 270 233
+    end
+  end
+end
+activityactioncanvas 129539 activityaction_ref 143875 // activity action Time to reach edge
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 337.137 204.302 3010 107 53
+  pins
+    pincanvas 137475 pin_ref 135043 // movment
+      xyzwh 391.4 194.4 3011 11 11 label_xy 404 175
+    end
+    pincanvas 137603 pin_ref 135171 // seconds
+      xyzwh 443.8 225.6 3011 11 11 label_xy 456 232
+    end
+    pincanvas 137731 pin_ref 135299 // dist
+      xyzwh 388 256.6 3011 11 11 label_xy 401 266
+    end
+    pincanvas 137859 pin_ref 135427 // speed
+      xyzwh 327 226.8 3011 11 11 label_xy 287 209
+    end
+  end
+end
+activityobjectcanvas 137347 activityobject_ref 154243 // activity object movment
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 359 115.4 3010 75 51
+end
+activityactioncanvas 139011 activityaction_ref 215939 // activity action Get user space
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 163 315 3010 79 49
+  pins
+    pincanvas 139139 pin_ref 233603 // myself
+      xyzwh 153 333 3011 11 11 label_xy 109 314
+    end
+    pincanvas 139267 pin_ref 233731 // space
+      xyzwh 241 335 3011 11 11 label_xy 253 341
+    end
+  end
+end
+activitycanvas 139395 activity_ref 134531 // Calc_Time
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 78 104 3005 473 267
+  params
+    parametercanvas 139523 parameter_ref 155523 // myself
+        xyzwh 47 266 3007 63 29
+    end
+    parametercanvas 139651 parameter_ref 155651 // seconds
+        xyzwh 519 216 3007 63 29
+    end
+  end
+end
+flowcanvas 137987 flow_ref 168707 // <flow>
+  
+  from ref 137347 z 3011 to ref 137475
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 139779 flow_ref 294147 // <flow>
+  
+  from ref 139523 z 3012 to point 102 227
+  line 140547 z 3012 to ref 135555
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 139907 flow_ref 294275 // <flow>
+  
+  from ref 139523 z 3012 to point 100 335
+  line 140675 z 3012 to ref 139139
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 140035 flow_ref 294403 // <flow>
+  
+  from ref 135683 z 3012 to ref 137859
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 140163 flow_ref 294531 // <flow>
+  
+  from ref 139267 z 3012 to ref 136579
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 140291 flow_ref 294659 // <flow>
+  
+  from ref 136707 z 3012 to ref 137731
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 140419 flow_ref 294787 // <flow>
+  
+  from ref 137603 z 3012 to ref 139651
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+end

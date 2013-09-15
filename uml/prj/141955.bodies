@@ -1,0 +1,5 @@
+class Boundery
+!!!247427.java!!!	Boundery(in a : long [2], in b : long [2]) : void
+return this;
+!!!247683.java!!!	Boundery(in center : long[], in diagonal : long) : void
+return this;

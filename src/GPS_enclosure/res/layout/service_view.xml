@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <include layout="@layout/titlebar"/>
+    
+    <RadioGroup
+        android:id="@+id/radiogroup_service"
+        style="@style/RadioList">
+        <RadioButton
+            android:text="@string/service_run_service"
+            android:id="@id/run_service"
+            style="@style/RadioItem" />
+        <RadioButton
+            android:text="@string/service_stop_service"
+            android:id="@id/stop_service"
+            style="@style/RadioItem" />
+        <RadioButton
+            android:text="@string/service_manual_service"
+            android:id="@id/manual_service"
+            style="@style/RadioItem" />
+    </RadioGroup>
+    
+    <TextView   
+    	android:text="@string/service_info"
+        android:id="@+id/text_service_info"
+        style="@style/ServiceText"  />
+    
+    <Button
+        android:text="@string/service_update_now"
+        android:id="@+id/service_update_now"
+        style="@style/ServiceButton" 
+        android:state_enabled="false"
+        android:onClick="onUpdateNow" />
+    
+</LinearLayout>

@@ -1,0 +1,110 @@
+Warning! Never change git history, let a commit 
+done stay done. 
+
+--------------------------------------------------
+Geting started
+--------------------------------------------------
+
+Clone 
+git clone git:[addresse]
+
+Create git
+git init
+
+Status
+git status
+
+Modified 
+git status -s
+
+--------------------------------------------------
+Add and commit changes
+--------------------------------------------------
+
+Add content to code tree
+git add [file | folder]
+
+Commit, snapshot
+git commit -m "name"
+
+Add content and commit it
+git commit -a -m "name"
+
+View commits
+git log
+git log --oneline // Short list
+git log --oneline --graph // Neat ascii graph
+
+---------------------------------------------------
+Branching 
+----------------------------------------------------
+
+New branch in the code tree
+git checkout -b blue
+
+Select branch
+git checkout [branch]
+
+View branch
+get branch
+
+Delete branch
+git branch -d [branch] // No real data deleted, safe
+git branch -D [branch] // Delete it absolutely 
+
+Merge branches together
+git merge "name"
+
+----------------------------------------------------------------------
+View structure and changes
+-----------------------------------------------------------------------
+
+Compare branches
+git log [branch a] ^[branch b] // Everything in a that is not in b  
+
+Difference in changes
+git diff
+
+View structure
+git lol --all // lol == log --oneline --graph --decorate
+
+-------------------------------------------------------------------
+Configure git
+--------------------------------------------------------------------
+
+Create alias
+git config --global alias.lol "log --oneline --graph --decorate" 
+
+Configure
+git config --global user.name "name"
+git config --global user.email "address"
+
+---------------------------------------------------------------------
+Speak to remote repositorys
+----------------------------------------------------------------------
+
+Clone 
+git clone git:[addresse]
+
+Push work
+git push origin [branch]
+
+Fetch latest work
+git fetch // Then merge locally: git merge [branch] 
+
+Automate push fetch push
+git pull // Assume work is done master mainly
+
+-------------------------------------------------------------
+Neat shorthands
+---------------------------------------------------------------
+Create a new branch and go to it
+git checkout [branch]     \
+git branch [new branch]    > git checkout -b [new branch] [branch]
+git checkout [new branch] /
+
+-----------------------------------------------------------------------
+Advance merge
+------------------------------------------------------------------------
+merge tool 
+git mergetool

@@ -1,0 +1,51 @@
+format 76
+
+activitynodecanvas 128003 activitynode_ref 149763 // initial_node
+  xyz 292 85 2000
+end
+activitynodecanvas 128131 activitynode_ref 149891 // activity_final
+  xyz 289 374 2000
+end
+activityactioncanvas 128259 activityaction_ref 152195 // activity action Is user at location
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 246 159 2005 110 50
+  pins
+    pincanvas 128515 pin_ref 137987 // on field
+      xyzwh 355 179 2007 11 11 label_xy 369 161
+    end
+    pincanvas 128643 pin_ref 138115 // answer
+      xyzwh 294 208 2007 11 11 label_xy 311 216
+    end
+  end
+end
+activityobjectcanvas 128387 activityobject_ref 155395 // activity object location
+  show_infonote default drawing_language default show_stereotype_properties default
+  xyzwh 424 159 2000 73 51
+end
+activityactioncanvas 128899 activityaction_ref 158723 // activity action Select action
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 247 294 2000 108 40
+end
+flowcanvas 128771 flow_ref 173699 // <flow>
+  
+  from ref 128387 z 2008 to ref 128515
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 129027 flow_ref 180227 // <flow>
+  
+  from ref 128003 z 2006 to ref 128259
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 129155 flow_ref 180355 // <flow>
+  
+  from ref 128643 z 2008 to ref 128899
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 129283 flow_ref 180483 // <flow>
+  
+  from ref 128899 z 2001 to ref 128131
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+end

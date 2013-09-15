@@ -1,0 +1,164 @@
+http://developer.android.com/reference/android/location/LocationManager.html
+LocationManager
+
+This class provides access to the system location services. These services allow applications to obtain periodic updates of the device's geographical location, or to fire an application-specified Intent when the device enters the proximity of a given geographical location. 
+
+
+
+-------------------------------------------------------------------------
+ 
+Vacca, John R. (2009) Computer and Information Security Handbook [Elektronisk resurs]. Burlington: Elsevier - ISBN: 978-0-080921945
+CHAPTER 1 Building a Secure Organization
+
+
+1. OBSTACLES TO SECURITY
+Security Is Inconvenient
+
+Säkerhet är besvärligt
+Från en användarens synvinkel så är säkerhet något besvärligt. Säkerhet 
+handlar till stor del om reglerad resurshantering. Vem som har 
+tillgång till vad och hur. Användaren så är säkerhet ett hinder för
+att hantera en resurs. 
+
+En mobil enhet är en resurs som behöver regleras. Direkt åtkomst till en
+dator eller datorsystem är ett av de mest allvarliga hoten. Detta ger
+i värsta fall angripare full tillgång till all data på datorn. En mobil
+enhet är stort oskyddad från direkt åtkomst.
+
+Computers Are Powerful and Complex
+Datorer är kraftfulla och komplexa
+En mobiltelefon är en komplet dator. Den innhehåller privat information,
+kontaktuppgifter, uppgifter om företagets nätverk och företagshemligheter.
+
+Computer Users Are Unsophisticated
+Datoranvändare är osofistikerade
+Användare har lite eller ingen kändedom om säkerhet och vilka hot som
+finns.
+
+Computers Created Without a Thought
+to Security
+Datorer skapades utan en tanke på säkerhet
+Detta är inte sant vad gäller Android. Kärnan är ett Linux system. Varje
+applikation kör som egen användare. Användaren av den mobila enheten
+måste vid installation av en applikation godkänna att applikationen 
+använder vissa resusersom som kontakter, Internet, GPS med flera. 
+
+Användare, åtminstone de under MS Windows, har under de senast 20 åren 
+vant sig vid ständigt återkommande mer eller mindre kryptiska medelande 
+med information varningar och felrapporter. Det är därför tveksamt
+om användare ens är medveten om vad han eller hon godkäner vid 
+installation av applikationen.
+
+
+Current Trend Is to Share, Not Protect
+Nuvarande trenden är att dela, inte skydda
+Typiskt sociala nätverk av olika slag. 
+
+Data Accessible from Anywhere
+Data tillgängliga överallt
+Att kunna arbeta hemifrån. Den mobila enheten finns med överallt. 
+
+Security Isn’t About Hardware and Software
+Säkerhet handlar inte om hårdvara och mjukvara
+Hårdvara och mjukvara är verktyg för att bygga säkerhet men inte säkerhet
+i sig själv. Informationshantering är en del av Android. En applikation
+måste vid installation begära användarens tillstånd för att få ta del
+av kontakt uppgifter, koppla upp sig mot nätet etc. 
+
+The Bad Guys Are Very Sophisticated
+Skurkarna är mycket sofistikerade
+Immateriella tillgångar och kreditkortsuppgifter har ett värde. Med ett
+minne på 512 Mbyte och upp kan en typisk mobil enhet innehålla en 
+ansenlig mängd information. 
+
+Management Sees Security as a Drain on
+the Bottom Line
+Ledningen ser säkerhet som en kostnad
+
+-------------------------------------------------------
+Milette, Greg & Stroud, Adam (2012) Professional Android Sensor Programming [Elektronisk resurs], John Wiley & Sons - ISBN: 978-1-118-18348-9
+
+Sida 3
+Android makes use of different methods to provide location information to an app. In
+Android, these facilities are called location providers, and each has its own unique set of
+strengths and weaknesses. In addition, because location providers have such unique character-
+istics, they each lend themselves to be used differently in different situations.
+
+Android använder sig av olika metoder för att tillhandahålla platsinformation till en app. I
+Android, är dessa anläggningar kallas placering leverantörer, och alla har sin egen unika uppsättning av
+styrkor och svagheter. Dessutom, eftersom plats leverantörer har sådan unik karaktär-
+skaper, de var lämpar sig för att användas på olika sätt i olika situationer.
+
+Sidan 6
+Limitations
+Although GPS can provide the most accurate location data, it does have limitations that may
+be diffi cult to work around. First is the fact that a GPS receiver needs a clear path to a GPS
+satellite. This means that GPS receivers are unlikely to work indoors, and may even have prob-
+lems outside in areas where the sky is not visible (such as dense forests). Additionally, because
+multiple GPS satellites are needed to produce location information, it may take a substantial
+amount of time to acquire a location. This is exacerbated by that fact that devices may contain
+low-powered GPS radios. For these reasons, other sources of location information are
+sometimes needed.
+Objects that obstruct a GPS signal may cause the signal to be reflected before it reaches the GPS
+receiver. As stated earlier, the time it takes a signal to reach the GPS receiver is used to calculate the
+distance between the GPS satellite and the GPS receiver. GPS signals that are reflected off of objects
+have a different path from the GPS satellite to the GPS receiver and cause the distance calculation to
+be erroneous. These types of errors are called multipath errors and can cause the location to appear
+to jump from one place to another. This is often seen in urban areas where GPS signals frequently
+bounce off of tall buildings.
+
+-------------------------------------------------------------------------------------------
+developer.android.com/training/articles/perf-tips.html 
+(2013-09-02) Performance Tips
+
+ (u.å.)
+ 
+Android Developers (u.å.) Performance Tips [Internet] Från: developer.android.com/training/articles/perf-tips.html [Hämtad: 3 Sep 2013]
+
+-----------------------------------------------------------------------------------------------
+Android Developers (u.å.) Services [Internet] Från: developer.android.com/guide/components/services.html [Hämtad: 4 Sep 2013]
+
+A Service is an application component that can perform long-running operations in the background and does not provide a user interface. Another application component can start a service and it will continue to run in the background even if the user switches to another application. Additionally, a component can bind to a service to interact with it and even perform interprocess communication (IPC). For example, a service might handle network transactions, play music, perform file I/O, or interact with a content provider, all from the background.
+
+IntentService
+
+-------------------------------------------------------------------------
+ Reto Meier
+23 June 2011
+A Deep Dive Into Location 
+Android Developers Blog
+
+Meier Reto (23 juni 2011) Android Developers Blog, A Deep Dive Into Location [Blog] Från: android-developers.blogspot.se/2011/06/deep-dive-into-location.html [Hämtad: 4 Sep 2013]
+
+---------------------------------------------------------------------------
+AlarmManager
+
+Android Developers (u.å.) AlarmManager [Internet] Från: http://developer.android.com/reference/android/app/AlarmManager.html [Hämtad: 4 Sep 2013]
+
+This class provides access to the system alarm services. These allow you to schedule your application to be run at some point in the future. When an alarm goes off, the Intent that had been registered for it is broadcast by the system, automatically starting the target application if it is not already running. Registered alarms are retained while the device is asleep (and can optionally wake the device up if they go off during that time), but will be cleared if it is turned off and rebooted. 
+
+
+---------------------------------------------------------------------------
+Gargenta, Marko [NewCircle] (7 mars 2012) 25 - Alarms and System Services: Android Bootcamp Series 2012 
+[Föreläsning] Från: www.youtube.com/watch?v=QEMk4SwsJMg&list=SPE08A97D36D5A255F [Hämtad: 4 Sep 2013]
+
+
+---------------------------------------------------------------------------
+hitta.se (u.å.) Karta, vägkarta, satellitbilder och gatubilder [Hemsida] Från: www.hitta.se/karta [Hämtad: 4 Sep 2013]
+
+Karta, vägkarta, satellitbilder och gatubilder
+http://www.hitta.se/karta
+----------------------------------------------------------------------------
+LocationManager
+
+Android Developers (u.å.) LocationManager [Internet] Från: developer.android.com/reference/android/location/LocationManager.html#requestLocationUpdates(long, float, android.location.Criteria, android.app.PendingIntent) [Hämtad: 5 Sep 2013]
+
+developer.android.com/reference/android/location/LocationManager.html#requestLocationUpdates(long, float, android.location.Criteria, android.app.PendingIntent)
+
+---------------------------------------------------------------------------
+JUnit (u.å.) [Hemsida] Från: junit.org [Hämtad: 5 Sep 2013]
+
+
+
+
+

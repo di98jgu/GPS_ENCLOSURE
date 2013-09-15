@@ -1,0 +1,2837 @@
+format 76
+"enclosure" // se::bth::enclosure
+  revision 45
+  modified_by 13 "work"
+  // class settings
+  //class diagram settings
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  //use case diagram settings
+  package_name_in_tab default show_context default auto_label_position default draw_all_relations default class_drawing_mode default shadow default show_stereotype_properties default
+  //sequence diagram settings
+  show_full_operations_definition default write_horizontally default class_drawing_mode default drawing_language default draw_all_relations default shadow default show_stereotype_properties default show_class_context_mode default show_msg_context_mode default
+  //collaboration diagram settings
+  show_full_operations_definition default show_hierarchical_rank default write_horizontally default class_drawing_mode default drawing_language default package_name_in_tab default show_context default show_msg_context default draw_all_relations default shadow default show_stereotype_properties default
+  //object diagram settings
+   write_horizontally default package_name_in_tab default show_context default auto_label_position default draw_all_relations default shadow default show_stereotype_properties default
+  //component diagram settings
+  package_name_in_tab default show_context default auto_label_position default draw_all_relations default shadow default
+  draw_component_as_icon default show_component_req_prov default show_component_rea default show_stereotype_properties default
+  //deployment diagram settings
+  package_name_in_tab default show_context default write_horizontally default auto_label_position default draw_all_relations default shadow default
+  draw_component_as_icon default show_component_req_prov default show_component_rea default show_stereotype_properties default
+  //state diagram settings
+  package_name_in_tab default show_context default auto_label_position default write_trans_label_horizontally default show_trans_definition default draw_all_relations default shadow default
+  show_activities default region_horizontally default drawing_language default show_stereotype_properties default
+  //activity diagram settings
+  package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+  show_infonote default drawing_language default show_stereotype_properties default
+  
+  java_dir "se/bth/enclosure"
+  java_package "se.bth.enclosure"
+  classview 128003 "classes"
+    //class diagram settings
+    draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+    //collaboration diagram settings
+    show_full_operations_definition default show_hierarchical_rank default write_horizontally default class_drawing_mode default drawing_language default package_name_in_tab default show_context default show_msg_context default draw_all_relations default shadow default show_stereotype_properties default
+    //object diagram settings
+     write_horizontally default package_name_in_tab default show_context default auto_label_position default draw_all_relations default shadow default show_stereotype_properties default
+    //sequence diagram settings
+    show_full_operations_definition default write_horizontally default class_drawing_mode default drawing_language default draw_all_relations default shadow default show_stereotype_properties default show_class_context_mode default show_msg_context_mode default
+    //state diagram settings
+    package_name_in_tab default show_context default auto_label_position default write_trans_label_horizontally default show_trans_definition default draw_all_relations default shadow default
+    show_activities default region_horizontally default drawing_language default show_stereotype_properties default
+    //class settings
+    //activity diagram settings
+    package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
+    show_infonote default drawing_language default show_stereotype_properties default
+    associated_deployment_view deploymentview_ref 128003 // code
+    classdiagram 128003 "all_classes"
+      draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+      size A4
+    end
+
+    class 248195 "Enclosure"
+      visibility package 
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      classrelation 191747 // tile_table (<unidirectional association>)
+	relation 191491 --->
+	  a role_name "tile_table" multiplicity "1" private
+	    comment "Tile table"
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 191747 // tile_table (<unidirectional association>)
+	  b parent class_ref 141443 // TileTable
+	  association_type class_ref 141443 // TileTable
+      end
+
+      classrelation 191875 // section_table (<unidirectional association>)
+	relation 191619 --->
+	  a role_name "section_table" multiplicity "1" private
+	    comment "Fence sections table"
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 191875 // section_table (<unidirectional association>)
+	  b parent class_ref 141699 // SectionTable
+	  association_type class_ref 141699 // SectionTable
+      end
+
+      classrelation 192003 // grid (<unidirectional association>)
+	relation 191747 --->
+	  a role_name "grid" private
+	    comment "The grid used by this enclosure"
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 192003 // grid (<unidirectional association>)
+	  b parent class_ref 142083 // Grid
+	  association_type class_ref 142083 // Grid
+      end
+
+      operation 337283 "Enclosure"
+	public explicit_return_type ""
+	nparams 1
+	  param in name "fence" type class_ref 201859 // List
+	
+	java_def "  ${comment}${@}${visibility}${final}${synchronized}${name}${(}${t0} ${p0}${)}${throws} {
+  ${body}}
+"
+	
+	
+	
+	comment "Create a new enclosure given a fence. "
+      end
+
+      operation 240515 "getArea"
+	public return_type class_ref 188803 // Area
+	nparams 1
+	  param in name "marker" type class_ref 254851 // Marker
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Select tile at position given by a marker. A min area of one
+tile is returned if marker is within this enclosure. 
+ 
+@param marker Position of desired tile.
+@return Tile marker for selected tile."
+      end
+
+      operation 240771 "atFence"
+	public explicit_return_type "bool"
+	nparams 1
+	  param in name "marker" type class_ref 254851 // Marker
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Check if tile at this marker is part of the fence.
+
+@return <code> True </code> if tile is part of fence"
+      end
+
+      operation 128259 "boundery"
+	public return_type class_ref 141955 // Boundery
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "The boundery box for this enclosure. "
+      end
+
+      class 208643 "FenceIterator"
+	visibility package 
+	cpp_decl ""
+	java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+	php_decl ""
+	python_2_2 python_decl ""
+	idl_decl ""
+	explicit_switch_type ""
+	
+	attribute 200835 "fence"
+	  private type class_ref 202115 // FencePost
+	  multiplicity "*"
+	  init_value "null"
+	  stereotype "list"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${stereotype}<${type}> ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	  comment "The fence, a list of vertices."
+	end
+
+	attribute 241923 "segment"
+	  private type class_ref 241667 // FenceSegment
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	  comment "Current segment"
+	end
+
+	attribute 199939 "scale"
+	  public explicit_type "short"
+	  init_value "1"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	  comment "Scale of grid. Set by precition in first vertix."
+	end
+
+	operation 275587 "FenceIterator"
+	  public explicit_return_type ""
+	  nparams 2
+	    param in name "vertices" type class_ref 201859 // List
+	    param in name "grid" type class_ref 142083 // Grid
+	  
+	  java_def "  ${comment}${@}${visibility}${final}${synchronized}${name}${(}${t0} ${p0}, ${t1} ${p1}${)}${throws} {
+  ${body}}
+"
+	  
+	  
+	  
+	  comment "Walk around the fence vertex by vertex. Take a list of
+vertices and a grid."
+	end
+
+	operation 275459 "nextVertex"
+	  public explicit_return_type "void"
+	  nparams 0
+	  
+	  java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	  
+	  
+	  
+	  comment "Go to next vertex in the fence. This updates all attributes."
+	end
+
+	operation 275715 "hasVertex"
+	  public explicit_return_type "bool"
+	  nparams 0
+	  
+	  java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	  
+	  
+	  
+	  comment "Return <code> true </code> if there is more of fence to
+walk.
+
+@return <code> True </code> if more of fence remines."
+	end
+
+	class 241667 "FenceSegment"
+	  visibility package 
+	  cpp_decl ""
+	  java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+	  php_decl ""
+	  python_2_2 python_decl ""
+	  idl_decl ""
+	  explicit_switch_type ""
+	  
+	  attribute 200067 "vertex_a"
+	    public explicit_type "long"
+	    multiplicity "2"
+	    init_value "null"
+	    cpp_decl ""
+	    java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type}${multiplicity} ${name}${value};
+"
+	    php_decl ""
+	    python_decl ""
+	    idl_decl ""
+	    comment "First vertex."
+	  end
+
+	  attribute 200195 "vertex_b"
+	    public explicit_type ""
+	    multiplicity "2"
+	    init_value "null"
+	    cpp_decl ""
+	    java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type}${multiplicity} ${name}${value};
+"
+	    php_decl ""
+	    python_decl ""
+	    idl_decl ""
+	    comment "Second vertex"
+	  end
+
+	  attribute 200579 "length"
+	    public explicit_type "long"
+	    init_value "null"
+	    cpp_decl ""
+	    java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    php_decl ""
+	    python_decl ""
+	    idl_decl ""
+	    comment "Hypotunuse of a and b"
+	  end
+
+	  attribute 200323 "delta_x"
+	    public explicit_type "long"
+	    init_value "null"
+	    cpp_decl ""
+	    java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    php_decl ""
+	    python_decl ""
+	    idl_decl ""
+	    comment "Difference between a and b in x direction."
+	  end
+
+	  attribute 200451 "delta_y"
+	    public explicit_type "long"
+	    init_value "null"
+	    cpp_decl ""
+	    java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    php_decl ""
+	    python_decl ""
+	    idl_decl ""
+	    comment "Difference between a and b in y direction"
+	  end
+
+	  attribute 200707 "dir_x"
+	    public explicit_type "int"
+	    init_value "0"
+	    cpp_decl ""
+	    java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    php_decl ""
+	    python_decl ""
+	    idl_decl ""
+	    comment "Sign of slope, if b[x] is greater or less then a[x]."
+	  end
+	end
+
+	classrelation 192643 // <realization>
+	  relation 192387 -_-|>
+	    a public
+	      java "${type}"
+	      classrelation_ref 192643 // <realization>
+	    b parent class_ref 134787 // iterator
+	end
+      end
+
+      classrelation 192515 // <dependency>
+	relation 192259 -_->
+	  a default
+	    classrelation_ref 192515 // <dependency>
+	  b parent class_ref 202115 // FencePost
+      end
+
+      simplerelation 141187
+	-_->
+	  stereotype "import"
+	  on 
+	  package_ref 134659 // util
+      end
+
+      classrelation 192771 // <dependency>
+	relation 192515 -_->
+	  a default
+	    classrelation_ref 192771 // <dependency>
+	  b parent class_ref 188803 // Area
+      end
+    end
+
+    class 188803 "Area"
+      visibility public 
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      comment "This class holds a reference to a tile. This allow this class to select
+then it is needed to collect the tile itself. "
+      classrelation 171139 // grid (<unidirectional association>)
+	relation 170883 --->
+	  a role_name "grid" private
+	    comment "The grid to which this area belong"
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 171139 // grid (<unidirectional association>)
+	  b parent class_ref 142083 // Grid
+	  association_type class_ref 142083 // Grid
+      end
+
+      classrelation 192387 // tiles (<unidirectional association>)
+	relation 192131 --->
+	  a role_name "tiles" multiplicity "1" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 192387 // tiles (<unidirectional association>)
+	  b parent class_ref 141443 // TileTable
+	  association_type class_ref 141443 // TileTable
+      end
+
+      attribute 179715 "location"
+	private explicit_type "long"
+	init_value "0"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Location of this marker, the tile it point at."
+      end
+
+      attribute 179843 "position"
+	private explicit_type "long"
+	multiplicity "2"
+	init_value "null"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type}${multiplicity} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Absolute position of this marker."
+      end
+
+      operation 239619 "Area"
+	public explicit_return_type ""
+	nparams 3
+	  param in name "grid" type class_ref 142083 // Grid
+	  param in name "table" type class_ref 141443 // TileTable
+	  param in name "tile_location" explicit_type "int"
+	
+	java_def "  ${comment}${@}${visibility}${final}${synchronized}${name}${(}${t0} ${p0}, ${t1} ${p1}, ${t2} ${p2}${)}${throws} {
+  ${body}}
+"
+	
+	
+	
+	comment "Create a new adapter for tile at given location."
+      end
+
+      operation 336643 "insideFence"
+	public explicit_return_type "bool"
+	nparams 1
+	  param in name "marker" type class_ref 254851 // Marker
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Check if given marker is inside the fence at this area. This
+of course requires that given marker is within this area.
+
+@return <code> true </code> if marker is at this area and inside the fence
+
+"
+      end
+
+      operation 337411 "distFence"
+	public explicit_return_type "double"
+	nparams 1
+	  param in name "marker" type class_ref 254851 // Marker
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Min distance to fence assuming this area has a fence. If
+this area has no fence then min distance to edge area is returned.
+
+@param marker Reference position
+@return Min distance to fence
+
+
+"
+      end
+
+      operation 337539 "hasFence"
+	public explicit_return_type "bool"
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Return <code< true </code> if this area has a part of the 
+fence.
+
+@return <code> true </code> if this area has part of fence"
+      end
+
+      operation 239875 "position"
+	public explicit_return_type "long[]"
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Return local position of this marker. This is the position this marker have in grid.
+
+@return Local postion of this marker
+
+"
+      end
+
+      operation 192515 "boundery"
+	public return_type class_ref 141955 // Boundery
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Tile boundery for this tile
+
+@return Boundery for tile"
+      end
+    end
+
+    class 141443 "TileTable"
+      visibility public 
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      comment "A fence is a set of coordinates on a plane. The plane is divided into sections, a grid with tiles.
+There is three types of tiles, INSIDE, OUTSIDE and FENCE. The tile of type FENCE contain a 
+section of the fence. The two other types of tiles is as the type suggest either inside or outside 
+the fence. 
+To avoid mixed meaning for same name border is used instead of fence. A fence or section of
+the fece is a set of coordinats, the fence posts so to speak. A border is the imaginery line drawn
+between the coordinats."
+      simplerelation 134659
+	-_->
+	  stereotype "import"
+	  on 
+	  package_ref 134659 // util
+      end
+
+      classrelation 136195 // grid (<unidirectional association>)
+	relation 135939 --->
+	  a role_name "grid" multiplicity "1" private
+	    comment "The grid for this table. Every tile is of the same size. "
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 136195 // grid (<unidirectional association>)
+	  b parent class_ref 142083 // Grid
+	  association_type class_ref 142083 // Grid
+      end
+
+      attribute 142979 "INSIDE"
+	class_attribute const_attribute public explicit_type "int"
+	init_value "-1"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Flag to mark that tile is inside the border."
+      end
+
+      attribute 143107 "OUTSIDE"
+	class_attribute const_attribute public explicit_type "int"
+	init_value "-2"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Flag to mark that tile is outside the border."
+      end
+
+      attribute 143235 "FENCE"
+	class_attribute const_attribute public explicit_type "int"
+	init_value "0"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Flag to mark that tile contain part of border."
+      end
+
+      attribute 143747 "tile_index"
+	private explicit_type "int"
+	multiplicity "1000"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type}${multiplicity} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "A array idexing all tiles. Array key is location of tile. A positive value including 0 is tiles with a section of the fence. 
+Negative values is flags marking the other types of tiles."
+      end
+
+      operation 205827 "TileTable"
+	private explicit_return_type ""
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${synchronized}${name}${(}${)}${throws} {
+  ${body}}
+"
+	
+	
+	
+	comment "Need inital values for creating this table."
+      end
+
+      operation 205955 "TileTable"
+	public explicit_return_type ""
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${synchronized}${name}${(}${)}${throws} {
+  ${body}}
+"
+	
+	
+	
+	comment "Create a new table. Size and position is set by boundery. The
+table is divided by a grid. Number of squres in X and Y direction
+is set by resolution.
+
+@param Boundery of this table 
+@param Resolution of grid "
+      end
+
+      operation 142595 "newTile"
+	public return_type class_ref 134915 // FenceTile
+	nparams 1
+	  param in name "location" explicit_type "int"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "This create and return a new tile. If a tile exist at given
+location then it is returned instead. 
+
+@param locatin Location of this tile in the grid"
+      end
+
+      operation 142723 "getTile"
+	public explicit_return_type "FenceTile  [se.bth.enclosure]"
+	nparams 1
+	  param in name "loc" explicit_type "long[]"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Return tile at a given location. Note that a tile is always returned. It is created if needed and may or may not 
+contain any any port of the fence. Use method tileType 
+to get the type of tile.
+
+@param loc Location of tile
+@return FenceTile Tile at location"
+      end
+
+      operation 142851 "putTile"
+	public return_type class_ref 215171 // Tile
+	nparams 1
+	  param in name "tile" type class_ref 215171 // Tile
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Put tile to this table. Old tile is returned.
+
+@param tile New tile
+@return Old tile"
+      end
+
+      operation 142979 "tileType"
+	public explicit_return_type "int"
+	nparams 1
+	  param in name "loc" explicit_type "long"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Return type of tile at a given location. Three types exist
+INSIDE, OUTSIDE and FENCE.
+
+@param loc Location of tile
+@return int Flag marking the type of tile"
+      end
+
+      class 215171 "Tile"
+	visibility package 
+	cpp_decl ""
+	java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+	php_decl ""
+	python_2_2 python_decl ""
+	idl_decl ""
+	explicit_switch_type ""
+	
+	classrelation 184707 // data (<directional composition>)
+	  relation 184451 *-->
+	    a role_name "data" multiplicity "1" private
+	      java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	      classrelation_ref 184707 // data (<directional composition>)
+	    b parent class_ref 195331 // TileData
+	    association_type class_ref 195331 // TileData
+	end
+
+	classrelation 184835 // section_table (<directional composition>)
+	  relation 184579 *-->
+	    a role_name "section_table" private
+	      java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	      classrelation_ref 184835 // section_table (<directional composition>)
+	    b parent class_ref 141699 // SectionTable
+	    association_type class_ref 141699 // SectionTable
+	end
+
+	attribute 248451 "ALL_EDGES"
+	  private explicit_type "int"
+	  init_value "15"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	end
+
+	attribute 248579 "NO_EDGES"
+	  private explicit_type "int"
+	  init_value "0"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	end
+
+	attribute 248707 "RIGHT_EDGE"
+	  private explicit_type "int"
+	  init_value "1"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	end
+
+	attribute 248835 "TOP_EDGE"
+	  private explicit_type "int"
+	  init_value "2"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	end
+
+	attribute 248963 "LEFT_EDGE"
+	  private explicit_type "int"
+	  init_value "4"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	end
+
+	attribute 249091 "BOTTOM_EDGE"
+	  private explicit_type "int"
+	  init_value "8"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	end
+
+	attribute 249219 "TOP_PARITET"
+	  private explicit_type "int"
+	  init_value "16"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	end
+
+	attribute 207747 "type"
+	  private explicit_type "int"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	  comment "A tile can be inside, outside or fence. By default a tile is outside."
+	end
+
+	attribute 207363 "location"
+	  public explicit_type "int"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	  comment "Location of this tile entry in the grid."
+	end
+
+	attribute 235395 "space"
+	  private explicit_type "int"
+	  init_value "10"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	  comment "Total length of records"
+	end
+
+	attribute 235267 "offset"
+	  private explicit_type "int"
+	  init_value "0"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	  comment "Last record of records"
+	end
+
+	operation 289027 "Tile"
+	  public explicit_return_type ""
+	  nparams 3
+	    param in name "data" type class_ref 195331 // TileData
+	    param in name "location" explicit_type "int"
+	    param in name "type" explicit_type "int"
+	  
+	  java_def "  ${comment}${@}${visibility}${final}${synchronized}${name}${(}${t0} ${p0}, ${t1} ${p1}, ${t2} ${p2}${)}${throws} {
+  ${body}}
+"
+	  
+	  
+	  
+	  comment "Create a new tile entry. Its purpose is manage tile data.
+
+@param data Tile data for this entry
+@param location Location of tile in grid
+@param type Type of tile."
+	end
+
+	operation 309507 "newSection"
+	  public return_type class_ref 221827 // Section
+	  nparams 0
+	  
+	  java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	  
+	  
+	  
+	  comment "Create a new sectin for this tile."
+	end
+
+	operation 309379 "addSection"
+	  public explicit_return_type "void"
+	  nparams 3
+	    param in name "sec" type class_ref 221827 // Section
+	    param in name "start_edge" explicit_type "int"
+	    param in name "end_edge" explicit_type "int"
+	  
+	  java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}, ${t1} ${p1}, ${t2} ${p2}${)}${throws}${staticnl}{
+  ${body}}
+"
+	  
+	  
+	  
+	  comment "Add section to this tile. The section start at a edge and end at a edge.
+
+@param sec The section
+@param start_edge Section start at this edge
+@param end_edge Section end at this edge"
+	end
+
+	operation 329347 "numOfSections"
+	  public explicit_return_type "int"
+	  nparams 0
+	  
+	  java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	  
+	  
+	  
+	  comment "Number of section crossing this tile.
+
+@return Number sections crossing this tile"
+	end
+
+	operation 329475 "sectionIterator"
+	  public explicit_return_type ""
+	  nparams 0
+	  
+	  java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	  
+	  
+	  
+	  comment "An section iterator over all sections crossing this tile."
+	end
+
+	class 248323 "SectionIterator"
+	  visibility package 
+	  cpp_decl ""
+	  java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+	  php_decl ""
+	  python_2_2 python_decl ""
+	  idl_decl ""
+	  explicit_switch_type ""
+	  
+	  operation 329859 "SectionIterator"
+	    public explicit_return_type ""
+	    nparams 2
+	      param in name "sections" type class_ref 141699 // SectionTable
+	      param in name "id" explicit_type "int[]"
+	    
+	    java_def "  ${comment}${@}${visibility}${final}${synchronized}${name}${(}${t0} ${p0}, ${t1} ${p1}${)}${throws} {
+  ${body}}
+"
+	    
+	    
+	    
+	    comment "Create a new section iterator for this tile. 
+
+@param sections Array with sections"
+	  end
+
+	  operation 329603 "hasNext"
+	    public explicit_return_type "bool"
+	    nparams 0
+	    
+	    java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	    
+	    
+	    
+	    comment "Returns true if this iterator has more sections.
+
+@return <code> true </code> if this iterator has more sections."
+	  end
+
+	  operation 329731 "next"
+	    public return_type class_ref 221827 // Section
+	    nparams 0
+	    
+	    java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	    
+	    
+	    
+	    comment "Returns the next section in this iterator.
+
+@return Next section in this iterator. "
+	  end
+	end
+      end
+
+      class 195331 "TileData"
+	visibility protected 
+	cpp_decl ""
+	java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+	php_decl ""
+	python_2_2 python_decl ""
+	idl_decl ""
+	explicit_switch_type ""
+	
+	attribute 186499 "flags"
+	  public explicit_type "int"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	end
+
+	attribute 249347 "section_flags"
+	  public explicit_type "int[]"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	  comment "Status flags for each section"
+	end
+
+	attribute 207491 "sections"
+	  public explicit_type "int[]"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	  comment "Array of sections linked to this tile."
+	end
+      end
+
+      classrelation 184963 // section_table (<unidirectional association>)
+	relation 184707 --->
+	  a role_name "section_table" multiplicity "1" private
+	    comment "Container for all tile sections"
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 184963 // section_table (<unidirectional association>)
+	  b parent class_ref 141699 // SectionTable
+	  association_type class_ref 141699 // SectionTable
+      end
+    end
+
+    class 134915 "FenceTile"
+      visibility public 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      comment "A tile in the fence table. A tile may contain 0 or more sections of the fence. A tile form a sub
+plane on it own. "
+      attribute 135299 "CORNER_BL"
+	class_attribute const_attribute public explicit_type "int"
+	init_value "1"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Flag marking botten left corner as insde"
+      end
+
+      attribute 135427 "CORNER_BR"
+	class_attribute const_attribute public explicit_type "int"
+	init_value "1"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Flag marking bottom right corner as inside"
+      end
+
+      attribute 135555 "CORNER_TL"
+	class_attribute const_attribute public explicit_type "int"
+	init_value "1"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Flag marking top left corner as inside"
+      end
+
+      attribute 135683 "CORNER_TR"
+	class_attribute const_attribute public explicit_type "int"
+	init_value "1"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Flag marking top right corner as insde"
+      end
+
+      attribute 135811 "EDGE_PARITET_B"
+	class_attribute const_attribute public explicit_type "int"
+	init_value "16"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Flag marking odd paritet for bottom edge."
+      end
+
+      attribute 135939 "EDGE_PARITET_T"
+	class_attribute const_attribute public explicit_type "int"
+	init_value "16"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Flag marking odd paritet for top edge."
+      end
+
+      attribute 136451 "flags"
+	private explicit_type "int"
+	init_value "0"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Flag register for status information about this tile."
+      end
+
+      attribute 136323 "location"
+	public explicit_type "int"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Grid location of this tile. "
+      end
+
+      attribute 136195 "position"
+	public explicit_type "long"
+	multiplicity "2"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type}${multiplicity} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Absolute position of this tile in the grid, this is the corner closest to origin. "
+      end
+
+      attribute 152963 "size"
+	public explicit_type "long"
+	multiplicity "2"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type}${multiplicity} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Size of this tile."
+      end
+
+      attribute 179971 "type"
+	public explicit_type "int"
+	init_value "0"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Type of tile. All valid types is defined in FenceTable."
+      end
+
+      operation 142083 "addFence"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "sec" type class_ref 141699 // SectionTable
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Add a section of the fence to this cell. Once added the section is not mutable. It viewed as a part of this cell."
+      end
+
+      operation 142211 "fenceAt"
+	public return_type class_ref 141699 // SectionTable
+	nparams 1
+	  param in name "index" explicit_type "int"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Get fence at given index.
+
+@param index Index for fence section.
+@return FenceSection Section of fence at index"
+      end
+
+      operation 164867 "numOfFences"
+	public explicit_return_type "int"
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Number of fence sections hold by this tile.
+
+@return int Number of fences"
+      end
+
+      operation 135043 "fenceCross"
+	force_body_gen public explicit_return_type "bool"
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Check for fence crossing within this tile. A crossing
+occures then a part of the fench cross another part of 
+the fence. 
+
+@return <code> true </code> if fence crosses"
+      end
+
+      operation 164611 "insideFence"
+	public explicit_return_type "bool"
+	nparams 1
+	  param in name "pos" explicit_type "long[]"
+	multiplicity "2"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Determine if a position is inside the fence. A tile without a fence is either complely inside or
+complety outside the fence thus is not a special case. Should position be outside this tile 
+false is returned.
+
+@param pos Reference position
+@return <code> true </code> if position is inside the fence"
+      end
+
+      operation 164739 "fenceDist"
+	public explicit_return_type "long"
+	nparams 1
+	  param in name "pos" explicit_type "long[]"
+	multiplicity "2"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Shortest distance to fence from a given position.
+
+@param pos Reference position
+@return Distance to fence"
+      end
+
+      operation 135171 "setFlags"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "flags" explicit_type "int"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Set flags for this tile. Flags provides info about the corners and edges for this tile. Valid flags is
+found in the declaration of this class.
+
+@param flag New flag register"
+      end
+
+      operation 141955 "chkFlags"
+	public explicit_return_type "bool"
+	nparams 1
+	  param in name "mask" explicit_type "int"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Check flag register for this tile using a mask. If mask and flag register is equal then <code>
+true </code> is returned
+
+@param mask Bitmask
+@return boolean <code> true </code> if mask and flags is equals"
+      end
+
+      operation 199299 "boundery"
+	public return_type class_ref 141955 // Boundery
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Boundery for this tile.
+
+@return Boundery for this tile"
+      end
+    end
+
+    class 141699 "SectionTable"
+      visibility package 
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      comment "A fence section is a part of the entire fence. All sections togher form the entire fence. A valid fence form a polygon. This is not enforced and the
+only strict rule is that every section have a uniqe id. 
+Note that a section is mutable and thus need to be returned to this table in order to store new data"
+      simplerelation 141315
+	-_->
+	  stereotype "import"
+	  on 
+	  package_ref 134659 // util
+      end
+
+      attribute 221827 "table"
+	private type class_ref 221955 // SectionData
+	multiplicity "*"
+	init_value "null"
+	stereotype "map"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${stereotype}<${type}> ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "The data container for fence data."
+      end
+
+      attribute 144771 "sections_count"
+	private explicit_type "int"
+	init_value "0"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Number of fence sections."
+      end
+
+      operation 296323 "newSection"
+	public return_type class_ref 221827 // Section
+	nparams 1
+	  param in name "id" explicit_type "int"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Create new section with given id. The id must be uniqe.
+
+@param id Id for this section
+@return New section"
+      end
+
+      operation 295939 "getSection"
+	public return_type class_ref 221827 // Section
+	nparams 1
+	  param in name "id" explicit_type "int"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Get fence section for given id. This a section of the fence.
+If no section exist null is returned.
+
+@param id Uniqe id for fence entry
+@return Fence section"
+      end
+
+      operation 296067 "putSection"
+	public return_type class_ref 221827 // Section
+	nparams 1
+	  param in name "section" type class_ref 221827 // Section
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Put section data to this fence table. The old entry, if it
+exist, is returned.
+
+@param section Fence section
+@return Old section if such exist."
+      end
+
+      operation 344451 "hasSection"
+	public explicit_return_type "bool"
+	nparams 1
+	  param in name "id" explicit_type "int"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Return <code> true </code> if section with given id allready
+exist.
+
+@param id Section id
+@return <code> true </code> if section exist"
+      end
+
+      class 221827 "Section"
+	visibility package 
+	cpp_decl ""
+	java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+	php_decl ""
+	python_2_2 python_decl ""
+	idl_decl ""
+	explicit_switch_type ""
+	
+	classrelation 184579 // data (<directional composition>)
+	  relation 184323 *-->
+	    a role_name "data" multiplicity "1" private
+	      java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	      classrelation_ref 184579 // data (<directional composition>)
+	    b parent class_ref 221955 // SectionData
+	    association_type class_ref 221955 // SectionData
+	end
+
+	attribute 222083 "id"
+	  private explicit_type "string"
+	  init_value "null"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	  comment "Fence entry id."
+	end
+
+	attribute 214403 "space"
+	  private explicit_type "int"
+	  init_value "10"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	  comment "Total length of section"
+	end
+
+	attribute 214915 "offset"
+	  private explicit_type "int"
+	  init_value "0"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	  comment "Current record in section"
+	end
+
+	attribute 214531 "record"
+	  private explicit_type "int"
+	  init_value "2"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	  comment "Length of every record in section"
+	end
+
+	attribute 214659 "x"
+	  private explicit_type "int"
+	  init_value "0"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	  comment "Record item x"
+	end
+
+	attribute 214787 "y"
+	  private explicit_type "int"
+	  init_value "1"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	  comment "Record item y"
+	end
+
+	operation 295811 "Section"
+	  public explicit_return_type ""
+	  nparams 2
+	    param in name "id" explicit_type "string"
+	    param in name "fence_data" type class_ref 221955 // SectionData
+	  
+	  java_def "  ${comment}${@}${visibility}${final}${synchronized}${name}${(}${t0} ${p0}, ${t1} ${p1}${)}${throws} {
+  ${body}}
+"
+	  
+	  
+	  
+	  comment "Fence entry manage fence data.
+
+@param id Uniqe id of this entry
+@param fence_data Fence data"
+	end
+
+	operation 296195 "id"
+	  public explicit_return_type "string"
+	  nparams 0
+	  
+	  java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	  
+	  
+	  
+	  comment "Uniqe id for this entry, can't be changed.
+
+@return id of this entry"
+	end
+
+	operation 143619 "firstPos"
+	  public explicit_return_type "long"
+	  multiplicity "2"
+	  nparams 0
+	  
+	  java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	  
+	  
+	  
+	  comment "The first position for this section of the fence.
+
+@return long[] First position of this section"
+	end
+
+	operation 143747 "lastPos"
+	  public explicit_return_type "long"
+	  multiplicity "2"
+	  nparams 0
+	  
+	  java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	  
+	  
+	  
+	  comment "Last position for this section of the fence.
+
+@return long[] Last position of this section"
+	end
+
+	operation 144259 "segmentAt"
+	  public return_type class_ref 141827 // Segment
+	  nparams 1
+	    param in name "index" explicit_type "int"
+	  
+	  java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	  
+	  
+	  
+	  comment "Get a segment at a given index starting at 0.
+
+@param index Index of segment
+@return Segment Segment at given index"
+	end
+
+	operation 282371 "addSegment"
+	  public explicit_return_type "void"
+	  nparams 2
+	    param in name "a" explicit_type "long[]"
+	    param in name "b" explicit_type "long[]"
+	  
+	  java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}, ${t1} ${p1}${)}${throws}${staticnl}{
+  ${body}}
+"
+	  
+	  
+	  
+	  comment "Add a new segment of the fence to this section. This method create a new section if none exist.
+
+@param a Start of segment
+@param b End of segment
+"
+	end
+
+	operation 144387 "numOfSegments"
+	  public explicit_return_type "int"
+	  nparams 0
+	  
+	  java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	  
+	  
+	  
+	  comment "Number of segments in this section of the fence.
+
+@return int Number of segments"
+	end
+
+	operation 289155 "samePos"
+	  private explicit_return_type "bool"
+	  nparams 2
+	    param in name "a" explicit_type "long[]"
+	    param in name "b" explicit_type "long[]"
+	  
+	  java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}, ${t1} ${p1}${)}${throws}${staticnl}{
+  ${body}}
+"
+	  
+	  
+	  
+	  comment "Return <code> true </code> if the two positions is 
+the same.
+
+@param a Position a
+@param b Position b
+@return <code> True </code> if same"
+	end
+
+	class 254979 "SegmentIterator"
+	  visibility package 
+	  cpp_decl ""
+	  java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+	  php_decl ""
+	  python_2_2 python_decl ""
+	  idl_decl ""
+	  explicit_switch_type ""
+	  
+	  operation 337667 "SegmentIterator"
+	    public explicit_return_type ""
+	    nparams 1
+	      param in name "records" explicit_type "long[]"
+	    
+	    java_def "  ${comment}${@}${visibility}${final}${synchronized}${name}${(}${t0} ${p0}${)}${throws} {
+  ${body}}
+"
+	    
+	    
+	    
+	    comment "Create a segment iterator for this section.
+
+@param Array with segment records"
+	  end
+
+	  operation 337795 "hasNext"
+	    public explicit_return_type "bool"
+	    nparams 0
+	    
+	    java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	    
+	    
+	    
+	    comment "Returns true if this iterator has more segments.
+
+@return <code> true </code> if this iterator has more segments."
+	  end
+
+	  operation 337923 "next"
+	    public return_type class_ref 141827 // Segment
+	    nparams 0
+	    
+	    java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	    
+	    
+	    
+	    comment "Returns the next segment in this iterator.
+
+@return Next segment in this iterator. "
+	  end
+	end
+      end
+
+      class 221955 "SectionData"
+	visibility package 
+	cpp_decl ""
+	java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+	php_decl ""
+	python_2_2 python_decl ""
+	idl_decl ""
+	explicit_switch_type ""
+	
+	attribute 221955 "records"
+	  public explicit_type "int"
+	  init_value "0"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	  comment "Number of records in this section"
+	end
+
+	attribute 215171 "section"
+	  public explicit_type "long[]"
+	  init_value "null"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	  comment "Section of fence"
+	end
+
+	attribute 215299 "location"
+	  public explicit_type "int"
+	  init_value "-1"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	  comment "Location of this section in the grid"
+	end
+      end
+    end
+
+    class 141571 "EuclidPlane"
+      visibility package 
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      comment "This is a section of a Euclidean plane defiend by two points. All coordinats and data is given as integers to avoid issues 
+regarding floating point values. A scale factor is provided in case floating point value is needed outside this library. "
+      attribute 143875 "origion"
+	volatile public explicit_type "long[]"
+	multiplicity "2"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type}${multiplicity} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Origion of this plane."
+      end
+
+      attribute 144003 "boundery_position"
+	volatile public explicit_type "long[]"
+	multiplicity "2"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type}${multiplicity} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Boundery postion of this plane, origion and boundery position is the two oposite corners of this plane."
+      end
+
+      attribute 144899 "dir"
+	volatile public explicit_type "int"
+	init_value "0"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Direction of position b in relation to a. If position a is in origin then direction would tell in 
+which quadrant position b is located. Valid values is 0-3. "
+      end
+
+      attribute 146435 "scale"
+	class_attribute public explicit_type "short"
+	init_value "1"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Scale factor this plan."
+      end
+
+      operation 157827 "EuclidPlane"
+	public explicit_return_type "void"
+	nparams 2
+	  param in name "a" explicit_type "long"
+	multiplicity "2"
+	  param in name "b" explicit_type "long"
+	multiplicity "2"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}, ${t1} ${p1}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Create a new plane. Scale is of plane is 1.
+
+@param a Position a 
+@param b New position b"
+      end
+
+      operation 143235 "deltaX"
+	public explicit_return_type "long"
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Distance between a and b along the x-axis."
+      end
+
+      operation 143363 "deltaY"
+	public explicit_return_type "long"
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Distance between a and b along the y-axis."
+      end
+
+      operation 254851 "reScale"
+	public explicit_return_type "void"
+	nparams 1
+	  param in name "scale" explicit_type "short"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Scale this plane to given scale factor.
+
+@param scale Scale factor"
+      end
+
+      operation 255235 "scale"
+	public explicit_return_type "short"
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Current scale of this plane.
+
+@return Scale of this plane."
+      end
+    end
+
+    class 254851 "Marker"
+      visibility package 
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      classrelation 191491 // <generalisation>
+	relation 191235 ---|>
+	  a public
+	    java "${type}"
+	    classrelation_ref 191491 // <generalisation>
+	  b parent class_ref 141571 // EuclidPlane
+      end
+
+      attribute 255875 "position"
+	private explicit_type "long[]"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Position of this marker"
+      end
+
+      operation 336771 "Marker"
+	public explicit_return_type ""
+	nparams 2
+	  param in name "boundery" type class_ref 141571 // EuclidPlane
+	  param in name "position" explicit_type "double[]"
+	
+	java_def "  ${comment}${@}${visibility}${final}${synchronized}${name}${(}${t0} ${p0}, ${t1} ${p1}${)}${throws} {
+  ${body}}
+"
+	
+	
+	
+	comment "Create a marker within given boundery.
+
+@param boundery Valid area for this marker
+@param position Position of this marker"
+      end
+
+      operation 336387 "position"
+	public explicit_return_type "double"
+	nparams 1
+	  param in name "zoom" explicit_type "short"
+	    defaultvalue "1"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Position of this marker in the plane. A zoom faktor scale
+position to a desired precison.
+
+@param zoom Zoom faktor
+@return Position of this marker"
+      end
+
+      operation 336515 "setPosition"
+	public return_type class_ref 254851 // Marker
+	nparams 1
+	  param in name "position" explicit_type "double[]"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Place marker at this position.
+
+@param position New position
+@return This marker"
+      end
+
+      operation 337155 "distance"
+	public explicit_return_type "double"
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Shortest distance from origion to this point"
+      end
+
+      operation 336899 "distX"
+	public explicit_return_type "double"
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Distance from origion to this marker in x direction"
+      end
+
+      operation 337027 "distY"
+	public explicit_return_type "double"
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Distance from origion to this point in y direction"
+      end
+    end
+
+    class 141827 "Segment"
+      visibility package 
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      comment "A segment is a straight line between a and b in Euclldean plane."
+      classrelation 135555 // <generalisation>
+	relation 135299 ---|>
+	  a public
+	    java "${type}"
+	    classrelation_ref 135555 // <generalisation>
+	  b parent class_ref 141571 // EuclidPlane
+      end
+
+      attribute 144259 "lenght"
+	volatile public explicit_type "long"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Lenght between a and b."
+      end
+
+      attribute 144131 "slope"
+	volatile public explicit_type "long"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Slope of a and b."
+      end
+
+      operation 157955 "Segment"
+	private explicit_return_type ""
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${synchronized}${name}${(}${)}${throws} {
+  ${body}}
+"
+	
+	
+	
+      end
+
+      operation 247555 "Segment"
+	public explicit_return_type "void"
+	nparams 2
+	  param in name "a" explicit_type "long"
+	multiplicity "2"
+	  param in name "b" explicit_type "long"
+	multiplicity "2"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}, ${t1} ${p1}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Create a new segment. Calculate slope, distance
+and direction between the two positions.
+
+@param a Position a 
+@param b New position b"
+      end
+
+      operation 143491 "intersect"
+	public explicit_return_type "bool"
+	nparams 1
+	  param in name "seg" type class_ref 141827 // Segment
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Return <code> true </code> if this segment intersect given segment.
+
+@param seg Segment against which this segment will be tested
+@return boolean <code> true </code> if segments intersect"
+      end
+
+      operation 262019 "minPoint"
+	public explicit_return_type ""
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      attribute 193411 "sign"
+	public explicit_type "int"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "sign of slope"
+      end
+    end
+
+    class 141955 "Boundery"
+      visibility public 
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      comment "Describe a boundery box for a object in Eculldean plane. This box is not mutable. "
+      classrelation 135683 // <generalisation>
+	relation 135427 ---|>
+	  a public
+	    java "${type}"
+	    classrelation_ref 135683 // <generalisation>
+	  b parent class_ref 141571 // EuclidPlane
+      end
+
+      operation 158083 "Boundery"
+	private explicit_return_type ""
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${synchronized}${name}${(}${)}${throws} {
+  ${body}}
+"
+	
+	
+	
+      end
+
+      operation 247427 "Boundery"
+	public explicit_return_type "void"
+	nparams 2
+	  param in name "a" explicit_type "long"
+	multiplicity "2"
+	  param in name "b" explicit_type "long"
+	multiplicity "2"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}, ${t1} ${p1}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Create a new boundery box with default scale 1.
+
+@param a Position a 
+@param b New position b"
+      end
+
+      operation 247683 "Boundery"
+	public explicit_return_type "void"
+	nparams 2
+	  param in name "center" explicit_type "long[]"
+	  param in name "diagonal" explicit_type "long"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}, ${t1} ${p1}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Create a new square boundery box. Take a center point and a
+diagonal. Distance to corner from center is diagonal / 2.
+
+@param center Center of boundery box
+@param diagonal Length of diagonal"
+      end
+
+      operation 254979 "size"
+	public explicit_return_type "double[]"
+	nparams 1
+	  param in name "zoom" explicit_type "short"
+	    defaultvalue "1"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Size of this plane. A zoom factor migt be provided.
+
+@param zoom Zoom factor
+@return Size of this plane"
+      end
+
+      operation 255107 "position"
+	public explicit_return_type "double[]"
+	nparams 1
+	  param in name "zoom" explicit_type "short"
+	    defaultvalue "1"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Position of this plane. This is the origin or the point closest to orgin. A zoom factor might be given.
+
+@param zoom Zoom factor 
+@return Position of this plane"
+      end
+
+      operation 144131 "contains"
+	public explicit_return_type "bool"
+	nparams 1
+	  param in name "pos" explicit_type "double"
+	multiplicity "2"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Return <code> true </code> if a given position is contained within this boundery box.
+
+@param pos Position to test
+@return <code> true </code> if position is inside else <code> false </code"
+      end
+    end
+
+    class 142083 "Grid"
+      visibility package 
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      
+      comment "Describe a uniform grid in Eucllean plane. This grid consists of gridlines and squares. Squares have a position and size but
+content is not defined. The grid start at position a and end at b. A The corner closesed to position a is the position for the square.
+Its location is counted from a starting at 0 and then row by row to b. "
+      classrelation 136323 // <generalisation>
+	relation 136067 ---|>
+	  a public
+	    java "${type}"
+	    classrelation_ref 136323 // <generalisation>
+	  b parent class_ref 141571 // EuclidPlane
+      end
+
+      attribute 228611 "data"
+	private explicit_type "GridData"
+	init_value "null"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Grid data for this grid"
+      end
+
+      operation 151171 "Grid"
+	public explicit_return_type ""
+	nparams 3
+	  param in name "res" explicit_type "int[]"
+	multiplicity "2"
+	  param in name "pos" explicit_type "long[]"
+	multiplicity "2"
+	  param in name "size" explicit_type "long[]"
+	multiplicity "2"
+	
+	java_def "  ${comment}${@}${visibility}${final}${synchronized}${name}${(}${t0} ${p0}, ${t1} ${p1}, ${t2} ${p2}${)}${throws} {
+  ${body}}
+"
+	
+	
+	
+	comment "Create a new grid. Number of square is set by resolution and
+size is the total size of this grid
+
+@param res Resolution of this grid, number of squares.
+@param pos Ablsolute position for grid.
+@param size Total size for grid"
+      end
+
+      operation 268803 "Grid"
+	public explicit_return_type ""
+	nparams 4
+	  param in name "res" explicit_type "int[]"
+	  param in name "origin" explicit_type "double[]"
+	  param in name "size" explicit_type "double[]"
+	  param in name "scale" explicit_type "short"
+	constraint "."
+	
+	java_def "  ${comment}${@}${visibility}${final}${synchronized}${name}${(}${t0} ${p0}, ${t1} ${p1}, ${t2} ${p2}, ${t3} ${p3}${)}${throws} {
+  ${body}}
+"
+	
+	
+	
+	comment "Create a new grid. Number of square is set by resolution and
+size is the total size of this grid. Sice grid uses long
+and not double a scale might be provied to get disered precision. Default is 1.
+
+@param res Resolution of this grid, number of squares.
+@param origin Position for grid.
+@param size Total size for grid, make sure that this greater
+then origin if you don't wired result.
+@param scale Scale factor for grid"
+      end
+
+      operation 316163 "resolution"
+	public explicit_return_type "int[]"
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Number of cells in x and y direction for this grid.
+
+@return Number of cells in x and y direction"
+      end
+
+      operation 144515 "location"
+	public explicit_return_type "int"
+	nparams 1
+	  param in name "pos" explicit_type "long"
+	multiplicity "2"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Return location of square for a absolute position within this grid. A negative value is returned if position falls
+outside this grid. 
+
+@param pos A absolute position within this grid.
+@return int Location of square or -1 in case position is outside the grid"
+      end
+
+      operation 144643 "cellPosition"
+	public explicit_return_type "long[]"
+	nparams 1
+	  param in name "loc" explicit_type "int"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Position for a cell. The position for a cell is the corner closesed to origin of this grid.
+
+@param loc Location of cell
+@return Long[2] Position of cell
+
+"
+      end
+
+      operation 275331 "cellSize"
+	public explicit_return_type "long[]"
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Size of cell in this grid. All cells have the same size.
+
+@return Size of cell"
+      end
+
+      operation 344579 "cellType"
+	public explicit_return_type "void"
+	nparams 2
+	  param in name "location" explicit_type "int"
+	  param in name "type" explicit_type "int"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}, ${t1} ${p1}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Set cell type for cell at given location.
+
+@param location Location of cell
+@param type New cell type"
+      end
+
+      operation 344707 "cellType"
+	public explicit_return_type "int"
+	nparams 1
+	  param in name "location" explicit_type "int"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Get cell type for cell at given location.
+
+@param location Cell location
+@return type Type of cell"
+      end
+
+      operation 344835 "numOfCells"
+	public explicit_return_type "int"
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	comment "Number of cells in this grid.
+
+@return Number of cells"
+      end
+
+      class 235139 "GridData"
+	visibility package 
+	cpp_decl ""
+	java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+	php_decl ""
+	python_2_2 python_decl ""
+	idl_decl ""
+	explicit_switch_type ""
+	
+	attribute 262403 "cell_type"
+	  public explicit_type "int"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	  comment "Type of cell"
+	end
+
+	attribute 146307 "cell_size"
+	  public explicit_type "long"
+	  multiplicity "2"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type}${multiplicity} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	  comment "Size of a cell in this grid. Every cell have a uniform size."
+	end
+
+	attribute 146179 "cell_total"
+	  public explicit_type "int"
+	  init_value "0"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	  comment "Total number of cells in this grid."
+	end
+
+	attribute 143363 "res_x"
+	  const_attribute public explicit_type "int"
+	  multiplicity "2"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type}${multiplicity} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	  comment "Resolution, number of tiles in X direction for this grid."
+	end
+
+	attribute 228739 "res_y"
+	  const_attribute public explicit_type "int"
+	  multiplicity "2"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type}${multiplicity} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	  comment "Resolution, number of tiles in Y direction for this grid."
+	end
+
+	attribute 145923 "lines_x"
+	  public explicit_type "long"
+	  multiplicity "10"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type}${multiplicity} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	  comment "Grid lines in x direction starting at 0."
+	end
+
+	attribute 146051 "lines_y"
+	  public explicit_type "long"
+	  multiplicity "10"
+	  cpp_decl ""
+	  java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type}${multiplicity} ${name}${value};
+"
+	  php_decl ""
+	  python_decl ""
+	  idl_decl ""
+	  comment "Grid lines in y direction starting at 0."
+	end
+      end
+    end
+
+    class 202115 "FencePost"
+      visibility package 
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}interface ${name}${extends} {
+${members}}
+"
+      php_decl "${comment}interface ${name} {
+${members}}
+"
+      python_2_2 python_decl ""
+      idl_decl "${comment}${abstract}${local}interface ${name}${inherit} {
+${members}};
+"
+      explicit_switch_type ""
+      
+      attribute 193027 "x"
+	public explicit_type "double"
+	init_value "0"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 193155 "y"
+	public explicit_type "double"
+	init_value "0"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+      end
+
+      attribute 193283 "precision"
+	public explicit_type "int"
+	init_value "0"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	comment "Precision of this vertex. This mark the number of decimal places that should be used by manages of this vertex."
+      end
+    end
+
+    classdiagram 141059 "plane"
+      draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition yes show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+      size A4
+    end
+
+    classdiagram 147587 "table"
+      draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition yes show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+      size A4
+    end
+
+    classdiagram 154115 "enclosure"
+      draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition yes show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+      size A4
+    end
+  end
+
+  deploymentview 128003 "code"
+    //deployment diagram settings
+    package_name_in_tab default show_context default write_horizontally default auto_label_position default draw_all_relations default shadow default
+    draw_component_as_icon default show_component_req_prov default show_component_rea default show_stereotype_properties default
+    deploymentdiagram 134531 "source_view"
+      package_name_in_tab default show_context default write_horizontally default auto_label_position default draw_all_relations default shadow default
+      draw_component_as_icon default show_component_req_prov default show_component_rea default show_stereotype_properties default
+      size A4
+    end
+
+    artifact 134787 "FenceTile"
+      stereotype "source"
+      java_src "${comment}
+${package}
+${imports}
+${definition}"
+      associated_classes
+	class_ref 134915 // FenceTile
+      end
+    end
+
+    artifact 135043 "EuclidPlane"
+      stereotype "source"
+      java_src "${comment}
+${package}
+${imports}
+${definition}"
+      associated_classes
+	class_ref 141571 // EuclidPlane
+      end
+    end
+
+    artifact 135427 "Boundery"
+      stereotype "source"
+      java_src "${comment}
+${package}
+${imports}
+${definition}"
+      associated_classes
+	class_ref 141955 // Boundery
+      end
+    end
+
+    artifact 135555 "Grid"
+      stereotype "source"
+      java_src "${comment}
+${package}
+${imports}
+${definition}"
+      associated_classes
+	class_ref 142083 // Grid
+      end
+    end
+
+    artifact 174851 "Enclosure"
+      stereotype "source"
+      java_src "${comment}
+${package}
+${imports}
+${definition}"
+      associated_classes
+	class_ref 248195 // Enclosure
+      end
+    end
+
+    artifact 174979 "Area"
+      stereotype "source"
+      java_src "${comment}
+${package}
+${imports}
+${definition}"
+      associated_classes
+	class_ref 188803 // Area
+      end
+    end
+
+    artifact 175107 "Marker"
+      stereotype "source"
+      java_src "${comment}
+${package}
+${imports}
+${definition}"
+      associated_classes
+	class_ref 254851 // Marker
+      end
+    end
+
+    artifact 175363 "FencePost"
+      stereotype "source"
+      java_src "${comment}
+${package}
+${imports}
+${definition}"
+      php_src "<?php
+${comment}
+${namespace}
+${require_once}
+${definition}
+?>
+"
+      idl_src "#ifndef ${MODULE}_${NAME}_H
+#define ${MODULE}_${NAME}_H
+
+${comment}
+${includes}
+${module_start}
+${definition}
+${module_end}
+#endif
+"
+      associated_classes
+	class_ref 202115 // FencePost
+      end
+    end
+
+    artifact 175491 "TileTable"
+      stereotype "source"
+      java_src "${comment}
+${package}
+${imports}
+${definition}"
+      associated_classes
+	class_ref 141443 // TileTable
+      end
+    end
+
+    artifact 175619 "SectionTable"
+      stereotype "source"
+      java_src "${comment}
+${package}
+${imports}
+${definition}"
+      associated_classes
+	class_ref 141699 // SectionTable
+      end
+    end
+
+    artifact 182147 "Segment"
+      stereotype "source"
+      java_src "${comment}
+${package}
+${imports}
+${definition}"
+      associated_classes
+	class_ref 141827 // Segment
+      end
+    end
+  end
+end
