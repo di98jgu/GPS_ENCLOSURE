@@ -86,6 +86,9 @@ Speak to remote repositorys
 Clone 
 git clone git:[addresse]
 
+Add a repository to this project, for a new project
+git remote add origin [addresse]
+
 Push work
 git push origin [branch]
 

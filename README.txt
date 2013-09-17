@@ -1,5 +1,5 @@
 GPS-BASED VIRTUAL GEOGRAPHIC ENCLOSURE FOR MOBILE UNIT
-======================================================
+====================================================== 
 
 
 PARTICIPANTS
@@ -37,10 +37,11 @@ enclosed by the virtual fence. The mobile unit alert all concerned
 parties if it cross the fence and thus leave the allowed area. The 
 needed actions can then be taken.  
 
-The aim of this work is to find a algorithm for establishing and
-maintaining a virtual enclosure around a mobile unit. The area may
+The aim of this work is to find a algorithm to establish and
+maintain a virtual enclosure around a mobile unit. The area may
 have any form and should be scalable up to and including national
-borders. The enclosure is managed on the mobile unit. 
+borders. The enclosure is managed on the mobile unit. The target
+system is Android.
 
 
 STRUCTURE
