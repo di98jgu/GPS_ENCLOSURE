@@ -158,7 +158,26 @@ developer.android.com/reference/android/location/LocationManager.html#requestLoc
 ---------------------------------------------------------------------------
 JUnit (u.å.) [Hemsida] Från: junit.org [Hämtad: 5 Sep 2013]
 
+-----------------------------------------------------------------------------
+Lantmäteriet (u.å.) Felkällor vid GNSS-mätning [Internet] Från: www.lantmateriet.se/Kartor-och-geografisk-information/GPS-och-geodetisk-matning/GPS-och-satellitpositionering/Metoder-for-GNSS-matning/Felkallor-vid-GNSS-matning [Hämtad: 5 Sep 2013]
 
+Klockfel innebär att signalen inte sänds ut respektive tas emot exakt vid den tid som anges. 
 
+Banfel förekommer när GNSS-satelliten inte befinner sig exakt i den position som förutsagts
 
+Jonosfären är ett område i övre delen av atmosfären som innehåller laddade partiklar på grund av solstrålningen. 
+direkt proportionellt mot frekvensen. 
 
+Troposfären är den nedersta delen av atmosfären, där väder förekommer, Här påverkas GNSS-signalen framför allt av vattenånga, 
+
+Ibland går GNSS-signalerna inte den kortaste sträckan mellan satellit och mottagare, utan reflekteras via andra objekt på vägen
+
+Det finns även andra felkällor som man måste ta hänsyn till vid GNSS-mätning
+
+-------------------------------------------------------------------------------
+Lantmäteriet (u.å.) WGS 84 [Internet] Från: www.lantmateriet.se/Kartor-och-geografisk-information/GPS-och-geodetisk-matning/Referenssystem/Tredimensionella-system/WGS-84 [Hämtad: 5 Sep 2013]
+
+Om positionen bestäms enbart med data från GPS-satelliterna blir den uttryckt i det globala referenssystemet WGS 84, World Geodetic System 1984. Osäkerheten för sådana positioner är cirka tio meter.
+
+--------------------------------------------------------------------------------
+Haines, Eric (Juli 31 2001) Point in Polygon Strategies [Artikel] Från: erich.realtimerendering.com/ptinpoly [Hämtad: 5 Sep 2013]
