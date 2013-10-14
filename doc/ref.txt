@@ -191,5 +191,17 @@ Magic Lantern (u.å.) [Hemsida] Från: www.magiclantern.fm [Hämtad: 30 Sep 2013
 Magic Lantern is a free software add-on that runs from the SD/CF card and adds a host 
 of new features to Canon EOS cameras that weren't included from the factory by Canon
 
+--------------------------------------------------------------------------------------
+https://developers.google.com/maps/
+Google Maps API (u.å.) Google Maps API licensing [Internet] Från: developers.google.com/maps/licensing [Hämtad: 1 okt 2013]
+
+----------------------------------------------------------------------------------------
+Google Developers (u.å.) Hello Map [Internet] Från: developers.google.com/maps [Hämtad: 1 okt 2013]
 
 
+---------------------------------------------------------------------------------------
+Android Developers (u.å.) Sensors Overview [Internet] Från: developer.android.com/guide/topics/sensors/sensors_overview.html [Hämtad: 2 okt 2013]
+
+------------------------------------------------------------------------------------------
+Android Developers (u.å.) Platform Versions [Internet] Från: developer.android.com/about/dashboards/index.html [Hämtad: 2 okt 2013]
+Gingerbread Ice Cream Sandwich Jelly Bean
