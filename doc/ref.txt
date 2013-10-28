@@ -205,3 +205,22 @@ Android Developers (u.å.) Sensors Overview [Internet] Från: developer.android.
 ------------------------------------------------------------------------------------------
 Android Developers (u.å.) Platform Versions [Internet] Från: developer.android.com/about/dashboards/index.html [Hämtad: 2 okt 2013]
 Gingerbread Ice Cream Sandwich Jelly Bean
+
+---------------------------------------------------------------------------------------------
+Android Developers (u.å.) Monitoring the Battery Level and Charging State [Internet] Från: developer.android.com/training/monitoring-device-state/battery-monitoring.html [Hämtad: 27 okt 2013]
+
+ BroadcastReceiver ACTION_BATTERY_LOW
+ 
+-------------------------------------------------------------------------------------------
+Google Mobile (u.å.) Google Maps for Android [Internet] Från: www.google.com/mobile/maps [Hämtad: 27 okt 2013]
+
+------------------------------------------------------------------------------------------
+Apple - iOS 7 - Maps (u.å.) Maps. Maps take a whole new turn [Internet] Från: www.apple.com/ios/maps [Hämtad: 27 okt 2013]
+
+-----------------------------------------------------------------------------------------
+
+www.lantmateriet.se/Kartor-och-geografisk-information/GPS-och-geodetisk-matning/Referenssystem/Tredimensionella-system/WGS-84
+
+--------------------------------------------------------------------------------------------
+Lantmäteriet (u.å.) Införande av SWEREF 99 och RH 2000 [Internet] Från: www.lantmateriet.se/Kartor-och-geografisk-information/GPS-och-geodetisk-matning/Referenssystem/Inforande-av-SWEREF-99-och-RH-2000 [Hämtad: 27 okt 2013]
+
