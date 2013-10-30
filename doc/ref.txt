@@ -224,3 +224,25 @@ www.lantmateriet.se/Kartor-och-geografisk-information/GPS-och-geodetisk-matning/
 --------------------------------------------------------------------------------------------
 Lantmäteriet (u.å.) Införande av SWEREF 99 och RH 2000 [Internet] Från: www.lantmateriet.se/Kartor-och-geografisk-information/GPS-och-geodetisk-matning/Referenssystem/Inforande-av-SWEREF-99-och-RH-2000 [Hämtad: 27 okt 2013]
 
+---------------------------------------------------------------------------------------------
+Riesterer, Jim (u.å.) Geographic Coordinate System [Internet] Från: geology.isu.edu/geostac/Field_Exercise/topomaps/grid_assign.htm [Hämtad: 27 okt 2013]
+
+Geographic Coordinate System
+
+One of the most common coordinate systems in use is the Geographic Coordinate System, 
+which uses degrees of latitude and longitude to describe a location on the earth’s surface.
+ Lines of latitude run parallel to the equator and divide the earth into 180 equal portions 
+ from north to south (or south to north). The reference latitude is the equator and each 
+ hemisphere is divided into ninety equal portions, each representing one degree of latitude.
+ 
+----------------------------------------------------------------------------------------------------
+CitSci.org (u.å.) Introduction to Global Positiong Systems [Internet] Från: http://citsci.org/DH.php?WC=/WS/CitSci/Tutorials_Wisconsin/Tutorial2_Static.html [Hämtad: 27 okt 2013]
+
+Coordinate Systems
+
+Let's start with geographic coordinate systems. A coordinate system enables every location 
+on the earth to be specified by a set of coordinates of known location on a grid. There are 
+two primary coordinate systems 
+
+----------------------------------------------------------------------------------------------------
+Lantmäteriet (u.å.) RT 90 [Internet] Från: www.lantmateriet.se/Kartor-och-geografisk-information/GPS-och-geodetisk-matning/GPS-och-satellitpositionering/Metoder-for-GNSS-matning/Felkallor-vid-GNSS-matning [Hämtad: 5 Sep 2013]
