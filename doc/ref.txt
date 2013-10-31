@@ -246,3 +246,18 @@ two primary coordinate systems
 
 ----------------------------------------------------------------------------------------------------
 Lantmäteriet (u.å.) RT 90 [Internet] Från: www.lantmateriet.se/Kartor-och-geografisk-information/GPS-och-geodetisk-matning/GPS-och-satellitpositionering/Metoder-for-GNSS-matning/Felkallor-vid-GNSS-matning [Hämtad: 5 Sep 2013]
+
+-----------------------------------------------------------------------------------------------------
+Roth, Daniel (jun 23 2008) Google's Open Source Android OS Will Free the Wireless Web [Artikel] Från: www.wired.com/techbiz/media/magazine/16-07/ff_android?currentPage=all [Hämtad: 5 Sep 2013]
+
+I begynnelsen
+
+CompileTimeError.com (sep 16 2013) History of Android and Android OS Architecture [blog] Från: www.compiletimeerror.com/2012/12/blog-post.html [Hämtad: 5 Sep 2013]
+
+överblick
+
+Know Android OS [admin] (sep 11 2013) Complete Android Versions History from Android 1 to KitKat [Artikel] www.knowandroidos.com/complete-android-versions-history-from-android-1-to-kitkat [Hämtad: 5 Sep 2013]
+	
+Versioner
+
+d with multiple hardware implementations, it is open source and the code was released under Apache license. It is a software bunch comprising not only operating system but also middleware and key applications. It is one of the most widely used OS. Android has a large community for developing their own appications, written primarily on customized Java Programming language. Anyone with basic knowledge in java can start developing Android applications
