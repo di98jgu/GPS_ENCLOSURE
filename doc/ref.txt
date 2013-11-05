@@ -261,3 +261,18 @@ Know Android OS [admin] (sep 11 2013) Complete Android Versions History from And
 Versioner
 
 d with multiple hardware implementations, it is open source and the code was released under Apache license. It is a software bunch comprising not only operating system but also middleware and key applications. It is one of the most widely used OS. Android has a large community for developing their own appications, written primarily on customized Java Programming language. Anyone with basic knowledge in java can start developing Android applications
+-------------------------------------------------------------------------------------------------------
+McHugh, Molly (20 mars 2012) Can Android spark new life for the point-and-shoot camera? [Artikel] Från: www.digitaltrends.com/mobile/can-android-spark-new-life-for-the-point-and-shoot-camera [Hämtad: 5 Sep 2013]
+
+-------------------------------------------------------------------------------------------------------
+Android Developers (u.å.) Developer Tools [Internet] Från: developer.android.com/tools/index.html [Hämtad: 5 Sep 2013]
+
+.........................................................................................................
+Rowell, Eric et al. (u.å.) Big-O Algorithm Complexity Cheat Sheet Från: bigocheatsheet.com [Hämtad: 5 Sep 2013]
+Know Thy Complexities!
+Eric Rowell et al.
+Quentin Pleple
+Nick Dizazzo
+
+
+
