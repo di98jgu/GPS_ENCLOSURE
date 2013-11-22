@@ -274,5 +274,10 @@ Eric Rowell et al.
 Quentin Pleple
 Nick Dizazzo
 
+--------------------------------------------------------------------------------------------------------
+Sunday, Dan (2012) Intersections of a Set of Segments [Artikel] Från: geomalgorithms.com/a09-_intersect-3.html [Hämtad: 5 Sep 2013]
+
+Bentley-Ottmann Algorithm
+
 
 
